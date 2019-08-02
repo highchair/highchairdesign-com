@@ -1,0 +1,17 @@
+---
+layout: post
+permalink: blog/
+html-title: Bloggy Blog Blog
+title: Articles, Ideas, Musings, Rants
+---
+
+<section class="post__latest">
+  {% assign post = site.posts.first %}
+  {% assign content = post.content %}
+  
+  <p><time datetime="{{ post.date }}">{{ post.date | date: "%d %B, %Y"}}</time></p>
+  <h2><a class="post__latest__link" href="{{ post.url }}">{{ post.title }}</a></h2>
+  
+  {{ content }}
+  
+</section>
