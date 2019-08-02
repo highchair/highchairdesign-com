@@ -1,0 +1,29 @@
+//<header class="layout__header">
+//  <div class="container">
+//    {% include header.html %}
+//  </div>
+//</header>
+//<main class="layout__main">
+//
+//  <h1 class="page__title container--text">{{ page.title }}</h1>
+//  <article class="layout__article page__article container--text typography">
+//  {{ content }}
+//
+//  </article>
+//</main>
+//<footer id="nav" class="layout__footer" tabindex="-1">
+//  <nav class="container">
+//    {% include nav.html %}
+//  </nav>
+//</footer>
+
+.layout {
+
+  &__header {}
+
+  &__main {}
+
+  &__article {}
+
+  &__footer {}
+}

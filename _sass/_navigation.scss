@@ -1,0 +1,13 @@
+.nav {
+  
+  &--link {
+    
+    &--disabled,
+    &--disabled:visited {
+      // Synonymous with an "active" state
+      color: $fg__disabled;
+      cursor: default;
+      text-decoration: none;
+    }
+  }
+}

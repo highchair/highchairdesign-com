@@ -1,0 +1,12 @@
+.footnotes {
+  @extend %fluid-margin-tb;
+  border-top: 1px solid $borders;
+
+  p {
+    font-size: 87.5%;
+  }
+}
+
+body > footer {
+  border-top: 1px dashed $borders;
+}

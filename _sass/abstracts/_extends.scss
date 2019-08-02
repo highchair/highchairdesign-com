@@ -1,0 +1,11 @@
+%fluid-margin-tb {
+  @include fluid-units(margin-top margin-bottom, 1.625em, 3.25em, $min-vw, $max-vw);
+}
+
+%fluid-padding-tb {
+  @include fluid-units(padding-top padding-bottom, 1.625em, 3.25em, $min-vw, $max-vw);
+}
+
+%fluid-padding-lr {
+  @include fluid-units(padding-left padding-right, 1em, 3em, $min-vw, $max-vw);
+}
