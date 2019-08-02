@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+
+    {% include meta.html %}
+
+  </head>
+  <body class="layout--{{ page.layout }}{% if page.bodyclass %} {{ page.bodyclass }}{% endif %}">
+    <a href="#nav" id="top">Skip to Menu &darr;</a>
+  {% if jekyll.environment == "development" %}
+    <span class="dev__flag">Development</span>
+  {% endif %}
+    <main class="layout__main container" tabindex="-1">
+
+      {{ content }}
+
+    </main>
+    <footer id="nav" class="layout__footer container" tabindex="-1">
+      <nav class="container--text">
+        {% if page.permalink == 'index' %}
+          {% include nav-home.html %}
+        {% else %}
+          {% include nav.html %}
+        {% endif %}
+      </nav>
+      
+      <a href="#top">Back to top &uarr;</a>
+    </footer>
+  </body>
+</html>

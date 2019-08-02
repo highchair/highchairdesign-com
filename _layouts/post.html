@@ -1,0 +1,33 @@
+---
+layout: default
+---
+    
+      <header class="container--text">
+        <p class="post__date"><small><time datetime="{{ page.date }}">{{ page.date | date: "%d %B, %Y"}}</time></small></p>
+        <h1 class="post__title">{{ page.title }}</h1>
+      </header>
+      <article class="layout__article post__article container--text typography">
+        {{ content }}
+  
+      </article>
+      
+      {% comment %}
+        Category Loop:
+        Assign a variable with this post's categories
+        Check the count of categories to make sure we have some
+        Loop through and spit them out
+        This entire footer should not render if there are no categories assigned
+      {% endcomment %}
+      {% assign categories = page.categories %}
+      {% assign category_count = categories | last | size %}
+      {% if category_count > 0 %}
+      <footer class="post__meta container--text">
+        <h3 class="post__categories__title">Categories:</h3>
+        <ul class="post__categories">
+          {% for category in categories %}
+          <li><a href="{{ site.baseurl }}category/{{ category | slugify }}.html">{{ category }}</a>
+          {% unless forloop.last %},{% endunless %}</li>
+          {% endfor %}
+        </ul>
+      </footer>
+      {% endif %}

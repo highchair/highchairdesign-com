@@ -1,0 +1,83 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: J. Hogue is Highchair designhaus
+email: jh@highchairdesign.com
+company: Highchair designhaus
+description: >- # this means to ignore newlines until "baseurl:"
+  J. Hogue is a Providence, RI-based designer thinking about user experience and creating web interfaces. From 2001 to 2010 he was principal at Highchair designahus in Pawtucket, RI. While web is my work, print is still my love. 
+
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://www.highchairdesign.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+twitter_username: artinruins
+instagram_username: artinruins
+linkedin_username: jhogue
+github_username:  jhogue
+codepen_username: jhogue
+stackoverflow_username: 479663/j-hogue
+
+css_kb: 8kb
+js_kb: 0kb
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM 
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-feed
+
+# permalink: /:categories/:year/:month/:day/:title:output_ext
+permalink: /:year/:month/:title:output_ext
+relative_permalinks: false
+
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:name
+
+defaults:
+  - scope:
+      path: ""
+      type: "portfolio"
+    values:
+      layout: item
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - html-markdown-conversion.md
+  - kramdown.md
+  - notes.md
+  - source/

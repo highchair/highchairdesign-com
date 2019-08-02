@@ -1,0 +1,40 @@
+<h2 class="sr-only">Navigation</h2>
+<div class="column--blog">
+  {% if page.permalink == 'blog/' or page.layout == "post" %}
+  <h3>Blog: Articles, Ideas, Musings, Rants</h3>
+  <ul class="archive__list">
+    {% for post in site.posts %}
+    <li>
+      <h4 class="archive__title"><a class="archive__link" href="{{ post.url }}">{{ post.title }}</a> <small class="archive__date"><time datetime="{{ post.date }}">{{ post.date | date: "%d %B, %Y"}}</time></small></h4>
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</div>
+<div class="column--pages">
+  <h3>Personal:</h3>
+  <ul>
+    <li><a href="{{ site.baseurl }}"{% if page.permalink == 'index/' %} class="nav--link--disabled"{% endif %}>Home</a></li>
+    <li><a href="{{ site.baseurl }}blog/"{% if page.permalink == 'blog/' or page.layout == "post" %} class="nav--link--disabled"{% endif %}>Blog</a></li>
+    <li><a href="{{ site.baseurl }}about/"{% if page.permalink == 'about/' %} class="nav--link--disabled"{% endif %}>About</a></li>
+    <li><a href="{{ site.baseurl }}resume/"{% if page.permalink == 'resume/' %} class="nav--link--disabled"{% endif %}>Résumé</a></li>
+    <li><a href="{{ site.baseurl }}manifesto/"{% if page.permalink == 'manifesto/' %} class="nav--link--disabled"{% endif %}>Manifesto</a></li>
+  </ul>
+  
+  <h3>Professional:</h3>
+  <ul>
+    <li><a href="//oomphinc.com/people/jhogue" title="Navigate to the Oomph site">Oomph, Inc.</a></li>
+    <li><a href="//artinruins.com" title="Navigate to the ArtInRuins site">ArtInRuins.com</a></li>
+    <li><a href="//classic.highchairdesign.com/">Classic <abbr title="Highchair designhaus">HCd</abbr> portfolio</a></li>
+  </ul>
+  
+  <h3>Social:</h3>
+  <ul>
+    <li><a href="//twitter.com/artinruins" target="_blank" title="Navigate to my Twitter profile in a new window">Twitter</a></li>
+    <li><a href="//instagram.com/artinruins" target="_blank" title="Navigate to my Instagram profile in a new window">Instagram</a></li>
+    <li><a href="//linkedin.com/in/jhogue" target="_blank" title="Navigate to my LinkedIn profile in a new window">LinkedIn</a></li>
+    <li><a href="//github.com/jhogue" target="_blank" title="Navigate to my Github profile in a new window">GitHub</a></li>
+    <li><a href="//codepen.io/jhogue" target="_blank" title="Navigate to my Codepen profile in a new window">Codepen</a></li>
+    <li><a href="//stackoverflow.com/users/479663/j-hogue" target="_blank" title="Navigate to my StackOverflow profile in a new window">StackOverflow</a></li>
+  </ul>
+</div>
