@@ -1,0 +1,16 @@
+---
+layout: default
+permalink: portfolio/logos/
+html-title: Logo design | HCd
+title: Logo Design
+---
+
+<ul>
+  {% for item in site.portfolio %}
+    {% if item.type == 'logo' %}
+    <li>
+      <a href="{{ item.url }}">{{ item.title }}</a>
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>
