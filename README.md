@@ -1,6 +1,12 @@
 Highchair designhaus 2018
 =========================
 
+Locally generated static HTML site built with [Jekyll](https://jekyllrb.com/) with [SASS](https://sass-lang.com/), [Bootstrap 4.3](https://getbootstrap.com/docs/4.3/getting-started/introduction/), and [Autoprefixer](https://github.com/vwochnik/jekyll-autoprefixer).
+
+**Built on Grey Matter from Oomph**
+[Grey Matter](https://github.com/oomphinc/oomph-grey-matter) is a boilerplate scaffold for stand-alone Jekyll projects. Inspired by [Distillery](https://github.com/thinkshout/distillery/tree/master/) (and now heavily updated/modified), built and served with Jekyll, leveraging Oomph SASS Scaffold custom code and *Bootstrap 4*.
+
+
 ## Get started with Bundler
 
 ```bash
