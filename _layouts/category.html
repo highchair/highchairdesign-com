@@ -5,10 +5,14 @@ html-title: Blog Categories
 title: Categories
 ---
 
-      <header class="container--text">
-        <h1 class="post__title">Category: {{ page.title }}</h1>
-      </header>
+      
       <article class="layout__article post__article container--text typography">
+        <h1 class="post__title">Category: {{ page.title }}</h1>
+        {% if content.length > 0 %}
+        <div class="archive__description">
+          {{ content }}
+        </div>
+        {% endif %}
         <ul class="archive__list">
           {% for post in site.categories[page.category] %}
           <li>
@@ -16,4 +20,5 @@ title: Categories
           </li>
           {% endfor %}
         </ul>
+        <p><a href="{{ site.baseurl }}categories">All Categories</a></p>
       </article>
