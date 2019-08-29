@@ -3,11 +3,14 @@
   {% if page.permalink == 'blog/' or page.layout == "post" %}
   <h3>Blog: Articles, Ideas, Musings, Rants</h3>
   <ul class="archive__list">
-    {% for post in site.posts %}
+  {% for post in site.posts %}
+    {% if post.categories contains "Personal" %}
+    {% else %}
     <li>
       <h4 class="archive__title"><a class="archive__link" href="{{ post.url }}">{{ post.title }}</a> <small class="archive__date"><time datetime="{{ post.date }}">{{ post.date | date: "%d %B, %Y"}}</time></small></h4>
     </li>
-    {% endfor %}
+    {% endif %}
+  {% endfor %}
   </ul>
   {% endif %}
 </div>
