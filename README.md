@@ -1,10 +1,7 @@
-Highchair designhaus 2018
-=========================
+Highchair designhaus
+====================
 
-Locally generated static HTML site built with [Jekyll](https://jekyllrb.com/) with [SASS](https://sass-lang.com/), [Bootstrap 4.3](https://getbootstrap.com/docs/4.3/getting-started/introduction/), and [Autoprefixer](https://github.com/vwochnik/jekyll-autoprefixer).
-
-**Built on Grey Matter from Oomph**
-[Grey Matter](https://github.com/oomphinc/oomph-grey-matter) is a boilerplate scaffold for stand-alone Jekyll projects. Inspired by [Distillery](https://github.com/thinkshout/distillery/tree/master/) (and now heavily updated/modified), built and served with Jekyll, leveraging Oomph SASS Scaffold custom code and *Bootstrap 4*.
+Locally generated static HTML site built with [Jekyll](https://jekyllrb.com/) with [SASS](https://sass-lang.com/), and [Autoprefixer](https://github.com/vwochnik/jekyll-autoprefixer).
 
 
 ## Get started with Bundler
@@ -53,6 +50,8 @@ Capitalization is important!
 
 Add this JS later to turn headers into clickable/bookmarkable anchors?
 http://blog.parkermoore.de/2014/08/01/header-anchor-links-in-vanilla-javascript-for-github-pages-and-jekyll/
+
+Design Ideas: https://andy-bell.design 
 
 
 * * *
