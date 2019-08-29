@@ -2,7 +2,7 @@
 layout: post
 title: "Font-size Controls <strike>are Relevant Again</strike> Have Always Been Relevant"
 date: 2012-11-27 04:00:00 -0500
-categories: [ 'User Preference' ]
+categories: [ Design, "User Preference" ]
 ---
 
 It came to our attention recently that the new iPad Mini is a device with its own special qualities and without any way to use simple media queries to optimize that experience. As detailed in [Mission Impossible: iPad Mini detection for HTML5](//www.mobilexweb.com/blog/ipad-mini-detection-for-html5-user-agent) there is no way to deliver iPad Mini-specific styles using CSS.

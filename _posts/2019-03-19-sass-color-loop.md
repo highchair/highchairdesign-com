@@ -2,7 +2,7 @@
 layout: post
 title: "SASS Color Loops are Awesome"
 date: 2019-03-19 15:00:00 -0500
-categories: [ CSS ]
+categories: [ "Web Development", CSS ]
 ---
 
 ## Managing Color Themes with SASS Maps

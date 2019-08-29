@@ -2,7 +2,7 @@
 layout: post
 title: "Ammunition for My Manifesto"
 date: 2018-09-04 09:05:00 -0500
-categories: [ Quotes ]
+categories: [ "Web Development", Quotes ]
 ---
 
 [My Manifesto]({{ site.baseurl }}manifesto) is a call-to-action to remove complexity and get back down to the basics. In some ways, it is the art of defining what something is by removing what it is not. In the case of a website, what it is not is a series of interwoven dependencies. [Andrian Zumbrunnen](//uxdesign.cc/@azumbrunnen?source=post_header_lockup) said it as well as I could have when describing what modern designers/developers need to go through in order to work on something that, at its core, should be simple: 

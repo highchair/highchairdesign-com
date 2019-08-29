@@ -2,7 +2,7 @@
 layout: post
 title: "More Power to the Users"
 date: 2014-01-10 03:10:00 -0500
-categories: [ User Preference ]
+categories: [ Design, User Preference ]
 ---
 
 If 2013 was the year of Content — [or was it Content Management](//despreneur.com/cms-trends-for-2014/) — then 2014 should be the Year of the User. It’s been a long time since a web designer could design a site for one mobile device size, one tablet size, and one desktop size. The number of internet-connected devices with screens is staggering. Start to review all the different resolutions that they support and you might finally be convinced that fluid widths is the new 960 grid. 

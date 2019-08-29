@@ -2,7 +2,7 @@
 layout: post
 title: "More Ammunition for My Manifesto"
 date: 2018-09-10 13:02:00 -0500
-categories: [ Quotes ]
+categories: [ "Web Development", Quotes ]
 ---
 
 There must be something in the air. [My Manifesto]({{ site.baseurl }}manifesto) was a revelation for me — it gave me very good reason to launch a personal website that most designers would call unfinished, or at least unfinished-looking. 

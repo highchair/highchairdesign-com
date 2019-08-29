@@ -2,7 +2,7 @@
 layout: post
 title: "Do I Need a Native App?"
 date: 2012-07-20 03:00:00 -0500
-categories: [ Mobile ]
+categories: [ "Web Development", Mobile ]
 ---
 
 ## The Jargon, the Buzzwords, and the Reality of Designing and Developing for Smartphones and Tablets

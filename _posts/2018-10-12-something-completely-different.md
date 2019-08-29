@@ -2,7 +2,7 @@
 layout: post
 title: "And now for something completely different"
 date: 2018-10-12 19:00:00 -0500
-#categories: [ 'Random' ]
+categories: [ "Personal" ]
 ---
 
 A recent project brought me this bit of WYSIWYG editor span spam:

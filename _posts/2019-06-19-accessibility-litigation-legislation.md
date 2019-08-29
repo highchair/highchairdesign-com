@@ -2,7 +2,7 @@
 layout: post
 title: "The sad state of Website Accessibility, Lawyers, Litigation, and the lack of Legislation"
 date: 2019-06-19 14:00:00 -0500
-categories: [ Accessibility ]
+categories: [ "Web Development", Accessibility ]
 ---
 
 <aside class="archive__statement">

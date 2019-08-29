@@ -2,7 +2,7 @@
 layout: post
 title: "Digital Patina is Still on my Mind"
 date: 2019-08-01 04:30:00 -0500
-categories: [ Wok Hey ]
+categories: [ Design, Wok Hey ]
 ---
 
 The challenge to find a way to integrate “Digital Patina” into virtual objects is still very much on my mind. Like many things, though, it has not occupied a place of priority. It comes back to me when I encounter similar thinking out in the world. 

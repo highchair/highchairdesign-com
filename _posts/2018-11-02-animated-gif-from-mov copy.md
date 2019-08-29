@@ -2,7 +2,7 @@
 layout: post
 title: "Create an Animated GIF from a Quicktime Screen Recording"
 date: 2018-11-02 16:00:00 -0500
-#categories: [ 'How To' ]
+categories: [ "How To" ]
 ---
 
 Projects need documentation. Lately, I’ve been jazzing up my docs with animated gifs made from screen recordings (MOV files) out of Quicktime. Its surprisingly easy!

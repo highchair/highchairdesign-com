@@ -2,7 +2,7 @@
 layout: post
 title: "How do you solve a problem like Blockquote?"
 date: 2013-04-03 03:30:00 -0500
-categories: [ Semantics ]
+categories: [ "Web Development", Semantics ]
 ---
 
 I am obsessed with semantic markup and object-oriented CSS. We don’t always follow those guidelines to a <q>T</q>, but our team always tries to get close. The perfect set of markup and CSS — and therefore the perfect project — doesn’t exist, but we try to get as close to perfect as possible. 

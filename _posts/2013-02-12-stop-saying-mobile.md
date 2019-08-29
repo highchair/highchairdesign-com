@@ -2,7 +2,7 @@
 layout: post
 title: "Stop using the term “Mobile”"
 date: 2013-02-12 04:15:00 -0500
-categories: [ Mobile, Quotes ]
+categories: [ "Web Development", Mobile, Quotes ]
 ---
 
 > ‘Mobile’ isn’t synonymous with small screens anymore. 

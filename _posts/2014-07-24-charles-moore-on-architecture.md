@@ -2,7 +2,7 @@
 layout: post
 title: "Lessons on design from Charles Moore"
 date: 2014-07-24 02:10:00 -0500
-categories: [ Quotes ]
+categories: [ Design, Quotes ]
 ---
 
 I like to compare web design to architecture. I think it is an apt metaphor and will expand upon that idea later in a full article. For now, though, I'd like to share a quote from Mark Simon about the architect and teacher Charles Moore (my replacements in brackets):

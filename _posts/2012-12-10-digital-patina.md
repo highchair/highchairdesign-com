@@ -2,7 +2,7 @@
 layout: post
 title: "The Challenge of Digital Patina"
 date: 2012-12-10 02:15:00 -0500
-categories: [ Wok Hey ]
+categories: [ Design, Wok Hey ]
 ---
 
 I challenge designers and developers to start to integrate “digital patina” into 

@@ -2,7 +2,7 @@
 layout: post
 title: "Design from the Inside Out"
 date: 2016-02-17 04:10:00 -0500
-categories: [ Process ]
+categories: [ Design, Process ]
 canonical: https://www.oomphinc.com/notes/2016/02/content-first-homepage-last/
 ---
 

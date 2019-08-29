@@ -2,7 +2,7 @@
 layout: post
 title: "Mobile Means more than Smartphones"
 date: 2012-12-04 01:00:00 -0500
-categories: [ Mobile, Quotes ]
+categories: [ "Web Development", Mobile, Quotes ]
 ---
 
 Mobile is not really a thing. As much as we talk about it, what we are really 

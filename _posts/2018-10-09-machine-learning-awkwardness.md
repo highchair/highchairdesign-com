@@ -2,7 +2,7 @@
 layout: post
 title: "The Internet is experiencing its awkward teen years"
 date: 2018-10-09 09:45:00 -0500
-categories: [ 'User Preference' ]
+categories: [ "Web Development", "User Preference" ]
 ---
 
 If the development of the internet was akin to the personal development of a child, 

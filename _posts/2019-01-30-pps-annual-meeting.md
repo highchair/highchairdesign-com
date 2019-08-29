@@ -2,7 +2,7 @@
 layout: post
 title: "Notes from the PPS Annual Meeting"
 date: 2019-01-30 12:30:00 -0500
-categories: [ Wok Hey ]
+categories: [ Personal, Wok Hey ]
 ---
 
 I usually attend the [Providence Preservation Society](//www.ppsri.org)’s annual meeting — I don’t always, but I usually. This year’s was pretty good, with a great speaker and some fun announcements. Here’s a recap of what I learned. 
