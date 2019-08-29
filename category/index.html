@@ -1,12 +1,13 @@
 ---
-layout: default
-permalink: category/
+layout: page
+permalink: categories/
 html-title: Blog Categories
 title: Posts by Category
 ---
 
 <div id="archive__category-list">
-{% for category in site.categories %}
+{% assign categories = site.categories | sort:category %}
+{% for category in categories %}
   <div class="archive__category-group">
     {% capture category_name %}{{ category | first }}{% endcapture %}
     <h2 id="{{ category_name | slugize }}" class="category-head">{{ category_name }}</h2>
