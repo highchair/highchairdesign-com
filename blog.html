@@ -8,6 +8,9 @@ title: Articles, Ideas, Musings, Rants
 <section class="post__latest">
   {% assign post = site.posts.first %}
   {% if post.categories contains "Personal" %}
+    {% assign post = site.posts[1] %}
+  {% endif %}
+  {% if post.categories contains "Personal" %}
     {% assign post = site.posts[2] %}
   {% endif %}
   {% assign content = post.content %}
