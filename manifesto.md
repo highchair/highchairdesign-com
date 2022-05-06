@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: manifesto/
-html-title: This site's Manifesto | HCd
+html-title: My Values for the Web
 title: One person&rsquo;s Manifesto
 ---
 
