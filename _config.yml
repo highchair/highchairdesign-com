@@ -40,9 +40,6 @@ kramdown:
   input: GFM 
   syntax_highlighter: rouge
 
-plugins:
-  - jekyll-feed
-
 # permalink: /:categories/:year/:month/:day/:title:output_ext
 permalink: /:year/:month/:title:output_ext
 relative_permalinks: false
