@@ -18,7 +18,7 @@ I do it so that you can find an audience to hear it.
 
 I'd like to help you tell the world, or at least a small intimate corner of it. 
 
-I am available to talk about new projects through [Oomph, Inc.](//www.oomphinc.com) 
+I am available to talk about new projects through [Oomph, Inc.](//www.oomphinc.com/our-people/j-hogue/) 
 and in a very, very limited capacity for former clients of Highchair designhaus. 
 
 
