@@ -27,7 +27,7 @@ Moore Moscowitz
 ## Board Tenure
 
 Pawtucket Business Development Corporation
-: Board member, 2007 – present
+: Board member, 2007 – 2017
 
 Providence Preservation Society
 : Board member, 2005 – 2009
@@ -51,8 +51,10 @@ Puente
 + **Co-presenter**: [<cite>BCBS.com: Pushing the Design Limits with Paragraphs</cite> (YouTube)](//www.youtube.com/watch?v=3e1EWT4BZKA "Watch the presentation on YouTube"), [Drupalcon](//events.drupal.org/baltimore2017/sessions/bcbscom-pushing-design-limits-paragraphs "Presentation archive page at Drupal.org"), Baltimore MD, April 2017
 + **Presenter**: [<cite>Prototyping Design to Jumpstart Development</cite> (YouTube)](//www.youtube.com/watch?v=pKizikIBqUg&t=4s "Watch the presentation on YouTube"), Design Week RI, Providence RI, September 2016
 
+
 ### For ArtInRuins or Historic Preservation topics
 
++ **Presenter** <cite>ArtInRuins: Our History, significant Saves, significant Losses, and the Future</cite>, for the East Greenwich Historic Preservation Society, April 2023. [Archived on YouTube](//www.youtube.com/watch?v=ELvzJEn1dE0){:target="_blank"}
 + **Panelist**: Participated in a lunch discussion at the John Nicolas Brown House, Brown University, October 8, 2008
 + **Presenter**: <cite>The Cityscape in Evolution: Dispatches from the Front, part 4</cite> and discussed the [ArtInRuins website](//artinruins.com), Providence Athenaeum, Providence RI, April 2007
 + **Presenter**: <cite>Storytelling and Urban Engagement: Providence Narratives</cite>, Jacqueline Wernimont, instructor, Brown University, Providence RI, January 2007
@@ -81,18 +83,15 @@ Puente
 + **Interview**: <cite>Focus on Downcity</cite>, Laura Kline, Providence Monthly, March 2004
 
 
-## Awards
+## Awards & Highlights
 
++ **Design Director and Strategist**: Anthem Awards 2022, Gold, for the _One Percent for America_ project with Oomph
++ **Design Director and Strategist**: Webby Awards 2021, Nominee, for the _RISD Online Graduate Student Exhibition_ project with Oomph
++ **Design Director and Architect**: Webby Awards 2020, Nominee, for the _RAID the Icebox Now — RISD Museum Publications_ project with Oomph 
 + *Volunteer of the Year* 2005, Providence Preservation Society
-+ **Design**: AIGA’s Best of New England show, 2005; *Best of Show* award
-+ **Design**: Print magazine’s *Regional Design Annual*, December 2003, p. 292
++ **Design**: AIGA’s Best of New England show, 2005; _Best of Show_ award
++ **Design**: Print magazine’s _Regional Design Annual_, December 2003, p. 292
 + **Design**: AIGA’s Best of New England show, 2003 & 2001
-
-{::comment}
-+ Copley Pharmaceuticals
-+ DM Management
-+ more?
-{:/comment}
 
 
 ## Miscellaneous
