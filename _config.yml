@@ -48,6 +48,9 @@ collections:
   portfolio:
     output: true
     permalink: /portfolio/:name
+  note:
+    output: true
+    permalink: /note/:name
 
 defaults:
   - scope:
@@ -55,6 +58,11 @@ defaults:
       type: "portfolio"
     values:
       layout: item
+  - scope:
+      path: ""
+      type: "note"
+    values:
+      layout: post
 
 sass:
   sass_dir: _sass
