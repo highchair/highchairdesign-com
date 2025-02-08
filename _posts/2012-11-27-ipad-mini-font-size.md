@@ -5,13 +5,17 @@ date: 2012-11-27 04:00:00 -0500
 categories: [ Design, "User Preference" ]
 ---
 
-It came to our attention recently that the new iPad Mini is a device with its own special qualities and without any way to use simple media queries to optimize that experience. As detailed in [Mission Impossible: iPad Mini detection for HTML5](//www.mobilexweb.com/blog/ipad-mini-detection-for-html5-user-agent) there is no way to deliver iPad Mini-specific styles using CSS.
+<aside class="archive__statement">
+I wrote this in 2012, and am republishing it because I find it interesting as a historical artifact — plus, I find it even more interesting that <a href="https://stephen.io/mediaqueries/#iPadMini">there is still no way to detect an iPad Mini</a> and simply increase the font size by 20%. Shame.
+</aside>
+
+It came to our attention recently that the new iPad Mini is a device with its own special qualities and without any way to use simple media queries to optimize that experience. As detailed in [Mission Impossible: iPad Mini detection for HTML5](https://www.mobilexweb.com/blog/ipad-mini-detection-for-html5-user-agent) there is no way to deliver iPad Mini-specific styles using CSS.
 
 ## That's really too bad, and here’s why:
 
 The new iPad Mini’s user agent registers the same viewport dimensions as the larger iPad 2 (non-Retina). Both use a 1024 x 768px screen and both use Mobile Safari. Neither of them have a dense device-pixel-ratio, and while the iPad Mini has a dpi of 163 (vs. the iPad’s 132dpi,[^1] the resolution media-query attribute is not available on WebKit-based browsers. So neither the width, device-pixel-width, or resolution attribute would allow us to target the Mini.
 
-[^1]: [List of devices and display specs on Wikipedia](//en.wikipedia.org/wiki/List_of_displays_by_pixel_density#Apple)
+[^1]: [List of devices and display specs on Wikipedia](https://en.wikipedia.org/wiki/List_of_displays_by_pixel_density#Apple)
 
 ## Why does this matter?
 
@@ -28,7 +32,3 @@ With the mobile web, however, these controls seem to have a new relevance. We ne
 [^2]: We are toying with the idea of using Modernizr’s `no-touch` detection to hide these controls for non-touch devices. Are there some edge cases we should consider with this approach?
 
 *Originally published on ProjectEvolution.com*
-
-<aside class="archive__statement">
-I wrote this in 2012, and am republishing it because I find it interesting as a historical artifact — plus, I find it even more interesting that <a href="//stephen.io/mediaqueries/#iPadMini">there is still no way to detect an iPad Mini</a> and simply increase the font size by 20%. Shame. 
-</aside>

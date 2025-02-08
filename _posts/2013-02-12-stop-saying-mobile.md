@@ -15,11 +15,8 @@ categories: [ "Web Development", Mobile, Quotes ]
 >
 > Mobile Users will become ‘Users’, Mobile Web will become ‘Web’ and they’ll be so many devices in so many sizes that deciding what to ring fence as a Mobile device will become impossible. I’d argue that it already is.
 
-— <cite>Jim Ramsden in [No More Mobile](//jimramsden.com/notes/no-more-mobile)</cite>
+— <cite>Jim Ramsden in [No More Mobile](https://jimramsden.com/notes/no-more-mobile)</cite>
 
 <aside class="archive__statement">
-I wrote this in 2013, and am keeping it published it because I find it interesting as a 
-historical artifact — this is what we were concerned about 4 years after the iPhone 
-made web design a lot more complicated. Most of the core points here are still true, 
-but the App examples are out of date. 
+I wrote this in 2013, and am keeping it published it because I find it interesting as a historical artifact — this is what we were concerned about 4 years after the iPhone made web design a lot more complicated.
 </aside>
