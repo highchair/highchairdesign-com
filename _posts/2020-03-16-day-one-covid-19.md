@@ -5,7 +5,7 @@ date: 2020-03-16 8:30:00 -0500
 categories: [ Observations ]
 ---
 
-Day 1 of working from home and the whole community being shut down. Quanantine and such started a little bit over the weekend, but this is the first Monday — a Monday in which things should have been normal — that has gone. Therefore, I call it Day 1. 
+Day 1 of working from home and the whole community being shut down. Quarantine and such started a little bit over the weekend, but this is the first Monday — a Monday in which things should have been normal — that has gone. Therefore, I call it Day 1. 
 
 The company is trying to get ahead of all this and make plans to cut costs that we don’t need to support for the short term. Some of our clients will have their projects affected. Some of their own businesses will be affected. We are possibly looking at a temporary economic downturn across the board at the best, and a full scale country-wide recession which will take years to recover from at the worst. 
 

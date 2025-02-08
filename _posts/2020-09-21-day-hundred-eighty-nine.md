@@ -9,7 +9,7 @@ Its fall. Fall descended swiftly, from 80+ degree days in August to low 70s and 
 
 Trump keep saying we’ll have a COVID vaccine before the election, based on nothing. Everyone else in his administration says next year, March or April at the earliest. He just says what he thinks people want to hear. He does not care at all whether it is true or could possibly be conceived of as true. 
 
-Ruth Baitor Ginsberg died last Friday. The Senate is quick to talk about replacing her, when four years ago, they held up a nomination all summer because they wanted to wait until the election. People are calling them hypocrites, because they are, but they will probably get away with it anyway. 
+Ruth Bator Ginsberg died last Friday. The Senate is quick to talk about replacing her, when four years ago, they held up a nomination all summer because they wanted to wait until the election. People are calling them hypocrites, because they are, but they will probably get away with it anyway. 
 
 Restaurants in Providence are starting to announce sales or closures. Its a bad sign that this fall into winter will be very tough on the local economy as outdoor seating — something that has been keeping some places open at all — becomes unfeasible. 
 
@@ -27,7 +27,7 @@ The girls are both back at school in person for now. They both really love it ev
 
 Henry Barnard school has announced that it will not reopen again next year. Another COVID casualty? Not quite. They have raised tuition year over year until they became as expensive as other options which are perceive to be better, like the Wheeler School. And then, surprise, enrollment dropped. One of the reasons why they did so well was their tuition was lower. We should know, we wanted Vivian to go there as Beth and her brother went there over 20 years ago. Beth worked there as the new administration kept raising the price. Now, some families we know need to come up with other options for next year. 
 
-Its sadder to me because Henry Barnard's roots go way, way back to some of the early years of Rhode Island College in general when it was called The State Normal School. Can you tell I have been doing a bunch of [ArtInRuins](//artinruins.com) research lately? 
+Its sadder to me because Henry Barnard’s roots go way, way back to some of the early years of Rhode Island College in general when it was called The State Normal School. Can you tell I have been doing a bunch of [ArtInRuins](//artinruins.com) research lately? 
 
 **My statistic round up:**
 
