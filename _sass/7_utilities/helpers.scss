@@ -1,0 +1,34 @@
+.u {
+
+  &__eyebrow {
+    color: var(--fc-body-fg);
+    font-size: var(--fts-small);
+    font-weight: var(--fw-bold);
+    letter-spacing: 0.0625em;
+    text-transform: uppercase;
+  }
+
+  &__separator {
+    color: var(--fc-header-accent);
+    text-align: center;
+    padding: var(--space-m-l) 0;
+    position: relative;
+
+    &::before {
+      content: '';
+      border-top: 1px dashed currentColor;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      z-index: -1;
+    }
+
+    span {
+      background-color: var(--fc-body-bg);
+      font-weight: var(--fw-bold);
+      letter-spacing: 0.125em;
+      padding: 0 var(--space-s);
+    }
+  }
+}

@@ -1,0 +1,95 @@
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+button,
+input,
+label {
+  line-height: var(--lh-tight);
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: var(--ff-headings);
+  text-wrap: balance;
+}
+
+h1, .h1 {
+  color: var(--fc-header-accent);
+  font-size: var(--fts-header-1);
+  font-weight: var(--fw-normal);
+}
+
+h2, .h2 {
+  color: var(--fc-header-accent);
+  font-size: var(--fts-header-2);
+}
+
+h3, .h3 {
+  color: var(--fc-header-accent);
+  font-size: var(--fts-header-3);
+}
+
+h4, .h4 {
+  font-size: var(--fts-header-4);
+}
+
+h5, .h5 {
+  font-size: var(--fts-header-5);
+}
+
+h6, .h6 {
+  font-size: var(--fts-header-6);
+}
+
+small {
+  font-size: var(--fts-small);
+}
+
+b, strong, th, dt {
+  font-weight: var(--fw-bold);
+}
+
+code {
+  background-color: var(--fc-code-bg);
+  border-radius: var(--brad-small);
+  display: inline-block;
+  font-family: var(--ff-mono);
+  font-size: 92.5%;
+  padding: 0.0625em 0.25em;
+}
+
+pre {
+  white-space: pre-wrap;
+
+  code {
+    display: block;
+    padding: calc(var(--lh-base) * 0.5em) var(--space-s);
+  }
+}
+
+.v-rhythm {
+
+  > * + * {
+    margin-block-start: calc(var(--lh-base) * 1em);
+  }
+
+  // Things that need half the space
+  > details + details,
+  > .u__separator + * {
+    margin-block-start: calc(var(--lh-base) * 0.5em);
+  }
+
+  ul:not([role]),
+  ol:not([role]) {
+    margin-inline-start: 1em;
+
+    > li + li {
+      margin-block-start: calc(var(--lh-base) * 0.5em);
+    }
+  }
+}

@@ -1,0 +1,22 @@
+details {
+  background-color: var(--fc-body-bg);
+  border: 0.5px solid var(--fc-border);
+  border-radius: var(--brad-small);
+  padding: var(--space-xs) var(--space-s);
+}
+
+summary {
+  font-weight: var(--fw-bold);
+
+  &::marker {
+    color: var(--fc-link-fg);
+  }
+
+  details[open] &::marker {
+    color: var(--fc-link-fg-hover);
+  }
+
+  + p {
+    margin-block-start: var(--space-xs);
+  }
+}

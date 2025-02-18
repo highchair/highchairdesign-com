@@ -1,0 +1,11 @@
+dl {
+
+  dt {
+    border-top: 1px solid var(--fc-border);
+    padding: 0.5em 0;
+  }
+
+  dd + dt {
+    margin-block-start: calc(var(--lh-base) * 0.5em);
+  }
+}

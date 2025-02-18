@@ -1,0 +1,109 @@
+.g {
+  display: grid;
+  grid-template-columns: var(--space-s-m) auto var(--space-s-m);
+  grid-template-rows: var(--space-m) auto var(--space-m);
+  grid-template-areas:
+    "tl tc tr"
+    "lc c rc"
+    "bl bc br";
+  overflow: hidden;
+  padding-block-start: var(--space-m);
+
+  > span {
+    color: var(--fc-body-fg);
+    display: block;
+    position: relative;
+  }
+
+  &__tl {
+    grid-area: tl;
+
+    svg {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  }
+
+  &__tc { 
+    grid-area: tc;
+
+    svg {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  &__tr { 
+    grid-area: tr;
+
+    svg {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      transform: rotate(90deg);
+    }
+  }
+
+  &__lc { 
+    grid-area: lc;
+
+    svg {
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: rotate(90deg) translateX(50%);
+    }
+  }
+
+  &__c {
+    grid-area: c;
+    padding-block-end: var(--space-m);
+  }
+
+  &__rc {
+    grid-area: rc;
+
+    svg {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: rotate(-90deg) translateX(-50%);
+    }
+  }
+
+  &__bl {
+    grid-area: bl;
+
+    svg {
+      position: absolute;
+      top: 0;
+      right: 0;
+      transform: rotate(-90deg);
+    }
+  }
+
+  &__bc {
+    grid-area: bc;
+
+    svg {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: rotate(180deg) translateX(50%);
+    }
+  }
+
+  &__br {
+    grid-area: br;
+
+    svg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: rotate(180deg);
+    }
+  }
+}

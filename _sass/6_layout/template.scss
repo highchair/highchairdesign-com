@@ -1,0 +1,20 @@
+#monogram {
+  path {
+    fill: var(--fc-body-fg);
+  }
+  path.monogram-accent {
+    fill: var(--fc-accent);
+  }
+}
+
+.t {
+
+  &__logo {
+    height: 86px;
+    width: 84px;
+  }
+
+  &__title {
+    font-weight: var(--fw-bolder);
+  }
+}

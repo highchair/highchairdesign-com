@@ -1,0 +1,39 @@
+html {
+  // Prevent font size inflation
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  
+  // Resets
+  font-size: 100%;
+
+  // Newer browsers want this on the html element
+  scroll-behavior: smooth;
+  scroll-padding-top: rem(48);
+}
+
+body {
+  // Slightly older want it on the body element
+  scroll-behavior: smooth;
+  scroll-padding-top: rem(48);
+
+  background-color: var(--fc-body-bg);
+  color: var(--fc-body-fg);
+  font-family: var(--ff-body);
+/*
+  Don’t declare these, they are default 
+  font-weight: var(--fw-normal);
+  font-style: normal;
+*/
+  font-size: var(--fts-base);
+  line-height: var(--lh-base);
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+}
+
+// When a visitor selects text to copy
+::selection {
+  background-color: var(--fc-body-fg);
+  color: var(--fc-body-bg);
+}
+

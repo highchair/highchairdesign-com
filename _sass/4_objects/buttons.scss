@@ -1,0 +1,16 @@
+.btn {
+  -webkit-appearance: none;
+  display: inline-block;
+  border: 1px solid var(--fc-button-border);
+  border-radius: 2rem;
+  color: var(--fc-button-fg);
+  line-height: var(--lh-tight);
+  margin: 0;
+  padding: 0.5em 1.25em;
+  text-decoration: none;
+
+  &--primary {
+    //border-color: var(--fc-button-border);
+    //color: var(--fc-button-fg);
+  }
+}

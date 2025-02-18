@@ -1,0 +1,37 @@
+.p {
+
+  &__header {
+    padding-block-start: var(--space-m);
+    position: relative;
+
+    svg.color-bars {
+      position: absolute;
+      left: calc(100% + 0.25em);
+      top: calc(100% - 3.75em);
+      width: 0.75em;
+      height: 4.75em;
+    }
+  }
+
+  &__title:not(.u__eyebrow) {
+    color: var(--fc-body-bg);
+    margin-bottom: calc(var(--lh-base) * 1rem);
+    text-shadow:
+      1px 1px 0 var(--fc-body-fg), 
+      2px 2px 0 var(--fc-body-fg), 
+      1px -1px 0 var(--fc-body-fg), 
+      -1px 1px 0 var(--fc-body-fg), 
+      -1px -1px 0 var(--fc-body-fg);
+  }
+}
+
+// Registration color bars SVG
+.color-box-1 {
+  fill: var(--color-bars-1);
+}
+.color-box-2 {
+  fill: var(--color-bars-2);
+}
+.color-box-3 {
+  fill: var(--color-bars-3);
+}

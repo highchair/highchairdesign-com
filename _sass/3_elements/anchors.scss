@@ -1,0 +1,17 @@
+a {
+  color: var(--fc-link-fg);
+  text-decoration: underline;
+  text-decoration-skip-ink: auto; // Reset
+  transition: var(--transition-default);
+
+  &:hover,
+  &:focus {
+    color: var(--fc-body-fg);
+    text-decoration: underline;
+  }
+
+  nav & {
+    display: block;
+    text-decoration: none;
+  }
+}

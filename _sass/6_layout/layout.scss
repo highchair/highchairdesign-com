@@ -1,0 +1,109 @@
+//  <header class="l__header">
+//    <h1 class="page__title">{{ site.title }}</h1>
+//    <a href="#nav" id="top">Skip to Menu</a>
+//  </header>
+//  <main class="l__main container">
+//    <article class="l__article container--text typography">
+//    {{ content }}
+//    </article>
+//  </main>
+//  <footer id="nav" class="l__footer container" tabindex="-1">
+//    <nav class="container--text" aria-label="Main">
+//    </nav>
+//    <a href="#top">Back to top &uarr;</a>
+//  </footer>
+.l {
+
+  &__header {
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0;
+    padding: var(--space-s) var(--space-s-m);
+
+    svg {
+      transform: rotate(-5deg) scale(1.25);
+      transform-origin: bottom right;
+    }
+
+    &__wrap {
+
+      p:has(.btn) {
+        text-align: right;
+      }
+    }
+  }
+
+  &__main {}
+
+  &__article {}
+
+  &__footer {
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--space-xs);
+    padding: var(--space-l-xl) var(--space-s-m) var(--space-xl-2xl);
+
+    nav ul {
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 0 calc(-1 * var(--space-xs)) var(--space-xs);
+      width: calc(100% + (var(--space-xs) * 2));
+
+      a {
+        color: var(--fc-body-fg);
+        padding: var(--space-2xs) var(--space-xs);
+
+        &:hover,
+        &:focus {
+          color: var(--fc-link-fg);
+        }
+
+        &[aria-current] {
+          opacity: 0.55;
+          text-decoration: underline;
+        }
+      }
+    }
+
+    nav p {
+      text-align: right;
+    }
+  }
+}
+
+// Shared declarations
+// Noisy background effect
+// https://grainy-gradients.vercel.app/
+.l__header::after,
+.l__footer::after {
+  background: 
+    var(--fc-gradient-noise),
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.72' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E") repeat;
+  content: '';
+  filter: contrast(500%) grayscale(50%) opacity(50%);
+  position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: auto;
+  height: 100vw;
+  z-index: -1;
+
+  @media (prefers-color-scheme: dark) {
+    filter: none;
+  }
+}
+
+.l__footer::after {
+  transform: rotate(180deg);
+  top: auto;
+  bottom: 0;
+}
