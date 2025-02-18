@@ -1,30 +1,140 @@
 <!doctype html>
 <html lang="en-US">
   <head>
-
-    {% include meta.html %}
-
+{% include head.html %}
   </head>
-  <body class="layout--{{ page.layout }}{% if page.bodyclass %} {{ page.bodyclass }}{% endif %}">
-    <a href="#nav" id="top">Skip to Menu &darr;</a>
-  {% if jekyll.environment == "development" %}
-    <span class="dev__flag">Development</span>
-  {% endif %}
-    <main class="layout__main container" tabindex="-1">
+  <body class="t__{{ page.layout }}{% if page.bodyclass %} {{ page.bodyclass }}{% endif %}">
+    <header class="l__header container">
+      <svg class="t__logo t__logo--top" width="84" height="84"><title>JCH monogram</title><use xlink:href="#monogram"></use></svg>
+      <div class="l__header__wrap">
+      {% if page.permalink == '/' %}
+        <h1 class="t__title h6">{{ site.title }}</h1>
+      {% else %}
+        <p class="t__title h6">{{ site.title }}</p>
+      {% endif %}
+        <p><a href="#nav" id="top" class="btn btn--primary">Skip to Menu</a></p>
+      </div>
+    </header>
+    <div class="g">
+      <span class="g__tl"><svg width="24" height="24"><use xlink:href="#crop-mark"></use></svg></span>
+      <span class="g__tc"><svg width="32" height="24"><use xlink:href="#center-mark"></use></svg></span>
+      <span class="g__tr"><svg width="24" height="24"><use xlink:href="#crop-mark"></use></svg></span>
+      <main class="l__main g__c container">
+        <article class="l__article container--text v-rhythm">
 
-      {{ content }}
+        {{ content }}
 
-    </main>
-    <footer id="nav" class="layout__footer container" tabindex="-1">
-      <nav class="container--text">
-        {% if page.permalink == 'index' %}
-          {% include nav-home.html %}
-        {% else %}
-          {% include nav.html %}
-        {% endif %}
+        </article>
+      </main>
+      <span class="g__lc"><svg width="32" height="24"><use xlink:href="#center-mark"></use></svg></span>
+      <span class="g__rc">
+        <svg width="32" height="24"><use xlink:href="#center-mark"></use></svg>
+      </span>
+      <span class="g__bl"><svg width="24" height="24"><use xlink:href="#crop-mark"></use></svg></span>
+      <span class="g__bc"><svg width="32" height="24"><use xlink:href="#center-mark"></use></svg></span>
+      <span class="g__br"><svg width="24" height="24"><use xlink:href="#crop-mark"></use></svg></span>
+    </div>
+    <footer id="nav" class="l__footer container" tabindex="-1">
+      <a href="{% link index.md %}"{% if page.permalink == '/' %} aria-current="true"{% endif %}>
+        <svg class="t__logo t__logo--top" width="84" height="84">
+          <title>{{ site.company }}</title>
+          <use xlink:href="#monogram"></use>
+        </svg>
+      </a>
+      <nav class="container--text" aria-label="Main">
+{% include main-nav.html %}
       </nav>
-      
-      <a href="#top">Back to top &uarr;</a>
     </footer>
+    <div hidden>
+      <svg role="img" xmlns="http://www.w3.org/2000/svg">
+        <symbol id="monogram" viewBox="0 0 84 84">
+          <g>
+            <path class="monogram-accent" d="M27.3,79s1.5,2,4.1,2c4.5,0,7.7-7.5,7.7-15.1V17.1c0-6.2-2.7-10.6-5.4-12,0,0,2.7-2.7,5.4,0,0,0,.9-3,2.7-4.1,1.9,1.1,2.7,4.1,2.7,4.1,2.7-2.7,5.4,0,5.4,0-2.7,1.4-5.4,5.8-5.4,12v48.9c0,3.3.2,6.2,1.3,8.1,0,0-2.4.9-4-.8,0,0-2.6,9.8-10.4,9.8s-8.4-3.1-8.4-5.9,1.5-4,3.4-4,3.2,1.4,3.2,3.1-2.4,2.8-2.4,2.8h0Z"/>
+            <path d="M32.3,26.7c2.9-.8,6.1-1.2,9.7-1.2s6.5.3,9.2.9v-1.9c-2.5-.4-5.5-.6-9.1-.6s-6.7.3-9.9.7v2.1h.1Z"/>
+            <path d="M16.4,14.6c1.3,0,2.4-1.1,2.4-2.4s-.1-.8-.3-1.1c2.5,1.1,6.5,3.9,6.5,11.3v20.4c1.5.9,3.3,1.7,5.2,2.4v-6c1.7-1,5-2.1,11.5-2.1s9.8,1.1,11.5,2.1v7.2c1.9-.3,3.6-.7,5.2-1.2v-22.8c0-7.4,4.1-10.2,6.5-11.3-.2.3-.3.7-.3,1.1,0,1.3,1.1,2.4,2.4,2.4s2.4-1.1,2.4-2.4-.5-2.9-4.1-2.9-8,4.7-8,4.7c0,0,0-3.1-1.8-4.8-1.9,1.7-1.8,4.8-1.8,4.8,0,0-1.2-1.3-3.6-1.1,0,0,3.1,3.8,3.1,9.5v11.5c-2.4.2-7.1.6-11.5.6s-9.1-.4-11.5-.6v-11.5c0-5.7,3.1-9.5,3.1-9.5-2.4-.2-3.6,1.1-3.6,1.1,0,0,0-3.1-1.8-4.8-1.9,1.7-1.8,4.8-1.8,4.8,0,0-4.7-4.4-8-4.4s-4.1,1.3-4.1,2.7,1.1,2.4,2.4,2.4h0Z"/>
+            <path d="M69.3,61.5c-1.5,0-2.7,1.2-2.7,2.7s0,.9.3,1.3c-3.4-1.2-8.5-4.1-8.5-11.2v-3.4c-1.6.4-3.4.8-5.2,1.1v2.3c0,5.7-3.1,9.5-3.1,9.5,2.4.2,3.9-1.1,3.9-1.1,0,0,.4,4.1,2.3,5.8,1.9-1.7,2.3-5.8,2.3-5.8,0,0,6.4,4.4,9.8,4.4h.6c1.5,0,3-1.5,3-3s-1.2-2.7-2.7-2.7h0Z"/>
+            <path d="M30.3,52c-1.8-.3-3.5-.7-5.2-1.1v3.5c0,7.1-5.1,10-8.5,11.2.2-.4.3-.8.3-1.3,0-1.5-1.2-2.7-2.7-2.7s-2.7,1.2-2.7,2.7,1.5,3,3,3h.6c3.4,0,9.8-4.4,9.8-4.4,0,0,.4,4.1,2.3,5.8,1.9-1.7,2.3-5.8,2.3-5.8,0,0,1.5,1.3,3.9,1.1,0,0-3.1-3.8-3.1-9.5v-2.4h0Z"/>
+            <path d="M75.5,24.1c-1.8,1-.4,3.2.5,3.2,0,0-3.4,2.1-8,2.1s-4.3-1.3-7.7-2.6v2.8c4.8,2.6,6.8,5.4,6.8,5.4,0,0,7.7-4.8,10.5-6.6,2.8-1.8.3-5.8-2.2-4.4h0Z"/>
+            <path d="M46.5,50.8c15.3-1,24.6-6.7,29.7-9.7,0,0-1.3-1.6-6.7,1.3-4.9,2.6-11.1,6-23,6.7v1.7Z"/>
+            <path d="M37.1,48.9c-14.1-1.9-21.9-11.5-21.9-11.5,0,0,2.6-3.6,7.9-6.8v-4c-7.9,2.5-14.2,6.3-18.1,10.8,6,6.8,17.4,12.3,32.1,13.4v-1.8h0Z"/>
+          </g>
+        </symbol>
+        <symbol id="crop-mark" viewBox="0 0 24 24">
+          <line fill='none' stroke='currentColor' stroke-miterlimit='10' x1='23.5' y1='0' x2='23.5' y2='18'/>
+          <line fill='none' stroke='currentColor' stroke-miterlimit='10' x1='18' y1='23.5' x2='0' y2='23.5'/>
+        </symbol>
+        <symbol id="center-mark" viewBox="0 0 32 24">
+          <line fill='none' stroke='currentColor' stroke-miterlimit='10' x1='29' y1='9' x2='3' y2='9'/>
+          <line fill='none' stroke='currentColor' stroke-miterlimit='10' x1='16' y1='18' x2='16' y2='0'/>
+          <circle fill='none' stroke='currentColor' stroke-miterlimit='10' cx='16' cy='9' r='6'/>
+        </symbol>
+        <symbol id="color-bars" viewBox="0 0 12 78">
+          <rect class="color-box-1" x="0" width="12" height="12"/>
+          <rect class="color-box-1" x="0" width="12" height="12"/>
+          <g>
+            <rect class="color-box-1" y="12" width="2" height="2"/>
+            <rect class="color-box-1" x="2" y="14" width="2" height="2"/>
+            <rect class="color-box-1" x="2" y="18" width="2" height="2"/>
+            <rect class="color-box-1" x="4" y="12" width="2" height="2"/>
+            <rect class="color-box-1" x="4" y="16" width="2" height="2"/>
+            <rect class="color-box-1" x="6" y="14" width="2" height="2"/>
+            <rect class="color-box-1" x="10" y="14" width="2" height="2"/>
+            <rect class="color-box-1" x="10" y="18" width="2" height="2"/>
+            <rect class="color-box-1" x="8" y="12" width="2" height="2"/>
+            <rect class="color-box-1" x="8" y="16" width="2" height="2"/>
+            <rect class="color-box-1" x="6" y="18" width="2" height="2"/>
+            <rect class="color-box-1" x="8" y="20" width="2" height="2"/>
+            <rect class="color-box-1" x="10" y="22" width="2" height="2"/>
+            <rect class="color-box-1" x="4" y="20" width="2" height="2"/>
+            <rect class="color-box-1" x="6" y="22" width="2" height="2"/>
+            <rect class="color-box-1" y="20" width="2" height="2"/>
+            <rect class="color-box-1" x="2" y="22" width="2" height="2"/>
+            <rect class="color-box-1" y="16" width="2" height="2"/>
+          </g>
+          <rect class="color-box-2" x="0" y="26" width="12" height="12"/>
+          <g>
+            <rect class="color-box-2" y="38" width="2" height="2"/>
+            <rect class="color-box-2" x="2" y="40" width="2" height="2"/>
+            <rect class="color-box-2" x="2" y="44" width="2" height="2"/>
+            <rect class="color-box-2" x="4" y="38" width="2" height="2"/>
+            <rect class="color-box-2" x="4" y="42" width="2" height="2"/>
+            <rect class="color-box-2" x="6" y="40" width="2" height="2"/>
+            <rect class="color-box-2" x="10" y="40" width="2" height="2"/>
+            <rect class="color-box-2" x="10" y="44" width="2" height="2"/>
+            <rect class="color-box-2" x="8" y="38" width="2" height="2"/>
+            <rect class="color-box-2" x="8" y="42" width="2" height="2"/>
+            <rect class="color-box-2" x="6" y="44" width="2" height="2"/>
+            <rect class="color-box-2" x="8" y="46" width="2" height="2"/>
+            <rect class="color-box-2" x="10" y="48" width="2" height="2"/>
+            <rect class="color-box-2" x="4" y="46" width="2" height="2"/>
+            <rect class="color-box-2" x="6" y="48" width="2" height="2"/>
+            <rect class="color-box-2" y="46" width="2" height="2"/>
+            <rect class="color-box-2" x="2" y="48" width="2" height="2"/>
+            <rect class="color-box-2" y="42" width="2" height="2"/>
+          </g>
+          <rect class="color-box-3" x="0" y="52" width="12" height="12"/>
+          <g>
+            <rect class="color-box-3" y="64" width="2" height="2"/>
+            <rect class="color-box-3" x="2" y="66" width="2" height="2"/>
+            <rect class="color-box-3" x="2" y="70" width="2" height="2"/>
+            <rect class="color-box-3" x="4" y="64" width="2" height="2"/>
+            <rect class="color-box-3" x="4" y="68" width="2" height="2"/>
+            <rect class="color-box-3" x="6" y="66" width="2" height="2"/>
+            <rect class="color-box-3" x="10" y="66" width="2" height="2"/>
+            <rect class="color-box-3" x="10" y="70" width="2" height="2"/>
+            <rect class="color-box-3" x="8" y="64" width="2" height="2"/>
+            <rect class="color-box-3" x="8" y="68" width="2" height="2"/>
+            <rect class="color-box-3" x="6" y="70" width="2" height="2"/>
+            <rect class="color-box-3" x="8" y="72" width="2" height="2"/>
+            <rect class="color-box-3" x="10" y="74" width="2" height="2"/>
+            <rect class="color-box-3" x="4" y="72" width="2" height="2"/>
+            <rect class="color-box-3" x="6" y="74" width="2" height="2"/>
+            <rect class="color-box-3" y="72" width="2" height="2"/>
+            <rect class="color-box-3" x="2" y="74" width="2" height="2"/>
+            <rect class="color-box-3" y="68" width="2" height="2"/>
+          </g>
+        </symbol>
+      </svg>
+    </div>
   </body>
 </html>

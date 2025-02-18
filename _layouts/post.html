@@ -2,32 +2,83 @@
 layout: default
 ---
     
-      <header class="container--text">
-        <p class="post__date"><small><time datetime="{{ page.date }}">{{ page.date | date: "%d %B, %Y"}}</time></small></p>
-        <h1 class="post__title">{{ page.title }}</h1>
-      </header>
-      <article class="layout__article post__article container--text typography">
-        {{ content }}
-  
-      </article>
-      
-      {% comment %}
-        Category Loop:
-        Assign a variable with this post's categories
-        Check the count of categories to make sure we have some
-        Loop through and spit them out
-        This entire footer should not render if there are no categories assigned
-      {% endcomment %}
-      {% assign categories = page.categories %}
-      {% assign category_count = categories | last | size %}
-      {% if category_count > 0 %}
-      <footer class="post__meta container--text">
-        <h3 class="post__categories__title">Categories:</h3>
-        <ul class="post__categories">
-          {% for category in categories %}
-          <li><a href="{{ site.baseurl }}category/{{ category | slugify }}.html">{{ category }}</a>
-          {% unless forloop.last %},{% endunless %}</li>
-          {% endfor %}
-        </ul>
-      </footer>
+<header class="p__header posts__header">
+  <p class="posts__item__meta single-post__meta">
+    {%- if page.layout == 'note' -%}
+      {% assign itemclass = 'icon__glasses' %}
+      {% assign itemstring = 'Read & Reviewed' %}
+    {%- elsif page.layout == 'post' -%}
+      {% assign itemclass = 'icon__document' %}
+      {% assign itemstring = 'Written' %}
+    {%- endif -%}
+    <span class="posts__type"><span class="icon {{ itemclass }}"></span>{{ itemstring }}</span> | 
+    <time datetime="{{ page.date }}">{{ page.date | date: "%d %B, %Y"}}</time>
+  </p>
+  <h1 class="p__title posts__title">{{ page.title }}</h1>
+  <svg class="color-bars" width="12" height="72"><use xlink:href="#color-bars"></use></svg>
+</header>
+<div class="v-rhythm">
+
+  {{ content }}
+
+{%- if page.source -%}
+  <div class="u__separator"><span aria-hidden="true">&sect;&sect;&sect;</span></div>
+  <ul class="posts_source" role="list">
+    {%- if page.media-%}
+    <li><span class="u__eyebrow">Media:</span> {{ page.media }}</li>
+    {%- endif -%}
+    <li><span class="u__eyebrow">Source:</span> {{ page.source }}</li>
+  </ul>
+{%- endif -%}
+</div>
+<footer class="posts__meta">
+{%- if page.listening -%}
+  <p class="posts__listening"><span class="u__eyebrow">Listening:</span> {{ page.listening }}</p>
+{%- endif -%}
+  {%- comment -%} Store the index of this property out of ALL properties {%- endcomment -%}
+  {%- assign posts = site.posts -%}
+  {%- assign notes = site.notes -%}
+  {%- assign items = posts | concat: notes | sort: 'date' | reverse -%}
+  {%- for item in items -%}
+    {% if item.title == page.title %}
+      {% assign item_index = forloop.index %}
+      {% break %}
+    {% endif %}
+  {%- endfor -%}
+  {%- if item_index -%}
+    {% assign prev_index = item_index | minus: 1 %}
+    {% assign next_index = item_index | plus: 1 %}
+    {% comment %} Loop again, this time, find the items with the prev and next indices {% endcomment %}
+    {% comment %} Can this be done with assign prev = property[prev_index] ?? {% endcomment %}
+    {% for item in items %}
+      {% if forloop.index == prev_index %}
+        {%- assign prev = item %}
       {% endif %}
+      {% if forloop.index == next_index %}
+        {% assign next = item %}
+      {% endif %}
+    {% endfor %}
+  {%- endif -%}
+  <nav class="posts__nav" aria-label="Posts">
+    {%- if prev -%}<a class="posts__nav__prev" href="{{ prev.url }}">
+      <div class="posts__nav__label u__eyebrow"><span aria-hidden="true">&#171;</span><span class="posts__nav__text">Previous</span></div>
+      <div class="posts__nav__title">{{ prev.title }}</div>
+    </a>{%- endif -%}
+    {%- if next -%}<a class="posts__nav__next" href="{{ next.url }}">
+      <div class="posts__nav__label u__eyebrow"><span class="posts__nav__text">Next</span><span aria-hidden="true">&#187;</span></div>
+      <div class="posts__nav__title">{{ next.title }}</div>
+    </a>{%- endif -%}
+    {%- assign categories = page.categories -%}
+    {%- assign category_count = categories | last | size -%}
+    {% if category_count > 0 %}
+    <div class="posts__meta__cats">
+      <p class="posts__cats__title u__eyebrow">Categories:</p>
+      <ul class="posts__cats" role="list">
+        {% for category in categories %}
+        <li><a href="{{ site.baseurl }}category/{{ category | slugify }}/"><span class="sr-only">More posts in </span>{{ category }}</a>{%- unless forloop.last -%}, {%- endunless -%}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+  </nav>
+</footer>

@@ -2,10 +2,8 @@
 layout: default
 ---
 
-      <header class="container--text">
-        <h1 class="page__title">{{ page.title }}</h1>
-      </header>
-      <article class="layout__article page__article container--text typography">
-        {{ content }}
-  
-      </article>
+<header class="p__header">
+  <h1 class="p__title">{{ page.title }}</h1>
+  <svg class="color-bars" width="12" height="72"><use xlink:href="#color-bars"></use></svg>
+</header>
+{{ content }}

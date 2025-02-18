@@ -1,0 +1,7 @@
+<ul role="list">
+  <li><a href="#">Now</a></li>
+  <li><a href="{% link writing.html %}"{% if page.permalink contains 'writing' %} aria-current="true"{% endif %}>Writing</a></li>
+  <li><a href="$">Designs</a></li>
+  <li><a href="{% link about.md %}"{% if page.permalink contains 'about' %} aria-current="true"{% endif %}>About</a></li>
+</ul>
+<p><a href="#top" id="bottom" class="btn btn--primary">Back to top</a></p>

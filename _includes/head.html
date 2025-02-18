@@ -1,0 +1,25 @@
+{% if page.canonical %}
+  {% assign canon_url = page.canonical %}
+{% else %}
+  {% assign canon_url = page.url | replace:'/index','' | prepend: site.url %}
+{% endif %}
+
+    <meta charset="utf-8">
+    <!-- <link rel="dns-prefetch" href="https://webmention.io"> -->
+    <title>{% if page.html-title %}{{ page.html-title }} | HCd{% else %}{{ page.title }}| HCd{% endif %}</title>
+    <meta name="description" content="{{ site.description }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="canonical" href="{{ canon_url }}">
+    <link rel="stylesheet" href="{{ "assets/css/styles.css" | prepend: site.baseurl }}">
+    <!-- Webmentions -->
+    <link rel="webmention" href="https://webmention.io/artinruins.com/webmention">
+    <link rel="pingback" href="https://webmention.io/artinruins.com/xmlrpc">
+
+    <!-- Google Analytics ONLY managed through GTag -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-817925-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-817925-1');
+    </script>
