@@ -1,10 +1,5 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
@@ -18,20 +13,10 @@ title: J. Hogue is Highchair designhaus
 email: jh@highchairdesign.com
 company: Highchair designhaus
 description: >- # this means to ignore newlines until "baseurl:"
-  J. Hogue is a Providence, RI-based designer thinking about user experience and creating web interfaces. From 2001 to 2010 he was principal at Highchair designahus in Pawtucket, RI. While web is my work, print is still my love. 
+  J. Hogue has over 20 years of experience in design and user experience. He is currently Director, Experience Design at Oomph, leading a team of digital platform experts with strategic thinking, cutting-edge UX practices, and visual design. I have worked with all sizes of business, from national brands to local non-profits, in the health, higher education, cultural institution, and new technology sectors.
 
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://www.highchairdesign.com" # the base hostname & protocol for your site, e.g. http://example.com
-
-twitter_username: artinruins
-instagram_username: artinruins
-linkedin_username: jhogue
-github_username:  jhogue
-codepen_username: jhogue
-stackoverflow_username: 479663/j-hogue
-
-css_kb: 8kb
-js_kb: 0kb
+url: "https://www.highchairdesign.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
@@ -48,7 +33,7 @@ collections:
   portfolio:
     output: true
     permalink: /portfolio/:name
-  note:
+  notes:
     output: true
     permalink: /note/:name
 
@@ -60,9 +45,9 @@ defaults:
       layout: item
   - scope:
       path: ""
-      type: "note"
+      type: "notes"
     values:
-      layout: post
+      layout: note
 
 sass:
   sass_dir: _sass
