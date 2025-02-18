@@ -4,22 +4,44 @@ nav-title: HTML Elements
 title: Sample HTML Elements
 permalink: sample-html/
 ---
-{% if jekyll.environment == "development" %}
-<div class="typography">
-              
-<h1 id="menu">Style Guide and Sample Code</h1>
-<p><strong>These are basic markup and typographic styles for your site and how to use them.</strong> Most of these options are available through the TinyMCE edit window in the admin, but some will require knowledge of coding HTML. </p>
-
+<style>
+  .example {
+    background-color: hsla(var(--bc-black), 0.5);
+    border: 1px solid var(--fc-code-bg);
+    border-top-left-radius: var(--brad-small);
+    border-top-right-radius: var(--brad-small);
+    margin-block-start: 3em;
+    padding: calc(var(--lh-base) * 0.5em) var(--space-s);
+    position: relative;
+  }
+  .example::before {
+    content: 'Example';
+    color: hsla(var(--bc-green-w-dark), 0.33);
+    font-size: 75%;
+    font-weight: var(--fw-bold);
+    letter-spacing: 0.0625em;
+    text-transform: uppercase;
+    position: absolute;
+    top: -1.375em;
+  }
+  .example + pre {
+    margin-block-start: 0 !important;
+  }
+  .example + pre > code {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+</style>
+<div class="">
 
 <!-- Menu -->
-<ul>
-    <li><a href="#headings">Headings</a></li>
-    <li><a href="#grouping">Grouping</a></li>
-    <li><a href="#text">Text Semantic Elements</a></li>
-    <li><a href="#tables">Table Example</a></li>
-    <li><a href="#form">Form Example</a></li>
+<ul id="menu" role="list">
+  <li><a href="#headings">Headings</a></li>
+  <li><a href="#grouping">Grouping</a></li>
+  <li><a href="#text">Text Semantic Elements</a></li>
+  <li><a href="#tables">Table Example</a></li>
+  <li><a href="#form">Form Example</a></li>
 </ul>
-
 
 <!-- Headings -->
 <h1 id="headings">Heading 1 <a href="#">with a Link</a></h1>
@@ -42,7 +64,7 @@ permalink: sample-html/
 
 
 <!-- Groupings -->
-<h1 id="grouping">Grouping content</h1>
+<h2 id="grouping">Grouping content</h2>
 <h3>Paragraphs</h3>
 <p>All paragraphs are wrapped in <code>&lt;p&gt;</code> tags. Additionally, <code>&lt;p&gt;</code> elements can be wrapped with a <code>&lt;blockquote&gt;</code> element <em>if the <code>p</code> element is indeed a quote</em>. Historically, <code>blockquote</code> has been used purely to force indents, but this is now achieved using CSS. Reserve <code>blockquote</code> for quotes.</p>
 
@@ -81,11 +103,11 @@ p q r s t u v w x y z { | } ~</code></pre>
   <ol>
     <li>This is an ordered list.</li>
     <li>
-    	This is the second item, which contains a sub list
-    	<ol>
-    		<li>This is the sub list, which is also ordered.</li>
-    		<li>It has two items.</li>
-    	</ol>
+      This is the second item, which contains a sub list
+      <ol>
+        <li>This is the sub list, which is also ordered.</li>
+        <li>It has two items.</li>
+      </ol>
     </li>
     <li>This is the final item on this list.</li>
   </ol>
@@ -105,25 +127,25 @@ p q r s t u v w x y z { | } ~</code></pre>
 <div class="example">
   <ul>
     <li>
-    	United Kingdom of Great Britain and Northern Ireland:
-    	<ul>
-    		<li>
-  		    England
-    			<ul><li>Another nested list</li><li>Yet another nested line item</li></ul>
-    		</li>
-    		<li>Scotland</li>
-    		<li>Wales</li>
-    		<li>Northern Ireland</li>
-    	</ul>
+      United Kingdom of Great Britain and Northern Ireland:
+      <ul>
+        <li>
+          England
+          <ul><li>Another nested list</li><li>Yet another nested line item</li></ul>
+        </li>
+        <li>Scotland</li>
+        <li>Wales</li>
+        <li>Northern Ireland</li>
+      </ul>
     </li>
     <li>Republic of Ireland</li>
     <li>Isle of Man</li>
     <li>
-    	Channel Islands:
-    	<ul>
-    		<li>Bailiwick of Guernsey</li>
-    		<li>Bailiwick of Jersey</li>
-    	</ul>
+      Channel Islands:
+      <ul>
+        <li>Bailiwick of Guernsey</li>
+        <li>Bailiwick of Jersey</li>
+      </ul>
     </li>
   </ul>
 </div>
@@ -179,7 +201,7 @@ p q r s t u v w x y z { | } ~</code></pre>
     All mimsy were the borogoves,<br>
     And the mome raths outgrabe.</p>
     <figcaption>
-    	<cite>Jabberwocky</cite> (first verse). Lewis Carroll, 1832-98
+      <cite>Jabberwocky</cite> (first verse). Lewis Carroll, 1832-98
     </figcaption>
   </figure>
 </div>
@@ -188,12 +210,11 @@ p q r s t u v w x y z { | } ~</code></pre>
   &lt;figcaption&gt;&lt;cite&gt;Jabberwocky&lt;/cite&gt; (first verse). Lewis Carroll, 1832-98&lt;/figcaption&gt;
 &lt;/figure&gt;</code></pre>
 
-
 <p><a href="#menu">Back to Top &uarr;</a></p>
 
 
 <!-- Text semantics -->
-<h1 id="text">Text-level Semantics</h1>
+<h2 id="text">Text-level Semantics</h2>
 <p>There are a number of inline <abbr title="HyperText Markup Language">HTML</abbr> elements you may use anywhere within other elements. The semantics of the markup used is as important as how it looks, as web crawlers will not process CSS, but rather infer hierarchy and emphasis from the HTML elements being used. </p>
 
 <h3 id="anchor">Links and anchors</h3>
@@ -269,13 +290,11 @@ p q r s t u v w x y z { | } ~</code></pre>
 </div>
 <pre class="examplecode"><code>&lt;abbr title="HyperText Markup Language"&gt;HTML&lt;/abbr&gt;is a common abbreviated term</code></pre>
 
-<!--
 <h3 id="time">Time</h3>
 <p>The <code>time</code> element is used to represent either a time on a 24 hour clock, or a precise date in the proleptic Gregorian calendar, optionally with a time and a time-zone offset. Example:</p>
 <div class="example">
 <p>Queen Elizabeth II was proclaimed sovereign of each of the Commonwealth realms on <time datetime="1952-02-6">6</time> and <time datetime="1952-02-7">7 February 1952</time>, after the death of her father, King George VI.</p>
 </div>
--->
 
 <h3 id="code">Code</h3>
 <p>The <code>&lt;code&gt;</code> element is used to represent fragments of computer code. Useful for technology-oriented sites, not so useful otherwise. Example:</p>
@@ -319,89 +338,88 @@ p q r s t u v w x y z { | } ~</code></pre>
 </div>
 <pre class="examplecode"><code>She bought &lt;del datetime="2005-05-30T13:00:00"&gt;two&lt;/del&gt; &lt;ins datetime="2005-05-30T13:00:00"&gt;five&lt;/ins&gt; pairs of shoes.</code></pre>
 
-
 <p><a href="#menu">Back to Top &uarr;</a></p>
 
 
 <!-- Tables -->
-<h1 id="tables">Tabular data</h1>
+<h2 id="tables">Tabular data</h2>
 <p>Tables should be used when displaying tabular data. The <code>&lt;caption&gt;</code> element gives the table a title, while the <code>&lt;colgroup&gt;</code> and <code>&lt;col&gt;</code> elements help align columns. The <code>&lt;thead&gt;</code> and <code>&lt;tbody&gt;</code> elements enable you to group sets of rows within each a table &mdash; the <code>thead</code> and <code>&lt;th&gt;</code> elements should be used to denote a row of table headings. </p>
 <div class="example">
 <table>
     <caption>The Very Best Eggnog</caption>
     <colgroup>
-    	<col style="width:50%">
-    	<col style="width:25%">
-    	<col style="width:25%">
+      <col style="width:50%">
+      <col style="width:25%">
+      <col style="width:25%">
     </colgroup>
     <thead>
-    	<tr>
-    		<th scope="col">Ingredients</th>
-    		<th scope="col">Serves 12</th>
-    		<th scope="col">Serves 24</th>
-    	</tr>
+      <tr>
+        <th scope="col">Ingredients</th>
+        <th scope="col">Serves 12</th>
+        <th scope="col">Serves 24</th>
+      </tr>
     </thead>
     <tbody>
-    	<tr>
-    		<td>Milk</td>
-    		<td>1 quart</td>
-    		<td>2 quart</td>
-    	</tr>
-    	<tr>
-    		<td>Cinnamon Sticks</td>
-    		<td>2</td>
-    		<td>1</td>
-    	</tr>
-    	<tr>
-    		<td>Vanilla Bean, Split</td>
-    		<td>1</td>
-    		<td>2</td>
-    	</tr>
-    	<tr>
-    		<td>Cloves</td>
-    		<td>5</td>
-    		<td>10</td>
-    	</tr>
-    	<tr>
-    		<td>Mace</td>
-    		<td>10 blades</td>
-    		<td>20 blades</td>
-    	</tr>
-    	<tr>
-    		<td>Egg Yolks</td>
-    		<td>12</td>
-    		<td>24</td>
-    	</tr>
-    	<tr>
-    		<td>Cups Sugar</td>
-    		<td>1 ½ cups</td>
-    		<td>3 cups</td>
-    	</tr>
-    	<tr>
-    		<td>Dark Rum</td>
-    		<td>1 ½ cups</td>
-    		<td>3 cups</td>
-    	</tr>
-    	<tr>
-    		<td>Brandy</td>
-    		<td>1 ½ cups</td>
-    		<td>3 cups</td>
-    	</tr>
-    	<tr>
-    		<td>Vanilla</td>
-    		<td>1 tbsp</td>
-    		<td>2 tbsp</td>
-    	</tr>
-    	<tr>
-    		<td>Half-and-half or Light Cream</td>
-    		<td>1 quart</td>
-    		<td>2 quart</td>
-    	</tr>
-    	<tr>
-    		<td>Freshly grated nutmeg to taste</td>
-    		<td></td>
-    		<td></td>
-    	</tr>
+      <tr>
+        <td>Milk</td>
+        <td>1 quart</td>
+        <td>2 quart</td>
+      </tr>
+      <tr>
+        <td>Cinnamon Sticks</td>
+        <td>2</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Vanilla Bean, Split</td>
+        <td>1</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Cloves</td>
+        <td>5</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>Mace</td>
+        <td>10 blades</td>
+        <td>20 blades</td>
+      </tr>
+      <tr>
+        <td>Egg Yolks</td>
+        <td>12</td>
+        <td>24</td>
+      </tr>
+      <tr>
+        <td>Cups Sugar</td>
+        <td>1 ½ cups</td>
+        <td>3 cups</td>
+      </tr>
+      <tr>
+        <td>Dark Rum</td>
+        <td>1 ½ cups</td>
+        <td>3 cups</td>
+      </tr>
+      <tr>
+        <td>Brandy</td>
+        <td>1 ½ cups</td>
+        <td>3 cups</td>
+      </tr>
+      <tr>
+        <td>Vanilla</td>
+        <td>1 tbsp</td>
+        <td>2 tbsp</td>
+      </tr>
+      <tr>
+        <td>Half-and-half or Light Cream</td>
+        <td>1 quart</td>
+        <td>2 quart</td>
+      </tr>
+      <tr>
+        <td>Freshly grated nutmeg to taste</td>
+        <td></td>
+        <td></td>
+      </tr>
     </tbody>
     </table>
 </div>
@@ -428,115 +446,112 @@ p q r s t u v w x y z { | } ~</code></pre>
   &lt;/tbody>
 &lt;/table></code></pre>
 
-
 <p><a href="#menu">Back to Top &uarr;</a></p>
 
 
 <!-- Forms -->
-<h1 id="form">Form Example</h1>
+<h2 id="form">Form Example</h2>
 <p>Basic <code>&lt;form&gt;</code> container and inner common element styles</p>
 
 <p>The <code>&lt;fieldset&gt;</code> element groups related fields within a form and should have a title attribute and a corresponding <code>&lt;legend&gt;</code>. The <code>&lt;label&gt;</code> element ensures field descriptions are associated with their corresponding form widgets, and are very important for form accesibility.</p>
 
 <div class="example">
-    <form class="form">
-        <fieldset title="Sample input field types">
-            <legend class="form--legend">Input Field Types</legend>
-            <p>
-                <label for="text">Text Input</label>
-                <input id="text" name="text" class="form--input" type="text" required="required">
-                <small class="element-caption">This is a sample input field of type="text"</small>
-            </p>
-            <p>
-                <label for="password">Password</label>
-                <input id="password" name="password" class="form--input" type="password" required="required">
-                <small class="element-caption">This is a sample input field of type="password"</small>
-            </p>
-            <p>
-                <label for="email">Email Address</label>
-                <input id="email" name="email" class="form--input" type="email" placeholder="you@example.com" required="required">
-                <small class="element-caption">This is a sample input field of type="email"</small>
-            </p>
-            <p>
-                <label for="url">Web Address</label>
-                <input id="url" name="url" class="form--input" type="url" placeholder="http://example.com">
-                <small class="element-caption">This is a sample input field of type="url"</small>
-            </p>
-            <p>
-                <label for="phone">Phone Number</label>
-                <input id="phone" name="phone" class="form--input" type="tel" placeholder="000-000-0000">
-                <small class="element-caption">This is a sample input field of type="number"</small>
-            </p>
-            <p>
-                <label for="number">Number String</label>
-                <input id="number" name="number" class="form--input" type="number" placeholder="1234567890">
-                <small class="element-caption">This is a sample input field of type="number"</small>
-            </p>
-            <p>
-                <label for="textarea">Textarea</label>
-                <textarea id="textarea" name="textarea" class="form--textarea" rows="8"></textarea>
-                <small class="element-caption">This is a sample textarea for multi-line user input</small>
-            </p>
-        </fieldset>
+  <form class="form">
+    <fieldset title="Sample input field types">
+      <legend class="form--legend">Input Field Types</legend>
+      <p>
+        <label for="text">Text Input</label>
+        <input id="text" name="text" class="form--input" type="text" required="required">
+        <small class="element-caption">This is a sample input field of type="text"</small>
+      </p>
+      <p>
+        <label for="password">Password</label>
+        <input id="password" name="password" class="form--input" type="password" required="required">
+        <small class="element-caption">This is a sample input field of type="password"</small>
+      </p>
+      <p>
+        <label for="email">Email Address</label>
+        <input id="email" name="email" class="form--input" type="email" placeholder="you@example.com" required="required">
+        <small class="element-caption">This is a sample input field of type="email"</small>
+      </p>
+      <p>
+        <label for="url">Web Address</label>
+        <input id="url" name="url" class="form--input" type="url" placeholder="http://example.com">
+        <small class="element-caption">This is a sample input field of type="url"</small>
+      </p>
+      <p>
+        <label for="phone">Phone Number</label>
+        <input id="phone" name="phone" class="form--input" type="tel" placeholder="000-000-0000">
+        <small class="element-caption">This is a sample input field of type="number"</small>
+      </p>
+      <p>
+        <label for="number">Number String</label>
+        <input id="number" name="number" class="form--input" type="number" placeholder="1234567890">
+        <small class="element-caption">This is a sample input field of type="number"</small>
+      </p>
+      <p>
+        <label for="textarea">Textarea</label>
+        <textarea id="textarea" name="textarea" class="form--textarea" rows="8"></textarea>
+        <small class="element-caption">This is a sample textarea for multi-line user input</small>
+      </p>
+    </fieldset>
 
-        <fieldset title="Selectable Option Items">
-            <legend>Selectable Option Items</legend>
-            <p>
-                <label for="select">Select</label>
-                <select id="select" name="select" class="form--select">
-                    <optgroup label="Option Group">
-                        <option value="">Option One</option>
-                        <option value="">Option Two</option>
-                        <option value="">Option Three</option>
-                    </optgroup>
-                </select>
-                <small class="element-caption">A select form element contains more than one <code>&lt;option&gt;</code> element</small>
-            </p>
-            <ul class="horizontal-list" role="menu">
-                <li>
-                    <label for="checkbox1" class="check"><input id="checkbox1" name="checkbox" type="checkbox" checked="checked"> Choice A</label>
-                </li>
-                <li>
-                    <label for="checkbox2" class="check"><input id="checkbox2" name="checkbox" type="checkbox"> Choice B</label>
-                </li>
-                <li>
-                    <label for="checkbox3" class="check"><input id="checkbox3" name="checkbox" type="checkbox"> Choice C</label>
-                </li>
-            </ul>
-            <p><small class="element-caption">Checkboxes can be selected independently, and more than one can be selected</small></p>
-            
-            <ul class="horizontal-list" role="menu">
-                <li>
-                    <label for="radio1" class="radio"><input id="radio1" name="radio" type="radio" class="radio" checked="checked"> Option 1</label>
-                </li>
-                <li>
-                    <label for="radio2" class="radio"><input id="radio2" name="radio" type="radio" class="radio"> Option 2</label>
-                </li>
-                <li>
-                    <label for="radio3" class="radio"><input id="radio3" name="radio" type="radio" class="radio"> Option 3</label>
-                </li>
-            </ul>
-            <p><small class="element-caption">Radio buttons are inter-dependent, and usually only one can be chosen</small></p>
-        </fieldset>
+    <fieldset title="Selectable Option Items">
+      <legend>Selectable Option Items</legend>
+      <p>
+        <label for="select">Select</label>
+        <select id="select" name="select" class="form--select">
+          <optgroup label="Option Group">
+            <option value="">Option One</option>
+            <option value="">Option Two</option>
+            <option value="">Option Three</option>
+          </optgroup>
+        </select>
+        <small class="element-caption">A select form element contains more than one <code>&lt;option&gt;</code> element</small>
+      </p>
+      <ul class="horizontal-list" role="menu">
+        <li>
+          <label for="checkbox1" class="check"><input id="checkbox1" name="checkbox" type="checkbox" checked="checked"> Choice A</label>
+        </li>
+        <li>
+          <label for="checkbox2" class="check"><input id="checkbox2" name="checkbox" type="checkbox"> Choice B</label>
+        </li>
+        <li>
+          <label for="checkbox3" class="check"><input id="checkbox3" name="checkbox" type="checkbox"> Choice C</label>
+        </li>
+      </ul>
+      <p><small class="element-caption">Checkboxes can be selected independently, and more than one can be selected</small></p>
+          
+      <ul class="horizontal-list" role="menu">
+        <li>
+          <label for="radio1" class="radio"><input id="radio1" name="radio" type="radio" class="radio" checked="checked"> Option 1</label>
+        </li>
+        <li>
+          <label for="radio2" class="radio"><input id="radio2" name="radio" type="radio" class="radio"> Option 2</label>
+        </li>
+        <li>
+          <label for="radio3" class="radio"><input id="radio3" name="radio" type="radio" class="radio"> Option 3</label>
+        </li>
+      </ul>
+      <p><small class="element-caption">Radio buttons are inter-dependent, and usually only one can be chosen</small></p>
+    </fieldset>
 
-        <fieldset title="Buttons">
-            <legend>Button Types: input type="submit", <code>&lt;button&gt;</code>, input type="reset", <code>&lt;a&gt;.button</code> and an <code>&lt;a&gt;</code></legend>
-            <p>
-              <input class="button button__primary" type="submit" id="submit" name="submit" value="Submit"> 
-              <button class="button button__secondary">Preview</button> 
-              <input class="button" type="reset" id="reset" name="reset" value="Clear Form"> 
-              <a href="#" class="button" title="Cancel">Anchor as Button</a>
-              <a href="#" title="Cancel">Simple Anchor Link</a>
-            </p>
-        </fieldset>
-    </form>
+    <fieldset title="Buttons">
+      <legend>Button Types: input type="submit", <code>&lt;button&gt;</code>, input type="reset", <code>&lt;a&gt;.button</code> and an <code>&lt;a&gt;</code></legend>
+      <p>
+        <input class="button button__primary" type="submit" id="submit" name="submit" value="Submit"> 
+        <button class="button button__secondary">Preview</button> 
+        <input class="button" type="reset" id="reset" name="reset" value="Clear Form"> 
+        <a href="#" class="button" title="Cancel">Anchor as Button</a>
+        <a href="#" title="Cancel">Simple Anchor Link</a>
+      </p>
+    </fieldset>
+  </form>
 </div>
 
 <hr />
 
-<p>There are all the styles that can be present inside the main content area with class <code>.typography</code>. Hope this helps you craft beautiful <strong>and semantic</strong> content</p>
+<p>There are all the styles that can be present inside the main content area. Hope this helps you craft beautiful <b>and semantic</b> content.</p>
 
 <p><a href="#menu">Back to Top &uarr;</a></p>
-
 </div>
-{% endif %}

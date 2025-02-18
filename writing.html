@@ -1,0 +1,48 @@
+---
+layout: default
+permalink: writing/
+html-title: 'Articles, Ideas, Musings, Rants'
+title: 'The Latest Articles, Ideas, Musings, & Rants'
+---
+
+{%- assign posts = site.posts -%}
+{%- assign notes = site.notes -%}
+{%- assign items = posts | concat: notes | sort: 'date' | reverse -%}
+
+<header class="p__header posts__header">
+  <h1 class="p__title u__eyebrow posts__title">{{ page.title }}</h1>
+  <svg class="color-bars" width="12" height="72"><use xlink:href="#color-bars"></use></svg>
+</header>
+<section class="posts" aria-label="Recent Posts">
+  <ul role="list" class="posts__list">
+    {% for post in items limit:16 %}
+    <li id="{{ post.title | slugify }}" class="posts__item">
+      <article class="posts__item__content">
+        <header class="posts__item__header">
+          <p class="posts__item__meta">
+            {%- if post.layout == 'note' -%}
+              {% assign itemclass = 'icon__glasses' %}
+              {% assign itemstring = 'Read & Reviewed' %}
+            {%- elsif post.layout == 'post' -%}
+              {% assign itemclass = 'icon__document' %}
+              {% assign itemstring = 'Written' %}
+            {%- endif -%}
+            <span class="posts__type"><span class="icon {{ itemclass }}"></span>{{ itemstring }}</span> | 
+            <time datetime="{{ post.date }}">{{ post.date | date: "%d %B, %Y"}}</time>
+          </p>
+          <h2 class="h3 posts__item__title"><a class="posts__link" href="{{ post.url }}">{{ post.title }}</a></h2>
+        </header>
+        <div class="v-rhythm">
+        {% if post.content.size > 500 %}
+          <p>{{ post.content | strip_html | truncatewords: 80 }}</p>
+          <p><a class="posts__item__more" href="{{ post.url }}">Read Full Article</a></p>
+        {% else %}
+          {{ post.content }}
+        {% endif %}
+        </div>
+      </article>
+      <div class="u__separator"><span aria-hidden="true">&sect;&sect;&sect;</span></div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
