@@ -1,0 +1,16 @@
+// These variable fonts have an italic variation axes
+@font-face {
+  font-family: 'Hyperlegible';
+  src: url('/assets/fonts/AtkinsonHyperlegibleNextVF-Variable.ttf') format('truetype'),
+    url('/assets/fonts/AtkinsonHyperlegibleNextVF-Variable.woff2') format('woff2');
+  font-weight: 200 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Hyperlegible Mono';
+  src: url('/assets/fonts/AtkinsonHyperlegibleMonoVF-Variable.ttf') format('truetype'),
+    url('/assets/fonts/AtkinsonHyperlegibleMonoVF-Variable.woff2') format('woff2');
+  font-weight: 200 800;
+  font-display: swap;
+}

@@ -131,6 +131,8 @@ Finding the story and figuring out how best to tell it.
 
 ## Colophon
 
+Set in Hyperlegible Next by [The Braille Institute](https://www.brailleinstitute.org/freefont/) — free and open source.
+
 Design and programming help from these sites and tools: 
 
 + [Utopia.fyi](https://utopia.fyi/) for responsive typography and spacing

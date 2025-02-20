@@ -20,12 +20,9 @@ body {
   background-color: var(--fc-body-bg);
   color: var(--fc-body-fg);
   font-family: var(--ff-body);
-/*
-  Don’t declare these, they are default 
-  font-weight: var(--fw-normal);
-  font-style: normal;
-*/
   font-size: var(--fts-base);
+  font-optical-sizing: auto;
+  font-weight: var(--fw-normal);
   line-height: var(--lh-base);
   min-height: 100vh;
   text-rendering: optimizeSpeed;
