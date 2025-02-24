@@ -1,11 +1,11 @@
 .g {
   display: grid;
-  grid-template-columns: var(--space-s-m) auto var(--space-s-m);
+  grid-template-columns: var(--space-s-xl) minmax(auto, 40em)  var(--space-s-xl) minmax(0, auto);
   grid-template-rows: var(--space-m) auto var(--space-m);
   grid-template-areas:
-    "tl tc tr"
-    "lc c rc"
-    "bl bc br";
+    "tl tc tr ."
+    "lc c rc aside"
+    "bl bc br .";
   overflow: hidden;
   padding-block-start: var(--space-m);
 
@@ -52,9 +52,9 @@
 
     svg {
       position: absolute;
-      right: 0;
+      right: 50%;
       top: 50%;
-      transform: rotate(90deg) translateX(50%);
+      transform: rotate(90deg) translate(50%, -50%);
     }
   }
 
@@ -68,9 +68,9 @@
 
     svg {
       position: absolute;
-      left: 0;
+      left: 50%;
       top: 50%;
-      transform: rotate(-90deg) translateX(-50%);
+      transform: rotate(-90deg) translate(-50%, -50%);
     }
   }
 

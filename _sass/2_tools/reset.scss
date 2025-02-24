@@ -37,6 +37,16 @@ textarea,
 select {
   font-family: inherit;
   font-size: inherit;
+  font-weight: inherit;
+}
+
+// Any button with a class probably needs a reset
+button[class] {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: inherit;
 }
 
 // Make sure textareas without a rows attribute are not tiny

@@ -32,13 +32,14 @@ h2, .h2 {
 h3, .h3 {
   color: var(--fc-header-accent);
   font-size: var(--fts-header-3);
+  font-weight: var(--fw-normal);
 }
 
 h4, .h4 {
   font-size: var(--fts-header-4);
 }
 
-h5, .h5 {
+h5, .h5, blockquote p {
   font-size: var(--fts-header-5);
 }
 
@@ -70,6 +71,17 @@ pre {
     display: block;
     padding: calc(var(--lh-base) * 0.5em) var(--space-s);
   }
+}
+
+hr {
+  border-block-start: 0.5px solid var(--fc-border);
+  height: 0;
+}
+
+blockquote {
+  border-block-start: 2px solid var(--fc-border);
+  border-block-end: 0.5px solid var(--fc-border);
+  padding: var(--space-l) var(--space-m);
 }
 
 .v-rhythm {

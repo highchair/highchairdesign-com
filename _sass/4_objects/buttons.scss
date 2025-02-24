@@ -1,13 +1,25 @@
 .btn {
   -webkit-appearance: none;
-  display: inline-block;
   border: 1px solid var(--fc-button-border);
   border-radius: 2rem;
   color: var(--fc-button-fg);
+  display: inline-block;
+  font-weight: var(--fw-medium);
   line-height: var(--lh-tight);
   margin: 0;
   padding: 0.5em 1.25em;
   text-decoration: none;
+  text-box: trim-both cap alphabetic;
+
+  &:hover,
+  &:focus {
+    box-shadow: 0px 0px 0px 2px var(--fc-button-border) inset;
+    text-decoration: none;
+  }
+
+  &:focus {
+    border-radius: 3rem;
+  }
 
   &--primary {
     //border-color: var(--fc-button-border);

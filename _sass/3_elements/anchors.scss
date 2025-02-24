@@ -10,6 +10,11 @@ a {
     text-decoration: underline;
   }
 
+  &:focus {
+    outline: 2px dashed var(--fc-body-fg);
+    outline-offset: 2px;
+  }
+
   nav & {
     display: block;
     text-decoration: none;
