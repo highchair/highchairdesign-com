@@ -2,9 +2,10 @@
 layout: note
 title: "For news, algorithmic social networks are a failed experiment"
 date: 2024-12-04 10:00:00 -0500
-source: "Fast Company"
+source: '<a href="https://www.fastcompany.com/91239259/bluesky-starter-packs-threads-twitter-for-you-algorithm">Fast Company</a> — Harry McCracken, December 4, 2024'
 media: "Article"
 categories: [ "User Preference", "Web Development" ]
+listening: 'Artist: <a href="https://whores.bandcamp.com/album/war">Whores</a>; Album: War'
 ---
 
 People are in bubbles and social media has largely failed to democratize information if most of the content is hidden from their view based on algorithms. When (then-named) Twitter changed to an algorithmic feed for their main view in 2016, people revolted but then acclimated. Other social media site followed, namely Facebook and Instagram. The main feeds of most apps is fed by opaque rules driven by monetizing views, not delivering relevant content.
@@ -18,7 +19,3 @@ New users have flocked to Bluesky in the wake of the exodus from Twitter, neé X
 The benefit of a timeline feed is of course breaking news and relevance. During the election, Threads showed old news posts and it took some time for the feed to catch up with what was previously happening in real time. When the President of South Korea declared Marshall law recently,. Threads did not show that content for hours, almost not before the 6 hr declaration was rescinded.
 
 Like the arguments around the idea of “enshittification,” the need of products to push content out to us and create self-imposing bubbles of information goes against what people actually want or need. We have really created a monster here where news and access to information is more difficult on the web and in our apps, not easier.
-
-***
-
-[Harry McCracken,  December 4, 2024 from Fast Company](https://www.fastcompany.com/91239259/bluesky-starter-packs-threads-twitter-for-you-algorithm)

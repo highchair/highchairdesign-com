@@ -2,9 +2,10 @@
 layout: note
 title: "Tips for presenting design case studies in an interview?"
 date: 2024-11-04 11:00:00 -0500
-source: "LinkedIn"
+source: '<a href="https://www.linkedin.com/in/cameronmoll/">Cameron Moll on LinkedIn</a>'
 media: "Post"
-categories: [ Creativity, Presentation ]
+categories: [ Design, Creativity ]
+listening: 'Artist: <a href="https://aesoprock.bandcamp.com/">Aesop Rock</a>; Album: Integrated tech Solutions'
 ---
 
 "Any tips for presenting design case studies in an interview?" a friend recently asked.
@@ -34,7 +35,3 @@ BONUS TIPS ✨
 ✦ If multiple designers worked on the same screen, be upfront about this and clarify what your role was. Personally I find it to be a bit of a letdown when something looks/functions great, only to find out later in our discussion that another designer did part of the work.
 ✦ Proactively share what you would have done differently if given the chance to do this work all over again. No work is ever perfect. But if you *could* get one step closer to perfection, what would it be. This shows me you're capable of critiquing yourself, which honestly not all designers are adept at.
 ✦ Provide me with a link to what you're presenting (slide deck, figma). I may want to jump around while you're presenting to find areas that are most likely to help me — and therefore you — discuss the right things relevant to this role. I realize this may be problematic to grant me access, so make a copy and then delete the copy after our interview.
-
-***
-
-Shared by [Cameron Moll on LinkedIn](https://www.linkedin.com/in/cameronmoll/)

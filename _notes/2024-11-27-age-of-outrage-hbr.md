@@ -2,7 +2,7 @@
 layout: note
 title: "HBR Press Live: The Age of Outrage"
 date: 2024-11-27 12:00:00 -0500
-source: "Zoom"
+source: "Zoom webinar with Karthik Ramanna, Professor of Business and Public Policy at the University of Oxford’s Blavatnik School of Government, November 26, 2024"
 media: "Video"
 categories: [ Leaadership, Society ]
 ---
@@ -66,7 +66,3 @@ Advisors told her to abandon the cultural transformation that she was in the mid
 All three of these powerful forces are occurring together at the same time, creating a culture of outrage.
 
 Social Media is a catalyst, not a cause. If there were no social, the outrage would still exist. Social just amplifies it.
-
-***
-
-Karthik Ramanna, Director of Something Something at Oxford, November 26, 2024

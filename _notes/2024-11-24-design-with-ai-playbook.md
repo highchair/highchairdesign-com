@@ -2,7 +2,7 @@
 layout: note
 title: "Designing with AI: AI Playbook for Design Teams"
 date: 2024-11-24 12:00:00 -0500
-source: "YouTube"
+source: '<a href="https://www.youtube.com/watch?v=EN8uKm_ZEiM">Mia Blume on YouTube</a>, October 20, 2023'
 media: "Video"
 categories: [ AI, Creativity ]
 ---
@@ -34,7 +34,3 @@ Translate the principles — Medium, composition, lighting, color, scene descri
 Start small, with story boards, mood boards, internal content, icons, illustration, and other things with a low risk. Create a safe place to start to experiment.
 
 Many articles recommend using camera types and lens size and such, but this language is not consistently understood by GenAI (other than MidJourney). So experiment on your own and take recommendations with a grain of salt.
-
-***
-
-[Mia Blume, October 20, 2023](https://www.youtube.com/watch?v=EN8uKm_ZEiM)

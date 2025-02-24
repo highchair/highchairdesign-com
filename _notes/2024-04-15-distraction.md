@@ -2,9 +2,10 @@
 layout: note
 title: "Distractions as Processing Time"
 date: 2024-04-08 16:30:00 -0500
-source: "Poetry Foundation"
+source: 'The Poetry Foundation, <a href="https://www.poetryfoundation.org/poetrymagazine/articles/144656/in-search-of-distraction">In Search of Distraction</a>'
 media: "Article"
-categories: [ Creativity, Observations ]
+categories: [ Design, Creativity ]
+listening: 'Artist: <a href="https://gnome.bandcamp.com/">Gnome</a>; Album: Vestiges of Verumex Visidrome'
 ---
 
 Thinking and reading about distractions, whether or not they are good or bad. When someone talks about technology (i.e. mobile phones), distraction is bad. Yet when someone talks about creativity, a certain amount of distraction is good. Or at least, it is a sign that you are not ready to commit yourself to the thing in front of you quite yet, perhaps because it has not been subconsciously worked out.
@@ -16,8 +17,6 @@ I like these excerpts very much:
 > “I like to put things up around my bed all the time,” Diane Arbus once noted, “pictures of mine that I like and other things and I change it every month or so. There’s some funny subliminal thing that happens. It isn’t just looking at it. It’s looking at it when you’re not looking at it. It really begins to act on you in a funny way.
 
 “That’s a dream — or daydream — of the tangential as a route to the heedlessly thoughtful, which is a dream I want to have.”
-
-From [In Search of Distraction](https://www.poetryfoundation.org/poetrymagazine/articles/144656/in-search-of-distraction)
 
 The difference, perhaps, is that when talking of technological distractions, we see little added value in them. the tools we have created to be addictive turned out to be addictive, and addictive things typically do not offer us more value than the addiction itself. So the distractions of technology are a means to their own end, and offer little added value. We have a feeling instead that they are distracting us from something more important.
 

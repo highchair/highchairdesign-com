@@ -2,9 +2,10 @@
 layout: note
 title: "The cultural power of the anti-woke tech bro: The aesthetic of Cybertrucks, energy drinks, and MMA, explained"
 date: 2024-11-04 10:00:00 -0500
-source: "Vox Media"
+source: '<a href="https://www.vox.com/culture/373990/heterodoxy-anti-woke-libertarian-tech-bro">Rebecca Jennings for Vox Media</a>, September 26, 2024'
 media: "Article"
-categories: [ Politics, Observations, Society ]
+categories: [ Observations, Society ]
+listening: 'Artist: Talking Heads; Album: Sand in the Vaseline'
 ---
 
 ## The “Manosphere”
@@ -36,7 +37,3 @@ Now, when we ask someone to do something really small like wear a mask, we are i
 > “The very macho styling feels countercultural to them. I think it feels punkish: ‘There is a polite society that is dominated by feminine codes of behavior, and we are the insurgent uprising to that.’ To outsiders maybe that doesn’t make a great deal of sense, but if you’re a 14-year-old boy, I think it does make a lot of sense,” says Lewis.
 
 > By building their followings online, they’re tapping into an audience thirsty for someone to tell them that their grievances — against women, against culture, against the media — are valid. In reality, the techno-libertarians, the heterodoxy, or whatever we’re calling them […] seem to be driven by the deepest fears of these particular men. After all, what else is a Cybertruck but an admission of fear? Fear of other cars, of other people, of being broke and the failure to amass social status.
-
-***
-
-[Rebecca Jennings for Vox Media, September 26, 2024](https://www.vox.com/culture/373990/heterodoxy-anti-woke-libertarian-tech-bro)

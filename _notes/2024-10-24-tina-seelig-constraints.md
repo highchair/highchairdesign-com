@@ -2,10 +2,12 @@
 layout: note
 title: "Tina Seelig — Constraints Drive Creativity"
 date: 2024-10-24 16:00:00 -0500
-source: "Design Better"
+source: '<a href="https://designbetterpodcast.com/p/tina-seelig-constraints-drive-creativity">Design Better Podcast, interview with Tina Seelig</a>, November 17, 2022'
 media: "Podcast"
-categories: [ Creativity, Constraints, Failure, Leadership ]
+categories: [ Design, Creativity, Leadership ]
 ---
+
+Tina Seelig, author of “inGenius,” “Creativity Rules,” and recently “What I wish I knew when I was 20.”
 
 ## Quotes & ideas
 
@@ -48,9 +50,3 @@ The cycle can continue once you reach entrepreneurship and need to iterate on th
 
 + Deciding to make a decision and choose between more than one option
 + Knowing when you are at a decision point is important to be aware of
-
-***
-
-Author of “inGenius,” “Creativity Rules,” and recently “What I wish I knew when I was 20.”
-
-Originally posted November 17, 2022 on the [Design Better Podcast](https://designbetterpodcast.com/p/tina-seelig-constraints-drive-creativity)

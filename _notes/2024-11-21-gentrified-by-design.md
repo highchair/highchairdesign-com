@@ -2,9 +2,10 @@
 layout: note
 title: "Gentrified by design: Reflections on the role of algorithms in creative work."
 date: 2024-11-21 21:00:00 -0500
-source: "Medium"
+source: '<a href="https://uxdesign.cc/gentrified-by-design-f205a1b714b6">Kristina Gushcheva-Keippilä on Medium</a>, November 3, 2024'
 media: "Article"
-categories: []
+categories: [ Design, AI ]
+listening: 'Artist: <a href="https://softentheglare.bandcamp.com/">Soften the Glare</a>; Album: Making Faces'
 ---
 
 ## Quotes and takeaways
@@ -23,7 +24,3 @@ AI can perhaps correct our grammar, spelling, and syntax. It can summarize and g
 “There’s nothing tedious about finding joy in overcoming formidable challenges, in applying your knowledge and skill to craft something, and, yes, struggling along the way. Frankly, I find this to be the most rewarding and meaningful aspect of being a designer and a creator. For me, this is an integral part of learning and evolving as a professional, as an individual.”
 
 We struggle with makes us human as we start to give more and more over to be done by the machines we have created in our own image.
-
-***
-
-[Kristina Gushcheva-Keippilä on Medium, November 3, 2024](https://uxdesign.cc/gentrified-by-design-f205a1b714b6)
