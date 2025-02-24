@@ -3,6 +3,7 @@ layout: post
 title: "Seeking the best To Do app for me"
 date: 2024-12-03 21:00:00 -0500
 categories: [ Process, Design ]
+listening: 'Artist: <a href="https://cleft.bandcamp.com/">Cleft</a>; Album: Wrong'
 ---
 
 I've been on the hunt for To Do list management for some time now. I come back to paper lists again and again. There is something so satisfying about crossing something off, and then copying items over to a new list creates a positive tension as well — do I keep copying this item or do I admit it is not a priority?

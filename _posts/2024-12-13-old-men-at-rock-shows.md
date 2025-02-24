@@ -2,10 +2,13 @@
 layout: post
 title: "Old Men at Rock Shows"
 date: 2024-12-13 21:00:00 -0500
-categories: [  ]
+categories: [ Music ]
+listening: 'Artist: <a href="https://thejesuslizard.bandcamp.com/">Jesus Lizard</a>; Album: Rack'
 ---
 
-## South Coughing
+Where two men in their 40s (ahem) see bands reunite and play together with members who are in their 50s and 60s,
+
+## Soul Coughing
 
 In September I decided to take advantage of the rare touring of Soul Coughing, one of the lessor known but strange and influential bands of the mid to late nineties. Not grungy and guitar-driven but jazz influenced with elements of electronic sampling and looping. I haven’t seen them live probably since the college years at a place like T.T. the Bears.
 

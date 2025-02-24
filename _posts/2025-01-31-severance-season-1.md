@@ -2,7 +2,8 @@
 layout: post
 title: "Severance Season 1"
 date: 2025-01-31 08:00:00 -0500
-categories: [  ]
+categories: [ "TV & Movies" ]
+listening: 'Artist: <a href="https://shellac.bandcamp.com/">Shellac</a>; Album: To All Trains'
 ---
 
 I've rewatched _Severance_ Season 1 as preparation for the new Season 2. I've also been listening to the podcast where Ben Stiller and Adam go through each episode starting with Season 1. It’s been more revelatory this time. I remember watching it previously, but forgot most of it, likely because that was at least 2 years ago and it was still COVID-times. Now, things hit a different way.
