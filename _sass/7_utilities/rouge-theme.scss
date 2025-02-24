@@ -2,8 +2,11 @@
 // https://github.com/uraimo/pygments-vimstyles/blob/master/
 
 // Override my green colors
-.highlight pre { background-color: #303030; }
-.highlight code { background-color: transparent; }
+.highlight pre { background-color: hsla(var(--bc-green-w-dark), 0.4); }
+.highlight code {
+  background-color: transparent;
+  color: var(--fc-body-fg);
+}
 
 // Dark gray:     #303030
 // Light green:   $bg__code
@@ -32,11 +35,11 @@ $turquoise: #00e0e0;
 .highlight .o   { color: #fff; } /* Operator */
 //.highlight .x   { color: #fffedc; } /* Other */
 .highlight .p   { color: #fff; } /* Punctuation */
-.highlight .c   { color: $bg__code; } /* Comment */
-.highlight .cm  { color: $bg__code; } /* Comment.Multiline */
-.highlight .cp  { color: $bg__code; } /* Comment.Preproc */
-.highlight .c1  { color: $bg__code; } /* Comment.Single */
-.highlight .cs  { color: $bg__code; } /* Comment.Special */
+.highlight .c   { color: #606060; } /* Comment */
+.highlight .cm  { color: #606060; } /* Comment.Multiline */
+.highlight .cp  { color: #606060; } /* Comment.Preproc */
+.highlight .c1  { color: #606060; } /* Comment.Single */
+.highlight .cs  { color: #606060; } /* Comment.Special */
 //.highlight .gd  { color: #fffedc; } /* Generic.Deleted */
 //.highlight .ge  { color: #fffedc; text-decoration: underline; } /* Generic.Emph */
 //.highlight .gr  { color: #fffedc; background-color: #602020 } /* Generic.Error */
