@@ -79,6 +79,7 @@ Puente — Providence, RI
 
 ### Publications
 
++ **Interviewee** Rhode Island PBS special, March 2025
 + **Author**: [<cite>How is Providence’s Historic Aesthetic Maintained?</cite>](https://pvdeye.org/how-is-providences-historic-aesthetic-maintained/ "Go to the Providence Eye for the full article"), Providence Eye, January 2025
 + **Interviewee** [<cite>Dishing Up History: From exposed bams to ornate facades, the hallmarks of some of the city’s favorite restaurants tell stories of the past</cite>](https://providenceonline.com/stories/providence-monthly-december-2024,105112 "Go to Providence Monthly in Issuu to read online"), Providence Monthly, December 2024 (page 67)
 + **Author**: [<cite>Historic Districts in Providence: Why There Should be More</cite>](https://pvdeye.org/historic-districts-in-providence-how-they-work-what-they-do-and-why-there-should-be-more/ "Go to the Providence Eye for the full article"), Providence Eye, August 2024

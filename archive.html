@@ -1,8 +1,8 @@
 ---
 layout: default
-permalink: writing/
-html-title: 'Articles, Ideas, Musings, Rants'
-title: 'The Latest Articles, Ideas, Musings, & Rants'
+permalink: writing/archive/
+html-title: 'Archive: Articles, Ideas, Musings, Rants'
+title: 'The previous Articles, Ideas, Musings, & Rants'
 ---
 
 {%- assign posts = site.posts -%}
@@ -16,7 +16,7 @@ title: 'The Latest Articles, Ideas, Musings, & Rants'
 
 <section class="posts" aria-label="Recent Posts">
   <ul role="list" class="posts__list">
-    {% for post in items limit:16 %}
+    {% for post in items offset:16 %}
     {% comment %} If we change this number, be sure to change it in the Archive page as well {% endcomment %}
     <li id="{{ post.title | slugify }}" class="posts__item">
       <article class="posts__item__content">
@@ -35,19 +35,14 @@ title: 'The Latest Articles, Ideas, Musings, & Rants'
           <h2 class="h3 posts__item__title"><a class="posts__link" href="{{ post.url }}">{{ post.title }}</a></h2>
         </header>
         <div class="v-rhythm">
-        {% if post.content.size > 500 %}
-          <p>{{ post.content | strip_html | truncatewords: 80 }}</p>
+          <p>{{ post.content | strip_html | truncatewords: 40 }}</p>
           <p aria-hidden="true"><a class="posts__item__more" href="{{ post.url }}">Read Full Article</a></p>
-        {% else %}
-          {{ post.content }}
-        {% endif %}
         </div>
       </article>
+    {% unless forloop.last %}
       <div class="u__separator"><span aria-hidden="true">&sect;&sect;&sect;</span></div>
+    {% endunless %}
     </li>
     {% endfor %}
   </ul>
-  <footer class="archive">
-    <a href="{% link archive.html %}" class="archive__link btn">Visit the Archives</a>
-  </footer>
 </section>

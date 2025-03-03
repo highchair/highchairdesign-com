@@ -5,7 +5,7 @@ html-title: J. Hogue is Highchair designhaus
 title: Hello World
 ---
 
-## My name is J. Hogue
+## Hello. You can call me J.
 
 I believe in URLs, HTML, and the bits we have created.
 
@@ -30,19 +30,19 @@ and in a very, very limited capacity for former clients of Highchair designhaus.
 
 <details>
   <summary>
-    How long have you been a designer?
+    When did you start being a designer?
   </summary>
-  <p>I consider graduation year the beginning of my career, as I was lucky to have an internship during my senior year. That was 1997, almost 30 years ago. I have been designing for the web since 2005. I am a self-taught coder but a graphic designer by education, just before digital design became _the_ thing that designers do.</p>
+  <p>I consider graduation year the beginning of my career, as I was lucky to have an internship during my senior year. That was 1997, almost 30 years ago. I have been designing for the web since 2005. I am a self-taught coder but a graphic designer by education, just before digital design became <em>the</em> thing that designers do.</p>
 </details>
 <details>
   <summary>
     Do you have any hobbies that are not design-related?
   </summary>
-  <p>Barely. I like to take photos, I like to research local architecture, but that is a design-related website I run called [ArtInRuins.com](https://www.artinruins.com). I read some, I watch some. I have a letterpress I need to use more, but that is also design-related. I like to dad, to BBQ meats, and to skateboard.</p>
+  <p>Barely. I like to take photos, I like to research local architecture, but that is a design-related website I run called <a href="https://www.artinruins.com/">ArtInRuins.com</a>. I read some, I watch some. I have a letterpress I need to use more, but that is also design-related. I like to dad, to BBQ meats, and to skateboard.</p>
 </details>
 <details>
   <summary>
     How long can you hold your breath?
   </summary>
-  <p>Quite a long time, according to me. I have higher than average lung capacity because I played a wind instrument as a kid. How nice of you to ask.</p>
+  <p>Quite a long time, according to me. I think I have a higher than average lung capacity because I played a wind instrument for several years as a teen. How nice of you to ask.</p>
 </details>
