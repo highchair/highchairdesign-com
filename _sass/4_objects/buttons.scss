@@ -7,9 +7,13 @@
   font-weight: var(--fw-medium);
   line-height: var(--lh-tight);
   margin: 0;
-  padding: 0.5em 1.25em;
+  padding: 0.5em 1.25em 0.375em;
   text-decoration: none;
-  text-box: trim-both cap alphabetic;
+
+  @supports (text-box: trim-both cap alphabetic) {
+    padding: .5em 1.25em;
+    text-box: trim-both cap alphabetic;
+  }
 
   &:hover,
   &:focus {

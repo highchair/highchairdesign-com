@@ -37,6 +37,9 @@
   --lh-base: 1.618;
   --lh-tight: 1.25;
 
+  --ls-tight: 0.03125em;
+  --ls-base: 0.0625em; 
+
   --brad-small: 3px;
 
   --transition-default: all 250ms ease;
@@ -90,6 +93,7 @@
   --fc-gradient-noise: linear-gradient(to bottom, hsla(var(--bc-black), 0.1) 5%, hsla(var(--bc-black), 0) 95%);
 
   --fc-accent: hsl(var(--bc-red-w-light));
+  --fc-accent-trans-20: hsla(var(--bc-red-w-light), 0.25);
 
   --fc-link-fg: hsl(var(--bc-red-w-light));
   --fc-link-fg-hover: hsl(var(--bc-black));
@@ -100,6 +104,7 @@
   --color-bars-2: hsl(var(--bc-black));
   --color-bars-3: hsl(var(--bc-red-w-light));
 
+  --fc-code-border: hsla(var(--bc-green-w-dark), 0.75);
   --fc-code-bg: hsla(var(--bc-green-w-dark), 0.5);
 
   // Default button same color as links
@@ -109,33 +114,35 @@
 
 
 @media (prefers-color-scheme: dark) {
-//   :root {
-//     --fw-light: 225;
-//     --fw-normal: 375;
-//     --fw-medium: 600;
-//     --fw-bold: 775;
-//
-//     // - - - Functional Colors - - -
-//     --fc-body-bg: hsl(var(--bc-black));
-//     --fc-body-fg: hsl(var(--bc-light));
-//     --fc-border: hsla(var(--bc-white), 0.2);
-//     --fc-gradient-noise: linear-gradient(to bottom, rgba(0,0,0, 0.80) 5%, var(--fc-body-bg) 95%);
-// 
-//     --fc-accent: hsl(var(--bc-red-w-dark));
-// 
-//     --fc-link-fg: hsl(var(--bc-red-w-dark));
-//     --fc-link-fg-hover: hsl(var(--bc-light));
-// 
-//     --fc-header-accent: hsla(var(--bc-light), 0.625); 
-// 
-//     --color-bars-1: hsla(var(--bc-light), 0.625);
-//     --color-bars-2: hsl(var(--bc-light));
-//     --color-bars-3: hsl(var(--bc-red-w-dark));
-// 
-//     --fc-code-bg: hsla(var(--bc-green-w-dark), 0.15);
-// 
-//     // Default button same color as links
-//     --fc-button-border: hsl(var(--bc-red-w-dark));
-//     --fc-button-fg: hsl(var(--bc-red-w-dark));
-//   }
+  :root {
+    --fw-light: 225;
+    --fw-normal: 375;
+    --fw-medium: 600;
+    --fw-bold: 775;
+
+    // - - - Functional Colors - - -
+    --fc-body-bg: hsl(var(--bc-black));
+    --fc-body-fg: hsl(var(--bc-light));
+    --fc-border: hsla(var(--bc-white), 0.2);
+    --fc-gradient-noise: linear-gradient(to bottom, rgba(0,0,0, 0.80) 5%, var(--fc-body-bg) 95%);
+
+    --fc-accent: hsl(var(--bc-red-w-dark));
+    --fc-accent-trans-20: hsla(var(--bc-red-w-dark), 0.18);
+
+    --fc-link-fg: hsl(var(--bc-red-w-dark));
+    --fc-link-fg-hover: hsl(var(--bc-light));
+
+    --fc-header-accent: hsla(var(--bc-light), 0.625); 
+
+    --color-bars-1: var(--fc-header-accent);
+    --color-bars-2: hsl(var(--bc-light));
+    --color-bars-3: hsl(var(--bc-red-w-dark));
+
+    --fc-code-border: hsla(var(--bc-green-w-dark), 0.5);
+    --fc-code-bg: hsla(var(--bc-green-w-dark), 0.15);
+
+    // Default button same color as links
+    --fc-button-border: hsl(var(--bc-red-w-dark));
+    --fc-button-fg: hsl(var(--bc-red-w-dark));
+  }
 }

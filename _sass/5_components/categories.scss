@@ -1,0 +1,68 @@
+/* aside */
+.categories {
+  padding-block-start: var(--space-m);
+  padding-block-end: var(--space-m-l);
+
+  &__title {
+    padding-block-end: var(--space-xs-s);
+  }
+
+  nav {}
+
+  @include breakpoint-up(x-large) {
+    padding-inline: var(--space-m-l);
+
+    nav {
+      padding-block-start: var(--space-xl);
+    }
+
+    // When in the sidebar, make the headline use the eyebrow style
+    &__title {
+      color: var(--fc-body-fg);
+      font-size: var(--fts-small);
+      font-weight: var(--fw-bold);
+      letter-spacing: var(--ls-base);
+      text-transform: uppercase;
+    }
+  }
+}
+
+.category {
+
+  &__list {}
+
+  &__item {}
+
+  &__link {
+    color: var(--fc-body-fg);
+
+    &:hover,
+    &:focus,
+    &[aria-current] {
+      color: var(--fc-link-fg);
+    }
+
+    &[aria-current],
+    &[aria-current]:hover,
+    &[aria-current]:focus {
+      cursor: default;
+      font-weight: var(--fw-bold);
+      text-decoration: none;
+    }
+  } // end &__link
+
+  @include breakpoint-down(x-large) {
+
+    &__item,
+    &__link {
+      display: inline-block;
+    }
+
+    &__link::after {
+      content: ', ';
+    }
+    &__item:last-child::after {
+      content: '';
+    }
+  }
+}

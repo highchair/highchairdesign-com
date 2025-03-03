@@ -10,11 +10,19 @@
   }
   to {
     background-color: transparent;
+    pointer-events: none;
   }
 }
 
 p:has(sup:target) {
-  animation: target-flash 1s ease 1 forwards 500ms;
+  position: relative;
+
+  &::before {
+    animation: target-flash 1s ease 1 forwards 500ms;
+    content: '';
+    position: absolute;
+    inset: 0;
+  }
 }
 
 .footnotes {

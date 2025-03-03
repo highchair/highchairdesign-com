@@ -16,6 +16,7 @@ h5, .h5,
 h6, .h6 {
   font-family: var(--ff-headings);
   text-wrap: balance;
+  text-wrap: pretty;
 }
 
 h1, .h1 {
@@ -53,23 +54,59 @@ small {
 
 b, strong, th, dt {
   font-weight: var(--fw-bold);
+  letter-spacing: var(--ls-tight);
 }
 
+kbd,
+samp,
+var,
 code {
-  background-color: var(--fc-code-bg);
   border-radius: var(--brad-small);
   display: inline-block;
   font-family: var(--ff-mono);
   font-size: 92.5%;
-  padding: 0.0625em 0.25em;
+  font-weight: var(--fw-light);
+  letter-spacing: var(--ls-tight);
+  margin: 0 0.125em;
+  padding: 0.0625em 0.375em 0.03125em;
+}
+
+code {
+  background-color: var(--fc-code-bg);
+  border: 0.5px solid var(--fc-code-border);
 }
 
 pre {
+  border: 0.5px solid var(--fc-code-border);
   white-space: pre-wrap;
 
   code {
+    border: none;
     display: block;
     padding: calc(var(--lh-base) * 0.5em) var(--space-s);
+  }
+}
+
+abbr,
+.abbr {
+  font-size: 78%;
+  letter-spacing: var(--ls-base);
+  font-weight: 450; // Slightly more than the 375 normal weight
+}
+
+kbd,
+samp,
+var {
+  border: 0.5px solid var(--fc-border);
+
+  kbd,
+  samp, 
+  var {
+    border: none;
+    display: inline;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
   }
 }
 
@@ -82,6 +119,49 @@ blockquote {
   border-block-start: 2px solid var(--fc-border);
   border-block-end: 0.5px solid var(--fc-border);
   padding: var(--space-l) var(--space-m);
+  text-wrap: balance;
+  text-wrap: pretty;
+
+  &.quote p:first-child {
+    position: relative;
+    quotes: '“' '”';
+
+    &::before {
+      content: open-quote;
+      color: var(--fc-accent);
+      font-size: 2.5em;
+      position: absolute;
+      top: -0.25em;
+      left: -0.375em;
+    }
+  }
+
+  &.quote {
+    border-block-end: none;
+    padding-block-end: 0;
+
+    p:has(a)::before {
+      color: var(--fc-header-accent);
+    }
+    
+    figure:has(&) {
+      border-block-end: 0.5px solid var(--fc-border);
+      padding-block-end: var(--space-l);
+    }
+  }
+
+  figure & {
+    margin-block-end: calc(var(--lh-base) * 1em);
+  }
+
+  figure:has(&) {
+    p + p {
+      margin-block-start: calc(var(--lh-base) * 0.5em);
+    }
+    figcaption {
+      padding-inline-start: var(--space-m);
+    }
+  }
 }
 
 .v-rhythm {

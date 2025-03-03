@@ -1,9 +1,10 @@
 .posts {
   // Section
 
-  &__header {
-    padding: var(--space-m) 0;
-  }
+  &__header {}
+
+  // H1 inside the header above
+  &__title {}
 
   // UL
   &__list {}
@@ -35,7 +36,14 @@
     &__content {
       padding: var(--space-m) 0;
     }
-  }
+
+    // For Category pages, hide the last sep because we move the All Cats list to the right sidebar
+    @include breakpoint-up(x-large) {
+      .t__category &:last-child .u__separator {
+        display: none;
+      }
+    }
+  } // end &__item
 
   &__link {
     display: inline;

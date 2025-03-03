@@ -1,7 +1,7 @@
 .p {
 
   &__header {
-    padding-block-start: var(--space-m);
+    padding-block: var(--space-m);
     position: relative;
 
     svg.color-bars {
@@ -22,6 +22,11 @@
       1px -1px 0 var(--fc-body-fg), 
       -1px 1px 0 var(--fc-body-fg), 
       -1px -1px 0 var(--fc-body-fg);
+  }
+
+  // When in the eyebrow style, move the SVG down further
+  &__title.u__eyebrow + svg.color-bars {
+    top: 6.75em;
   }
 }
 

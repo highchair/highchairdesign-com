@@ -11,7 +11,7 @@
 
     svg {
       transform: rotate(-5deg) scale(1.25);
-      transform-origin: bottom right;
+      transform-origin: center right;
     }
 
     &__wrap {
@@ -32,25 +32,22 @@
 
     @include breakpoint-up(large) {
       display: grid;
-      grid-template-columns: var(--space-s-xl) minmax(auto, 20em) minmax(auto, 20em)  var(--space-s-xl) minmax(0, auto);
+      grid-template-columns: var(--space-s-xl) minmax(auto, 10em) minmax(auto, 30em)  var(--space-s-xl) minmax(0, auto);
       grid-template-areas: ". logo title . btn";
-      align-items: initial;
+      align-items: end;
       justify-content: initial;
       padding: 0;
 
       svg {
         grid-area: logo;
       }
-
       &__wrap {
-        grid-column-start: title;
-        grid-column-end: btn;
+        display: contents;
       }
-
       &__title {
         grid-area: title;
+        text-align: end;
       }
-
       &__btn {
         grid-area: btn;
       }
@@ -69,6 +66,8 @@
     justify-content: space-between;
     gap: var(--space-s-xl);
     padding: var(--space-l-xl) var(--space-s-xl) var(--space-xl-2xl);
+
+    &__logo {}
 
     nav {
       display: flex;
@@ -118,7 +117,38 @@
         }
       }
     }
-  }
+
+    @include breakpoint-up(large) {
+      display: grid;
+      grid-template-columns: var(--space-s-xl) minmax(auto, 10em) minmax(auto, 30em)  var(--space-s-xl) minmax(0, auto);
+      grid-template-areas:
+        ". logo      nav       . btn"
+        ". copyright copyright . .  ";
+      align-items: start;
+      justify-content: initial;
+      gap: 0;
+      padding-inline: 0;
+
+      &__logo {
+        grid-area: logo;
+      }
+      nav {
+        display: contents;
+
+        ul {
+          justify-content: flex-end;
+          grid-area: nav;
+        }
+      }
+      &__btn {
+        grid-area: btn;
+      }
+      .copyright {
+        grid-area: copyright;
+        padding-block-start: var(--space-l-xl);
+      }
+    }
+  } // end &__footer
 }
 
 // Shared declarations
@@ -152,7 +182,7 @@
     height: 30vw;
   }
   @include breakpoint-up(x-large) {
-    height: 15em;
+    height: 20em;
   }
 }
 

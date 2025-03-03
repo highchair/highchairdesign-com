@@ -1,0 +1,14 @@
+.archive {
+  // This is a footer element at the bottom of the Writing page
+
+  // This is the anchor to the archive, with a .btn class added
+  &__link {}
+
+  // An occasional <aside> element that explains this is an old post
+  &__statement {
+    border-radius: var(--brad-small);
+    background-color: var(--fc-accent-trans-20);
+    margin-block: 0;
+    padding: var(--space-s) var(--space-s);
+  }
+}
