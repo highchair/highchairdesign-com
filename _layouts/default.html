@@ -4,28 +4,56 @@
 {% include head.html %}
   </head>
   <body class="t__{{ page.layout }}{% if page.bodyclass %} {{ page.bodyclass }}{% endif %}">
-    <header class="l__header container">
+    <header class="l__header">
       <svg class="t__logo t__logo--top" width="84" height="84"><title>JCH monogram</title><use xlink:href="#monogram"></use></svg>
       <div class="l__header__wrap">
       {% if page.permalink == '/' %}
-        <h1 class="t__title h6">{{ site.title }}</h1>
+        <h1 class="l__header__title t__title h6">{{ site.title }}</h1>
       {% else %}
-        <p class="t__title h6">{{ site.title }}</p>
+        <p class="l__header__title t__title h6">{{ site.title }}</p>
       {% endif %}
-        <p><a href="#nav" id="top" class="btn btn--primary">Skip to Menu</a></p>
+        <p class=l__header__btn><a href="#nav" id="top" class="btn btn--primary">Skip to Menu</a></p>
       </div>
     </header>
     <div class="g">
       <span class="g__tl"><svg width="24" height="24"><use xlink:href="#crop-mark"></use></svg></span>
       <span class="g__tc"><svg width="32" height="24"><use xlink:href="#center-mark"></use></svg></span>
       <span class="g__tr"><svg width="24" height="24"><use xlink:href="#crop-mark"></use></svg></span>
-      <main class="l__main g__c container">
-        <article class="l__article container--text v-rhythm">
+      <main class="l__main g__c">
+        <article class="l__article v-rhythm">
+{%- comment -%}
 
+  Nested templates need to include the page’s Header
+
+{%- endcomment -%}
         {{ content }}
 
         </article>
       </main>
+      {% if page.layout == 'category' %}
+      <aside class="g__aside categories">
+        <h2 id="cat-title" class="h3 categories__title">All Categories</h2>
+        <nav aria-labelledby="cat-title">
+          <ul role="list" class="category__list">
+          {%- assign categories_list = site.categories | sort: category -%}
+            {% if categories_list.first[0] == null %}
+              {% for category in categories_list %}
+              <li class="category__item">
+                <a href="/category/{{ category | downcase | replace: ' ', '-' }}" class="category__link"{% if page.category == category %} aria-current="true"{% endif %}>{{ category | camelcase }}</a>
+              </li>
+              {% endfor %}
+            {% else %}
+              {% for category in categories_list %}
+                <li class="category__item">
+                  <a href="/category/{{ category[0] | downcase | replace: ' ', '-' }}" class="category__link"{% if page.category == category[0] %} aria-current="true"{% endif %}>{{ category[0] | camelcase }}</a>
+                </li>
+              {% endfor %}
+            {% endif %}
+          {%- assign categories_list = nil -%}
+          </ul>
+        </nav>
+      </aside>
+      {% endif %}
       <span class="g__lc"><svg width="32" height="24"><use xlink:href="#center-mark"></use></svg></span>
       <span class="g__rc">
         <svg width="32" height="24"><use xlink:href="#center-mark"></use></svg>
@@ -34,8 +62,8 @@
       <span class="g__bc"><svg width="32" height="24"><use xlink:href="#center-mark"></use></svg></span>
       <span class="g__br"><svg width="24" height="24"><use xlink:href="#crop-mark"></use></svg></span>
     </div>
-    <footer id="nav" class="l__footer container" tabindex="-1">
-      <a href="{% link index.md %}"{% if page.permalink == '/' %} aria-current="true"{% endif %}>
+    <footer id="nav" class="l__footer" tabindex="-1">
+      <a class="l__footer__logo" href="{% link index.md %}"{% if page.permalink == '/' %} aria-current="true"{% endif %}>
         <svg class="t__logo t__logo--top" width="84" height="84">
           <title>{{ site.company }}</title>
           <use xlink:href="#monogram"></use>
@@ -44,6 +72,9 @@
       <nav class="container--text" aria-label="Main">
 {% include main-nav.html %}
       </nav>
+      <div class="copyright">
+        <p><small>&copy; 2001–{{ 'now' | date: '%Y' }} J. Hogue & Highchair designhaus. All content written by a human and minimally augmented by A.I. as declared — If A.I. is not disclosed, than A.I. was not involved.</small></p>
+      </div>
     </footer>
     <div hidden>
       <svg role="img" xmlns="http://www.w3.org/2000/svg">

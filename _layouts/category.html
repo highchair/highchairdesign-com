@@ -1,24 +1,44 @@
 ---
 layout: default
 permalink: category/
-html-title: Blog Categories
+html-title: Article Categories
 title: Categories
 ---
 
-      
-      <article class="layout__article post__article container--text typography">
-        <h1 class="post__title">Category: {{ page.title }}</h1>
-        {% if content.length > 0 %}
-        <div class="archive__description">
-          {{ content }}
+{%- assign posts = site.posts |  where: 'categories', page.category -%}
+{%- assign notes = site.notes |  where: 'categories', page.category -%}
+{%- assign items = posts | concat: notes | sort: 'date' | reverse -%}
+
+<header class="p__header posts__header">
+  <h1 class="p__title u__eyebrow posts__title">{{ page.title }}</h1>
+  <svg class="color-bars" width="12" height="72"><use xlink:href="#color-bars"></use></svg>
+</header>
+<section class="posts" aria-label="Recent Posts">
+  <ul role="list" class="posts__list">
+    {% for post in items %}
+    <li id="{{ post.title | slugify }}" class="posts__item">
+      <article class="posts__item__content">
+        <header class="posts__item__header">
+          <p class="posts__item__meta">
+            {%- if post.layout == 'note' -%}
+              {% assign itemclass = 'icon__glasses' %}
+              {% assign itemstring = 'Read & Reviewed' %}
+            {%- elsif post.layout == 'post' -%}
+              {% assign itemclass = 'icon__document' %}
+              {% assign itemstring = 'Written' %}
+            {%- endif -%}
+            <span class="posts__type"><span class="icon {{ itemclass }}"></span>{{ itemstring }}</span> | 
+            <time datetime="{{ post.date }}">{{ post.date | date: "%d %B, %Y"}}</time>
+          </p>
+          <h2 class="h3 posts__item__title"><a class="posts__link" href="{{ post.url }}">{{ post.title }}</a></h2>
+        </header>
+        <div class="v-rhythm">
+          <p>{{ post.content | strip_html | truncatewords: 40 }}</p>
+          <p aria-hidden="true"><a class="posts__item__more" href="{{ post.url }}">Read Full Article</a></p>
         </div>
-        {% endif %}
-        <ul class="archive__list">
-          {% for post in site.categories[page.category] %}
-          <li>
-            <h4 class="archive__title"><a class="archive__link" href="{{ post.url }}">{{ post.title }}</a> <small class="archive__date"><time datetime="{{ post.date }}">{{ post.date | date: "%d %B, %Y"}}</time></small></h4>
-          </li>
-          {% endfor %}
-        </ul>
-        <p><a href="{{ site.baseurl }}categories">All Categories</a></p>
       </article>
+      <div class="u__separator"><span aria-hidden="true">&sect;&sect;&sect;</span></div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

@@ -1,9 +1,15 @@
 ---
 layout: default
 ---
+{%- comment -%}
 
+  If the nested template already has a Header, don’t use this Layout
+
+{%- endcomment -%}
 <header class="p__header">
   <h1 class="p__title">{{ page.title }}</h1>
   <svg class="color-bars" width="12" height="72"><use xlink:href="#color-bars"></use></svg>
 </header>
+
 {{ content }}
+
