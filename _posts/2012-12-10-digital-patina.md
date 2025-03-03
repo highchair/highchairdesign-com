@@ -2,12 +2,10 @@
 layout: post
 title: "The Challenge of Digital Patina"
 date: 2012-12-10 02:15:00 -0500
-categories: [ Design, Wok Hey ]
+categories: [ Design, Wok Hey, Quotes ]
 ---
 
-I challenge designers and developers to start to integrate “digital patina” into 
-their application design and UIs. What is digital patina? Let me give you a few 
-examples: 
+I challenge designers and developers to start to integrate “digital patina” into their application design and UIs. What is digital patina? Let me give you a few examples: 
 
 + Your smartphone’s homescreen may display “trails” from where your finger has touched most often, like a desk that wears over time under your arms 
 + The most used icons show a wear-and-tear around the edges over time. Maybe the color rubs off like the keys on an old keyboard, maybe there is a slight stain or darkening around the edges from the oils on your finger. When the icon changes or is moved, the stain remains as a sort of ghost 
@@ -18,13 +16,7 @@ examples:
 I did not coin the phrase. In fact, [Mark Boulton](https://twitter.com/markboultondsg title="Visit Mark Boulton on Twitter") first blogged about this idea in May 2012, in his article titled, simply, “[Digital Patina](https://www.markboulton.co.uk/journal/digital-patina)”. In it, he outlines the basic idea, the need for digital things to impart their own “flavor” on the world. His open-ended article started me down the path of thinking about what digital patina could really be. 
 
 > We talk about Patina as sheen – a thing that changes appearance over time. That change can be damaging, or it can give an object more value. It does this by demonstrating what it’s been through. In the case of a pair of jeans, it’s the little rip, the pen mark, the small hole that’s been repaired in the pocket. In chinese cooking, a wok is seasoned to make it non-stick. A well seasoned pan will go beyond simply making the pan non-stick. It will impart flavour to the food in what the Chinese call ‘wok hey’, or ‘breath of wok’. You see, to me, Patina is more than surface level sheen, or the aging of something. It’s the flavour. It’s an individual ‘taste’ that can only come from that thing. 
-
-{::comment}
-<figure class="align-right">
-<img src="/uploads/attachments/patina-example.png" alt="An example of digital patina">
-<figcaption>An example of digital patina (before on the left, after on the right). Subtle for sure, but that's how we imagine it to be.</figcaption>
-</figure>
-{:/comment}
+{:.quote}
 
 Now, the idea of “wok-hey” might be a bit too much to think about right now. Where do we take that idea when we talk about applications? Should our Yahoo account started in 1999 have a different flavor in its messages than someone else’s shiny new Gmail account? Are texts sent from your year-old smartphone imparted with a scratchy old-film quality? That might be taking things too far. What I like is the idea that our actions and the way in which we use an application can leave a mark, a signature, of our use over time. 
 
@@ -42,25 +34,26 @@ The age of digital objects moves rapidly, I know. Most people hang on to a smart
 
 I for one, would prefer that we design a digital world that replicates the positive things about the real world and translates them in a new way. Leaving your mark, having objects that tell a story and have a history with you, that’s a positive thing. 
 
-*Originally published on ProjectEvolution.com*
+— _Originally published on ProjectEvolution.com, now defunct_
 
-* * *
+***
 
 ## Follow up
 
-*September 3rd, 2013:*
+_September 3rd, 2013:_
 
 ### More thinking
+
 [A great piece about the emerging “slow web”](https://www.fastcodesign.com/1673336/4-ways-slow-design-will-make-the-super-fast-world-we-live-in-better) and how new Apps can take advantage of people’s appreciation for the authentic. Some implications for Digital Patina implied.
 
 ### Earlier Incarnations of the Idea
 
-A comment on the previous live blog post tipped me off to the fact that a book “Designing Interactions” mentioned the concept back in 2007. Steve Rogers, the author, briefly mentioned the idea even further back during a BBC redesign in 2002. They likened it to the way a pair of Dr Marten's mold themselves to your foot.
+A comment on the previous live blog post tipped me off to the fact that a book “Designing Interactions” mentioned the concept back in 2007. Steve Rogers, the author, briefly mentioned the idea even further back during a BBC redesign in 2002. They likened it to the way a pair of Dr Marten’s mould themselves to your foot.
 
-Since then, the site has been redesigned a few times and the latest has abandoned the touchy-feely nature of the original patina idea. I wonder if there is still an idea there that might be even more subtly at work in the background of the site. A little more Googling yielded Power Points, PDFs and blog posts referencing Steve Rogers and "Digital Patina" as late as 2012.
+Since then, the site has been redesigned a few times and the latest has abandoned the touchy-feely nature of the original patina idea. I wonder if there is still an idea there that might be even more subtly at work in the background of the site. A little more Googling yielded Power Points, PDFs, and blog posts referencing Steve Rogers and "Digital Patina" as late as 2012.
 
 ### Progressive Reduction
 
-In a similar way, an idea called [Progressive Reduction](https://www.uxbooth.com/articles/progressive-content/) aims to simplify a user experience visually depending on how much an app or tool is used. It is an interesting idea that relates to patina in that it is influenced by a user's experience but to me it is a more utilitarian idea that works alongside familiarity with a set of tasks.
+In a similar way, an idea called [Progressive Reduction](https://www.uxbooth.com/articles/progressive-content/) aims to simplify a user experience visually depending on how much an app or tool is used. It is an interesting idea that relates to patina in that it is influenced by a user’s experience but to me it is a more utilitarian idea that works alongside familiarity with a set of tasks.
 
 Similarity, the latest Android system update tracks how many times you dismiss a notification and asks if you would like to cancel future notifications. This is a very useful application of progressive reduction, but still, it is not Patina.

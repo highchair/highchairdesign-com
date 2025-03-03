@@ -2,7 +2,7 @@
 layout: post
 title: "CSS Variables are Awesome"
 date: 2019-03-18 16:00:00 -0500
-categories: [ "Web Development", CSS ]
+categories: [ "Web Development" ]
 ---
 
 ## What SASS Variables can do vs. What CSS native Variables can do

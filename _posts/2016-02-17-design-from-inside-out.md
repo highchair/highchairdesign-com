@@ -12,13 +12,13 @@ The digital design process needs constant refinement. One of the most impactful 
 
 Social media sharing and search engine traffic often drive users directly to content within a site. The user completely skipped what we used to think was the most important page! They get right into the content they are interested in first, then, if you are lucky, they back up and turn to the homepage for more context — _what is this site, who are these people?_
 
-A recent client with a content-heavy site was the first to admit that the vast majority of their users bypassed the homepage and came straight into articles from social media. Their data showed that the homepage received less than 2% of the total traffic over a six month period. While there is high emotional value attached to a brand’s homepage, the numbers show that content pages — in this case article and taxonomy templates — are much more important to get right. [Big media outlets have known this for a long time](//www.niemanlab.org/2013/05/every-page-is-your-homepage-reuters-untied-to-print-metaphor-builds-a-modern-river-of-news/), and traffic from search and social just keep rising.
+A recent client with a content-heavy site was the first to admit that the vast majority of their users bypassed the homepage and came straight into articles from social media. Their data showed that the homepage received less than 2% of the total traffic over a six month period. While there is high emotional value attached to a brand’s homepage, the numbers show that content pages — in this case article and taxonomy templates — are much more important to get right. [Big media outlets have known this for a long time](https://www.niemanlab.org/2013/05/every-page-is-your-homepage-reuters-untied-to-print-metaphor-builds-a-modern-river-of-news/), and traffic from search and social just keep rising.
 
-## Mobile First &amp; Homepage Last
+## Mobile First & Homepage Last
 
 It turns out that the **Homepage Last** philosophy fits very well with a Mobile First process.
 
-Way back in the dawn of responsive design (all of about six years ago), [Luke Wroblewski advocated that web apps be designed with the mobile user in mind first](//www.lukew.com/ff/entry.asp?933). That philosophy is standard practice now. The idea was pretty simple — the mobile experience has limited screen space, and that limitation forces designers to simplify and concentrate on hierarchy, actions, and user feedback. If your content was bloated, poorly written, or lacked calls to action, it would be evident very quickly.
+Way back in the dawn of responsive design (all of about six years ago), [Luke Wroblewski advocated that web apps be designed with the mobile user in mind first](https://www.lukew.com/ff/entry.asp?933). That philosophy is standard practice now. The idea was pretty simple — the mobile experience has limited screen space, and that limitation forces designers to simplify and concentrate on hierarchy, actions, and user feedback. If your content was bloated, poorly written, or lacked calls to action, it would be evident very quickly.
 
 The mobile-first movement was not only about mobile, it was about content. At its core, it was a content-first philosophy, sold within the trendy (at the time) mobile use case. One way to design content-first, then, means to centralize design around the core assets of a brand or business — their content. The types of content will vary from business to business, but we typically see a focus on articles, products, and services. These should be the first templates to tackle in a design project.
 
@@ -34,8 +34,8 @@ With a content-first approach, you will find that once the content design is sol
 
 Let’s think about this conversely for a second. When we designed projects homepage first, we’d often start with a list of components that it needed to include. These components were frequently out of context, pulled out onto the homepage because of some business goal. The design would go well until we applied these modules to the inner pages. Invariably, design decisions made for the homepage wouldn’t work well in a content context, leading to increased design time and in many cases and increase in development time as well. We now have two versions of the same module because we started from the wrong place.
 
-{:.pullquote}
 **The homepage should be the exception, not the rule.**
+{:.pullquote}
 
 ## Homepage Last keeps Engagement High
 
@@ -47,6 +47,6 @@ Since so many design decisions have already been made, when we do finally get to
 
 We have noticed that wireframing, designing and developing the homepage last is quicker, more efficient, and contributes to higher client engagement all the way through the design process. It frames the site design in a series of modules, which guides design decisions organically and often speeds up development. Features can be developed as object-oriented modules to provide a consistent user experience, whether they reside on an internal page or the homepage. **Homepage Last** helps us deliver reusable design and code, which means a more consistent UI for the end user throughout a site. If you haven’t started framing your process this way, we encourage you to try it on your next project.
 
-* * *
+***
 
-*Originally published at [Oomph, Inc.](//www.oomphinc.com/notes/2016/02/content-first-homepage-last/)*
+*Originally published at [Oomph, Inc.](https://www.oomphinc.com/notes/2016/02/content-first-homepage-last/)*

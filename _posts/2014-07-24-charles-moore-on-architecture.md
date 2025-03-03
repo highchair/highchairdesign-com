@@ -18,6 +18,6 @@ I like to compare web design to architecture. I think it is an apt metaphor and 
 
 — <cite> Mark Simon, Centerbrook Architects and Planners. Quoted from [Metropolis magazine, May 2014](https://www.metropolismag.com)</cite>
 
-* * *
+***
 
 *Originally published on ProjectEvolution.com*

@@ -2,7 +2,7 @@
 layout: post
 title: "The Internet is experiencing its awkward teen years"
 date: 2018-10-09 09:45:00 -0500
-categories: [ "Web Development", "User Preference" ]
+categories: [ "Web Development", "User Preference", AI ]
 ---
 
 If the development of the internet was akin to the personal development of a child, 
@@ -24,6 +24,6 @@ we have started to feel already.
 
 I have more ideas about this and plan to expand this blog post further. For now, 
 though, this [well thought out primer on some of the ideas I'd like to explore 
-is a good piece of reading](//uxdesign.cc/a-peoples-bill-of-rights-for-personalization-9148dc7d8291).
+is a good piece of reading](https://uxdesign.cc/a-peoples-bill-of-rights-for-personalization-9148dc7d8291).
 
 [AI]: Artificial Intelligence

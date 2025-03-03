@@ -2,7 +2,7 @@
 layout: post
 title: "How do you solve a problem like Blockquote?"
 date: 2013-04-03 03:30:00 -0500
-categories: [ "Web Development", Semantics ]
+categories: [ "How To", "Web Development" ]
 ---
 
 I am obsessed with semantic markup and object-oriented CSS. We don’t always follow those guidelines to a <q>T</q>, but our team always tries to get close. The perfect set of markup and CSS — and therefore the perfect project — doesn’t exist, but we try to get as close to perfect as possible.
@@ -61,8 +61,8 @@ Conversations about <q>the best way</q> abound on the inter webs, and always kee
 + [Official W3 spec](https://www.w3.org/TR/html5/grouping-content.html#the-blockquote-element)
 + [A Blog Not Limited: The Beauty of Semantic Markup](https://ablognotlimited.com/index.php/articles/the-beauty-of-semantic-markup-part-1-quotes-citations/)
 
-*Originally published on ProjectEvolution.com*
+_Originally published on ProjectEvolution.com, now defunct_
 
 <aside class="archive__statement">
-There was a year’s worth of discussion going on at the W3 about adding a `<credit>` element to HTML 5.1 in order to make it easier to deal with credits in `<figure>`s and `<blockquote>`s. It ended up instead that the `<footer>` element will be allowed inside of a blockquote, but no other hard rule was suggested and the `<credit>` element was decided to not solve the problem at hand: [www.w3.org/Bugs/Public/show_bug.cgi?id=22996](https://www.w3.org/Bugs/Public/show_bug.cgi?id=22996)
+  There was a year’s worth of discussion going on at the W3 about adding a <code>credit</code> element to <span class="abbr">HTML</span> 5.1 in order to make it easier to deal with credits in <code>figure</code>s and <code>blockquote</code>`s. It ended up instead that the <code>footer</code> element will be allowed inside of a <code>blockquote</code>, but no other hard rule was suggested and the <code>credit</code> element was decided to not solve the problem at hand: <a href="https://www.w3.org/Bugs/Public/show_bug.cgi?id=22996">www.w3.org/Bugs/Public/show_bug.cgi?id=22996</a>
 </aside>

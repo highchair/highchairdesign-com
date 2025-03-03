@@ -11,4 +11,4 @@ Not convinced? The great Thomas Baekdal breaks down “The Mobile Shift” in [P
 
 > Mobile is not a thing, and it's not a device. It's you and me. We, as people, have become mobile, meaning that we no longer put ourself into a consumption mode. Just as we are now global by default (not restricted to a single country), we are now mobile by default as well. We are no longer just using one device; we use whatever device that happens to be near us at that moment.
 
-*Originally published on ProjectEvolution.com*
+— _Originally published on ProjectEvolution.com, now defunct_

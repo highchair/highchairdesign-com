@@ -54,32 +54,30 @@ If a chef laments that their customers never order anything exciting, but all th
 
 ## But too, there is UX
 
-On the other hand, we have UX. I agree with the assertion that for a positive UX experience, components of a web page need to work the same everywhere. Form fields are form fields, and they shouldn’t require a user to relearn them — not should a designer or developer recreate them every time a project calls for their use. Nothing annoys me more than a form field that doesn’t act like any other one — _why can’t I paste my generated password into your App’s form field!?_
+On the other hand, we have <abbr title="User Experience">UX</span>. I agree with the assertion that for a positive <span class="abbr">UX</span> experience, components of a web page need to work the same everywhere. Form fields are form fields, and they shouldn’t require a user to relearn them — not should a designer or developer recreate them every time a project calls for their use. Nothing annoys me more than a form field that doesn’t act like any other one — _why can’t I paste my generated password into your App’s form field!?_
 
-There is also accessibility to consider. A lot of care and work went into creating HTML components that are inclusive in the way that delivers content and utility. Not just form fields, either — buttons, links, navigation, heading structure… all of these done well make the web more inclusive.
+There is also accessibility to consider. A lot of care and work went into creating <span class="abbr">HTML</span> components that are inclusive in the way that delivers content and utility. Not just form fields, either — buttons, links, navigation, heading structure… all of these done well make the web more inclusive.
 
 But form fields are one animal (or zoo, to torture the analogy). They are not an entire website. Should a hamburger menu always work the same — exactly the same? The icon itself is recognized as “a thing” and people press it. Whether it opens a screen takeover or slides in a menu from the right or left makes little difference. In fact, if a small thing like the way it animates on and off the screen adds user delight, so much the better.
 
 Accessibility is as much about the way something is coded as the way it is designed. It can designed to delight and surprise a visual user and still be accessible to someone using an assistive device. The font size can still scale according to the needs of the user and not completely break the layout. It might be harder to accomplish, sure, but its not impossible. Too often, what is a little harder is just simply not done.
 
-Yes, [Good UX might be Boring UX](https://uxengineer.com/good-ux-boring-ui/), but there is probably more room for creativity than we realize.
+Yes, [Good <span class="abbr">UX</span> might be Boring <span class="abbr">UX</span>](https://uxengineer.com/good-ux-boring-ui/), but there is probably more room for creativity than we realize.
 
 
 ## Maybe we Need more than one Mode for the Web
 
-Jeffrey Zeldman recently pushed [the idea that there is a slower, more intentional web and there is a faster, transactional one](http://www.zeldman.com/2018/02/24/need-design-faster-design-slower/). I think this might be the right frame for a discussion about “Good” UX vs. Creativity. Is David Carson's style the right one for a transactional website? Probably not…
+Jeffrey Zeldman recently pushed [the idea that there is a slower, more intentional web and there is a faster, transactional one](https://www.zeldman.com/2018/02/24/need-design-faster-design-slower/). I think this might be the right frame for a discussion about “Good” <span class="abbr">UX</span> vs. Creativity. Is David Carson's style the right one for a transactional website? Probably not.
 
-Can you imagine his treatment for the homepage of a online banking platform, where people need to log in, check their balances, and pay some bills? That's probably a terrible idea. The emotions communicated here would be frustration, anger, and resentment.
+Can you imagine his treatment for the homepage of a online banking platform, where people need to log in, check their balances, and pay some bills? That’s probably a terrible idea. The emotions communicated here would be frustration, anger, and resentment.
 
-But editorial, that's a whole other matter. There is little reason why in this age of the [New York Time’s Snowfall](http://www.nytimes.com/projects/2012/snow-fall/index.html), [ESPN’s long form stories](http://www.espn.com/espn/feature/story/_/id/15051372/the-story-greatest-synchronized-swimmer-ever-quest-olympic-gold) and countless others that we don't already have something like _Ray Gun_ on the web. Something edgier, more experimental, and not so heavily reliant on grids. Maybe we do and I just haven't found it.
+But editorial, that’s a whole other matter. There is little reason why in this age of the [New York Time’s Snowfall](https://www.nytimes.com/projects/2012/snow-fall/index.html), [ESPN’s long form stories](https://www.espn.com/espn/feature/story/_/id/15051372/the-story-greatest-synchronized-swimmer-ever-quest-olympic-gold) and countless others that we don’t already have something like _Ray Gun_ on the web. Something edgier, more experimental, and not so heavily reliant on grids. Maybe we do and I just haven't found it.
 
 Big editorial machines like the New York Times have gotten closer. Not in style, but in interactivity and animation. They have made rich stories richer with photography, video, animation, and data visualizations. There have been [long long long form stories, too, that take readers on a journey](https://highline.huffingtonpost.com/articles/en/poor-millennials/). These are getting us closer to the goal of rich editorial experience where emotions can be conveyed and expressed as easily as splattered a piece of paper with typography and color.
 
 Boris Müller penned a post ”Why do all websites look the same” on Medium that got a bit of attention, and [he followed it up as well](https://medium.com/@borism/balancing-creativity-and-usability-9bb2cd0fe929). In it he says that he thinks the web is in its “paperback stage” to mean that we are publishing large amounts of content very cheaply and efficiently in a well-worn format (black text on a white page). He goes on to say:
 
 > There is nothing wrong with paperbacks. In many contexts they make sense and there are even a number of really well-designed paperbacks out there. But the claim that there should only be paperbacks is downright silly. There is a space, a market and a need for hardcover novels, photographic travel journals, extravagant exhibition catalogues, lavish cookery books and so on.
-> _[Boris Müller, Balancing Creativy & Usability](https://medium.com/@borism/balancing-creativity-and-usability-9bb2cd0fe929)_
+> — _[Boris Müller, Balancing Creativity & Usability](https://medium.com/@borism/balancing-creativity-and-usability-9bb2cd0fe929)_
 
 We have not yet gotten to the latter types of lavish hardcover books yet. We are getting closer, though, and I have hope that we may be able to stop lamenting that the entire web looks the same.
-
-[UX]: User Experience
