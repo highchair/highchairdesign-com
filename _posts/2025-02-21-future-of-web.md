@@ -57,6 +57,8 @@ Some of these might go back to occurring in real-time, human, face-to-face conne
 
 None of these are answers. The answers are not going to come, because this is the future we are talking about. But I am very interested in all this and plan to dive deeper with additional reading.
 
+Additional thoughts in a [recent note about an article thinking similar things]({% link _notes/2025-01-24-who-is-the-internet-for.md %}).
+
 ***
 
 ## A.I. Assistance for these lines of thought
