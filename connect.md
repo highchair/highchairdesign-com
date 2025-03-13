@@ -25,4 +25,10 @@ Not on Twitter.
 + [Connect on LinkedIn](https://linkedin.com/in/jhogue/)
 + [Follow on Github](https://github.com/jhogue/)
 + [Drupal dot Org profile](https://drupal.org/u/artinruins)
-+ Also on [CodePen](https://codepen.io/jhogue/) and [StackOverflow](https://stackoverflow.com/users/479663/j-hogue)
+
+### As a person in the world
+
++ [CodePen](https://codepen.io/jhogue/)
++ [StackOverflow](https://stackoverflow.com/users/479663/j-hogue)
++ [Spotify](https://open.spotify.com/user/1223758428?si=33fa1c8582224968)
++ [Letterboxd](https://letterboxd.com/artinruins/)

@@ -52,6 +52,8 @@ executive management, and demanding clients), we had a great run and I regret no
 
 Over the course of my career I have transitioned from visual thinking and visual <span class="abbr">UI</span> to systems thinking and <span class="abbr">UX</span>. Now, “Name-your-mode Experience” design is a thing — Service Experience, Customer Experience, Video Experience... I have become more and more interested in data, personas, and psychology. My role has become more about conversations, questions, and proving hypothesis and assumptions. Finding the story and figuring out how best to tell it. 
 
+Now I blog to think when I think to blog. Writing helps me process ideas and refine my communication. I also “[write back](https://benjamincongdon.me/blog/2025/01/25/AI-Slop-Suspicion-and-Writing-Back/)” to combat A.I. Slop and put something good into the world, even if it might be half-baked.
+
 
 ## Colophon
 
