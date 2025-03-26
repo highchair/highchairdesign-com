@@ -29,6 +29,8 @@ body {
   line-height: var(--lh-base);
   min-height: 100vh;
   text-rendering: optimizeSpeed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
   // Need this for our positioned ::after element on header and footer
   position: relative;

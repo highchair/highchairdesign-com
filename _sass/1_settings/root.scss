@@ -7,7 +7,9 @@
   --bc-light: 0, 0%, 94.1%;
   --bc-black: 0, 0%, 12.2%;
   --bc-red-w-dark: 337, 100%, 50%; // #ff0061
+  --bc-red-w-dark-ok: oklch(65.88% 0.296 12);
   --bc-red-w-light: 334, 100%, 45.1%; //#e60063
+  --bc-red-w-light-ok: oklch(59.41% 0.2664 7.8908);
   --bc-green-w-dark: 67, 100%, 50%; // #E1FF00 yellow green
   //--bc-green-w-dark: 157, 100%, 50%; // #00FF9E
   // #1E00FF blue
@@ -93,33 +95,33 @@
   --fc-border: hsla(var(--bc-black), 0.2);
   --fc-gradient-noise: linear-gradient(to bottom, hsla(var(--bc-black), 0.1) 5%, hsla(var(--bc-black), 0) 95%);
 
-  --fc-accent: hsl(var(--bc-red-w-light));
-  --fc-accent-trans-20: hsla(var(--bc-red-w-light), 0.25);
+  --fc-accent: var(--bc-red-w-light-ok);
+  --fc-accent-trans-20: hsla(var(--bc-red-w-light-ok), 0.25);
 
-  --fc-link-fg: hsl(var(--bc-red-w-light));
+  --fc-link-fg: var(--bc-red-w-light-ok);
   --fc-link-fg-hover: hsl(var(--bc-black));
 
   --fc-header-accent: hsla(var(--bc-black), 0.5); 
 
   --color-bars-1: hsla(var(--bc-black), 0.125);
   --color-bars-2: hsl(var(--bc-black));
-  --color-bars-3: hsl(var(--bc-red-w-light));
+  --color-bars-3: var(--bc-red-w-light-ok);
 
   --fc-code-border: hsla(var(--bc-green-w-dark), 0.75);
   --fc-code-bg: hsla(var(--bc-green-w-dark), 0.5);
 
   // Default button same color as links
-  --fc-button-border: hsl(var(--bc-red-w-light));
-  --fc-button-fg: hsl(var(--bc-red-w-light));
+  --fc-button-border: var(--bc-red-w-light-ok);
+  --fc-button-fg: var(--bc-red-w-light-ok);
 }
 
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --fw-light: 225;
-    --fw-normal: 375;
-    --fw-medium: 600;
-    --fw-bold: 775;
+    --fw-light: 175;
+    --fw-normal: 325;
+    --fw-medium: 575;
+    --fw-bold: 750;
 
     // - - - Functional Colors - - -
     --fc-body-bg: hsl(var(--bc-black));
@@ -127,10 +129,10 @@
     --fc-border: hsla(var(--bc-white), 0.2);
     --fc-gradient-noise: linear-gradient(to bottom, rgba(0,0,0, 0.80) 5%, var(--fc-body-bg) 95%);
 
-    --fc-accent: hsl(var(--bc-red-w-dark));
+    --fc-accent: var(--bc-red-w-dark-ok);
     --fc-accent-trans-20: hsla(var(--bc-red-w-dark), 0.18);
 
-    --fc-link-fg: hsl(var(--bc-red-w-dark));
+    --fc-link-fg: var(--bc-red-w-dark-ok);
     --fc-link-fg-hover: hsl(var(--bc-light));
 
     --fc-header-accent: hsla(var(--bc-light), 0.625); 
@@ -143,7 +145,7 @@
     --fc-code-bg: hsla(var(--bc-green-w-dark), 0.15);
 
     // Default button same color as links
-    --fc-button-border: hsl(var(--bc-red-w-dark));
-    --fc-button-fg: hsl(var(--bc-red-w-dark));
+    --fc-button-border: var(--bc-red-w-dark-ok);
+    --fc-button-fg: var(--bc-red-w-dark-ok);
   }
 }
