@@ -3,17 +3,27 @@ layout: default
 ---
     
 <header class="p__header posts__header">
-  <p class="posts__item__meta single-post__meta">
-    {%- if page.layout == 'note' -%}
-      {% assign itemclass = 'icon__glasses' %}
-      {% assign itemstring = 'Read & Reviewed' %}
-    {%- elsif page.layout == 'post' -%}
-      {% assign itemclass = 'icon__document' %}
-      {% assign itemstring = 'Written' %}
+  <div class="single-post__meta">
+    {%- if page.source -%}
+    <ul class="posts__item__source" role="list">
+      {%- if page.media-%}
+      <li><span class="u__eyebrow">Media:</span> {{ page.media }}</li>
+      {%- endif -%}
+      <li><span class="u__eyebrow">Source:</span> {{ page.source }}</li>
+    </ul>
     {%- endif -%}
-    <span class="posts__type"><span class="icon {{ itemclass }}"></span>{{ itemstring }}</span> | 
-    <time datetime="{{ page.date }}">{{ page.date | date: "%d %B, %Y"}}</time>
-  </p>
+    <p class="posts__item__meta">
+      {%- if page.layout == 'note' -%}
+        {% assign itemclass = 'icon__glasses' %}
+        {% assign itemstring = 'Read & Reviewed' %}
+      {%- elsif page.layout == 'post' -%}
+        {% assign itemclass = 'icon__document' %}
+        {% assign itemstring = 'Written' %}
+      {%- endif -%}
+      <span class="posts__type"><span class="icon {{ itemclass }}"></span>{{ itemstring }}</span> | 
+      <time datetime="{{ page.date }}">{{ page.date | date: "%d %B, %Y"}}</time>
+    </p>
+  </div>
   <h1 class="p__title posts__title">{{ page.title }}</h1>
   <svg class="color-bars" width="12" height="72"><use xlink:href="#color-bars"></use></svg>
 </header>
@@ -21,15 +31,6 @@ layout: default
 
 {{ content }}
 
-{%- if page.source -%}
-  <div class="u__separator"><span aria-hidden="true">&sect;&sect;&sect;</span></div>
-  <ul class="posts_source" role="list">
-    {%- if page.media-%}
-    <li><span class="u__eyebrow">Media:</span> {{ page.media }}</li>
-    {%- endif -%}
-    <li><span class="u__eyebrow">Source:</span> {{ page.source }}</li>
-  </ul>
-{%- endif -%}
 </div>
 <footer class="posts__meta">
 {%- if page.listening -%}

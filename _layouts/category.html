@@ -10,7 +10,7 @@ title: Categories
 {%- assign items = posts | concat: notes | sort: 'date' | reverse -%}
 
 <header class="p__header posts__header">
-  <h1 class="p__title u__eyebrow posts__title">{{ page.title }}</h1>
+  <h1 class="p__title u__eyebrow posts__title">{{ items.size}} {{ page.title }}</h1>
   <svg class="color-bars" width="12" height="72"><use xlink:href="#color-bars"></use></svg>
 </header>
 <section class="posts" aria-label="Recent Posts">
