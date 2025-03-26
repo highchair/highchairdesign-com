@@ -1,10 +1,11 @@
 .g {
   display: grid;
   grid-template-columns: var(--space-s-xl) minmax(auto, 40em)  var(--space-s-xl) minmax(0, auto);
-  grid-template-rows: var(--space-m) auto var(--space-m);
+  grid-template-rows: var(--space-m) auto auto var(--space-m);
   grid-template-areas:
     "tl tc tr ."
-    "lc c rc aside"
+    "lc c rc ."
+    "lc aside rc ."
     "bl bc br .";
   overflow: hidden;
   padding-block-start: var(--space-m);
@@ -108,9 +109,14 @@
   }
 
   &__aside {
+    grid-area: aside;
+  }
 
-    @include breakpoint-up(x-large) {
-      grid-area: aside;
-    }
+  @include breakpoint-up("x-large") {
+    grid-template-rows: var(--space-m) auto var(--space-m);
+    grid-template-areas:
+      "tl tc tr ."
+      "lc c rc aside"
+      "bl bc br .";
   }
 }

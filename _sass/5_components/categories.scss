@@ -9,8 +9,8 @@
 
   nav {}
 
-  @include breakpoint-up(x-large) {
-    padding-inline: var(--space-m-l);
+  @include breakpoint-up("x-large") {
+    padding-inline-end: var(--space-m-l);
 
     nav {
       padding-block-start: var(--space-xl);
