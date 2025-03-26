@@ -6,7 +6,7 @@
     flex-flow: row nowrap;
     align-items: center;
     justify-content: space-between;
-    gap: 0;
+    gap: var(--space-s-xl);
     padding: var(--space-s) var(--space-s-xl);
 
     svg {
@@ -26,7 +26,11 @@
       }
     }
 
-    &__title {}
+    &__title {
+      @include breakpoint-down(base) {
+        text-align: right;
+      }
+    }
 
     &__btn {}
 
@@ -70,6 +74,7 @@
     &__logo {}
 
     nav {
+      flex: 1 1 0px;
       display: flex;
       flex-flow: column;
       align-items: flex-end;
@@ -132,6 +137,7 @@
       &__logo {
         grid-area: logo;
       }
+
       nav {
         display: contents;
 
@@ -140,9 +146,11 @@
           grid-area: nav;
         }
       }
+
       &__btn {
         grid-area: btn;
       }
+
       .copyright {
         grid-area: copyright;
         padding-block-start: var(--space-l-xl);

@@ -1,4 +1,7 @@
 html {
+  // Sets the color of the overscroll area in some browsers
+  background-color: var(--fc-accent);
+
   // Prevent font size inflation
   -moz-text-size-adjust: none;
   -webkit-text-size-adjust: none;
@@ -26,6 +29,20 @@ body {
   line-height: var(--lh-base);
   min-height: 100vh;
   text-rendering: optimizeSpeed;
+
+  // Need this for our positioned ::after element on header and footer
+  position: relative;
+  z-index: 5;
+
+  // Zoom the page when the screen is very large
+  // 1920px
+  @media (min-width: 120rem) {
+    zoom: 1.125;
+  }
+  // 2496px
+  @media (min-width: 156rem) {
+    zoom: 1.25;
+  }
 }
 
 // When a visitor selects text to copy

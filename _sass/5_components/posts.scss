@@ -16,6 +16,11 @@
       padding-block-end: var(--space-m);
     }
 
+    // ul
+    &__source {
+      padding-block-end: var(--space-xs);
+    }
+
     // p
     &__meta {
       padding-block-end: var(--space-xs);
