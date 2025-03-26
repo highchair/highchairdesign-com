@@ -16,6 +16,7 @@
   &__title:not(.u__eyebrow) {
     color: var(--fc-body-bg);
     margin-bottom: calc(var(--lh-base) * 1rem);
+    line-height: var(--lh-tighter);
     text-shadow:
       1px 1px 0 var(--fc-body-fg), 
       2px 2px 0 var(--fc-body-fg), 
