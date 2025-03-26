@@ -6,7 +6,7 @@ categories: [ Music ]
 listening: 'Artist: <a href="https://thejesuslizard.bandcamp.com/">Jesus Lizard</a>; Album: Rack'
 ---
 
-Where two men in their 40s (ahem) see bands reunite and play together with members who are in their 50s and 60s,
+Where two men in their 40s (ahem) see bands reunite and play together with members who are in their 50s and 60s.
 
 ## Soul Coughing
 
