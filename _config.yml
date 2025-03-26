@@ -15,8 +15,9 @@ company: Highchair designhaus
 description: >- # this means to ignore newlines until "baseurl:"
   J. Hogue has over 20 years of experience in design and user experience. He is currently Director, Experience Design at Oomph, leading a team of digital platform experts with strategic thinking, cutting-edge UX practices, and visual design. I have worked with all sizes of business, from national brands to local non-profits, in the health, higher education, cultural institution, and new technology sectors.
 
-baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://www.highchairdesign.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+port: 4010
 
 # Build settings
 markdown: kramdown
@@ -26,16 +27,16 @@ kramdown:
   syntax_highlighter: rouge
 
 # permalink: /:categories/:year/:month/:day/:title:output_ext
-permalink: /:year/:month/:title:output_ext
+permalink: /writing/:year/:month/:title/
 relative_permalinks: false
 
 collections:
   portfolio:
     output: true
-    permalink: /portfolio/:name
+    permalink: /portfolio/:name/
   notes:
     output: true
-    permalink: /note/:name
+    permalink: /note/:year/:month/:title/
 
 defaults:
   - scope:
@@ -63,4 +64,5 @@ exclude:
   - kramdown.md
   - LICENSE
   - README.md
+  - TO-Do.txt
   - source/
