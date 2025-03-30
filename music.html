@@ -1,0 +1,33 @@
+---
+layout: default
+permalink: writing/music/
+html-title: 'Music I have been listening to'
+title: 'Music I have been listening to while Writing/Working'
+---
+
+{%- assign posts = site.posts -%}
+{%- assign notes = site.notes -%}
+{%- assign items = posts | concat: notes | sort: 'date' | reverse -%}
+
+<header class="p__header posts__header">
+  <h1 class="p__title u__eyebrow posts__title">{{ page.title }}</h1>
+  <svg class="color-bars" width="12" height="72"><use xlink:href="#color-bars"></use></svg>
+</header>
+
+<section class="posts" aria-label="Recent Posts">
+  <ul role="list" class="posts__list">
+    {% for post in items %}
+      {% if post.listening %}
+    <li class="posts__item">
+      <div class="posts__item__content">
+        <h2 class="h6 posts__item__title"><a class="posts__link" href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p class="h4"><span class="posts__cats__title u__eyebrow">Listening:</span> {{ post.listening }}</p>
+      </div>
+      {% unless forloop.last %}
+      <div class="u__separator"><span aria-hidden="true">&sect;&sect;&sect;</span></div>
+      {% endunless %}
+    </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</section>
