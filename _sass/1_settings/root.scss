@@ -1,5 +1,5 @@
 :root {
-  color-scheme: light dark;
+  color-scheme: light;
   
   // - - - Base Colors in HSL color space - - -
   // Use https://hslpicker.com
@@ -118,6 +118,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
+    color-scheme: dark;
+
     --fw-light: 175;
     --fw-normal: 325;
     --fw-medium: 575;
