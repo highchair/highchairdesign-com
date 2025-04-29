@@ -27,7 +27,7 @@ The girls are both back at school in person for now. They both really love it ev
 
 Henry Barnard school has announced that it will not reopen again next year. Another COVID casualty? Not quite. They have raised tuition year over year until they became as expensive as other options which are perceive to be better, like the Wheeler School. And then, surprise, enrollment dropped. One of the reasons why they did so well was their tuition was lower. We should know, we wanted Vivian to go there as Beth and her brother went there over 20 years ago. Beth worked there as the new administration kept raising the price. Now, some families we know need to come up with other options for next year. 
 
-Its sadder to me because Henry Barnard’s roots go way, way back to some of the early years of Rhode Island College in general when it was called The State Normal School. Can you tell I have been doing a bunch of [ArtInRuins](//artinruins.com) research lately? 
+Its sadder to me because Henry Barnard’s roots go way, way back to some of the early years of Rhode Island College in general when it was called The State Normal School. Can you tell I have been doing a bunch of [ArtInRuins](https://artinruins.com) research lately? 
 
 **My statistic round up:**
 

@@ -23,7 +23,7 @@ This recent article sums it up nicely:
 
 > Here is the internal narrative that dictates this state of affairs: “I am the only thing that matters; what I want is the only thing that it is valid to want; what you want is so unimportant that is is not worth discussing. I see you, but I am not convinced that you exist in any significant way, except as a potential blocker to what I want. This is your only real importance. Your assertion of personhood is irritating to me, because it gets in the way of what I want. Which is more money, more power, more self-gratification, at any cost, by any means necessary. […]”
 
-Source: [America is committing suicide](//www.stilldrinking.org/a-very-american-suicide){:target="_blank"}
+Source: [America is committing suicide](https://www.stilldrinking.org/a-very-american-suicide)
 
 **My statistic round up:**
 

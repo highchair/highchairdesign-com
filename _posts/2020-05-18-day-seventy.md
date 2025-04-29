@@ -8,7 +8,6 @@ categories: [ Observations ]
 Yup, it's been 10 weeks now. 10 weeks of grocery shopping with anxiety, very little news watching or listening or reading because of the stress and anger, walking around with masks on and wondering why other people don’t have masks on… the little stresses that hardly compare to the larger ones of having a family member who is Covid positive or a wife or husband working on the front lines. 10 weeks and now these things are normal. 
 
 10 weeks of slowly hearing about everything closing, quitting, or cancelling. 10 weeks of other businesses struggling and asking for help and getting help, in large part. The community has rallied is many ways. 10 weeks of people freaking out about being alone and away from people. 10 weeks of people creating memes to express their confusion and stress and frustration and trying to find the humor in it all. 
-
 So quickly the commercials on TV changed. Zoom-style TV commercials are common now. Companies pay their respects to healthcare workers while touting their curbside pickup, online ordering, and contactless delivery. The merits of shopping local are balanced with whether or not I can put my order in and schedule a delivery or pickup time. Farm Fresh RI’s Mobile Market sells out in 20 minutes when the server doesn’t crash. 
 
 A magazine came to our door recently where the June 2020 published date was circled underscored with a handwritten message “(we think).” We’re all in on the same jokes. 
