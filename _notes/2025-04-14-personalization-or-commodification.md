@@ -5,7 +5,7 @@ date: 2025-04-14 09:30:00 -0500
 source: '<a href="https://uxdesign.cc/hyper-personalization-a-practical-guide-8e5f7b89e26e">Hyper-personalization: a practical UX guide</a>, February 25, 2025 vs. <a href="https://uxdesign.cc/the-observer-effect-7ffb8d079ca4">When users change their behavior to game the algorithm</a>, April 13, 2025'
 media: "Article"
 categories: [ Leadership, 'User Preference' ]
-listening: 'Artist: <a href="">NoMeansNo</a>; Album: Wrong'
+listening: 'Artist: <a href="https://nomeansno.bandcamp.com/album/wrong-2">NoMeansNo</a>; Album: Wrong'
 ---
 
 These two articles go great together, but not like peanut butter and chocolate. More like oil and vinegar — two great tastes that don’t easily mix but go make leaves taste better.
