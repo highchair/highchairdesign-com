@@ -32,12 +32,12 @@ title: 'The Latest Articles, Ideas, Musings, & Rants'
             <span class="posts__type"><span class="icon {{ itemclass }}"></span>{{ itemstring }}</span> | 
             <time datetime="{{ post.date }}">{{ post.date | date: "%d %B, %Y"}}</time>
           </p>
-          <h2 class="h3 posts__item__title"><a class="posts__link" href="{{ post.url }}">{{ post.title }}</a></h2>
+          <h2 class="h3 posts__item__title"><a class="posts__link" href="{{ post.url }}#more">{{ post.title }}</a></h2>
         </header>
         <div class="v-rhythm">
         {% if post.content.size > 500 %}
           <p>{{ post.content | strip_html | truncatewords: 80 }}</p>
-          <p aria-hidden="true"><a class="posts__item__more" href="{{ post.url }}">Read Full Article</a></p>
+          <p aria-hidden="true"><a class="posts__item__more" href="{{ post.url }}#more">Read Full Article</a></p>
         {% else %}
           {{ post.content }}
         {% endif %}
