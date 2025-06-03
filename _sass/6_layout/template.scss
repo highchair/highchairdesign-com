@@ -9,6 +9,11 @@
 
 .t {
 
+  &__max {
+    margin-inline: auto;
+    max-width: 92rem;
+  }
+
   &__logo {
     height: 86px;
     width: 84px;
