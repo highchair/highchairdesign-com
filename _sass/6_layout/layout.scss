@@ -1,7 +1,6 @@
 .l {
 
   &__header {
-    position: relative;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
@@ -64,7 +63,6 @@
   &__article {}
 
   &__footer {
-    position: relative;
     display: flex;
     flex-flow: row wrap;
     align-items: center;

@@ -79,6 +79,7 @@ Puente — Providence, RI
 
 ### Publications
 
++ **Author** [“<cite>History on Repeat: Atlantic Mills is the new Fort Thunder</cite>”](https://ppsri.org/history-on-repeat-atlantic-mills-is-the-new-fort-thunder/), Providence Preservation Society guest author, April 2025
 + **Interviewee** [“<cite>Arts Inc: In Providence, Brutalist Buildings Remain… For Now</cite>”](https://www.ripbs.org/arts-entertainment/in-providence-brutalist-buildings-remain-for-now), Rhode Island PBS special, March 2025
 + **Author**: [<cite>How is Providence’s Historic Aesthetic Maintained?</cite>](https://pvdeye.org/how-is-providences-historic-aesthetic-maintained/ "Go to the Providence Eye for the full article"), Providence Eye, January 2025
 + **Interviewee** [<cite>Dishing Up History: From exposed beams to ornate facades, the hallmarks of some of the city’s favorite restaurants tell stories of the past</cite>](https://providenceonline.com/stories/providence-monthly-december-2024,105112 "Go to Providence Monthly in Issuu to read online"), Providence Monthly, December 2024 (page 67)
