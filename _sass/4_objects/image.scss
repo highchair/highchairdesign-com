@@ -1,0 +1,41 @@
+.image {
+
+  &__round {
+    border-radius: 50%;
+    overflow: hidden;
+
+    img {
+      aspect-ratio: 1/1;
+      object-fit: cover;
+    }
+  }
+
+  &__accent-overlay {
+    position: relative;
+    z-index: 1;
+
+    &::before {
+      background-color: var(--fc-accent-trans-20);
+      content: '';
+      mix-blend-mode: multiply;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      transform: translate(0.5em, -0.5em);
+      transition: transform 500ms ease;
+      z-index: 5;
+    }
+    
+    &:hover {
+      &::before {
+        transform: translate(0, 0);
+      }
+    }
+    
+    &:has(.image__round)::before {
+      aspect-ratio: 1/1;
+      border-radius: 50%;
+    }
+  }
+}
