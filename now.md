@@ -8,10 +8,16 @@ title: Now
 What’s a “Now” page? This is what I am currently up to, what is occupying my brain and life. This is not a blog, because this is specifically about me. This is what I would tell a friend I hadn’t seen in awhile if they asked me what was up.[^1]
 {:.archive__statement}
 
+## Summer Skate Ramp
+
+I’ll be 50 years old this fall. My mid-life-crisis has developed into a drive to finally build myself — and my kids — a little skate ramp. Only 30 inches tall and 3 feet wide, I won’t (probably) hurt myself on it. And the kids can learn how to drop in. Summer is here.
+
+Career-wise, I am feeling untethered still. After a week off I am not looking forward to going back to work. Or I am not sure why it is important. I am privileged to have ever felt that my work was important, I know. The discourse around digital anything these days just feels so toxic and is something I want to avoid.
+
 
 ## Winter 2025 House Project
 
-New stair runner carpet, which means stripping the wood stair tops, staining, and urethaning them along with new white paint on the stair backs and sides. They are looking good. I didn’t sand them deep enough to get beyond the lightening from sun exposure, but the new stair runner will cover those edges by an inch on either side. My future self might be mad at present self, but for the next 20 years I will have a nice set of stairs and a carpet that covers up my lack of ambition.
+New stair runner carpet, which means stripping the wood stair tops, staining, and urethaneing them along with new white paint on the stair backs and sides. They are looking good. I didn’t sand them deep enough to get beyond the lightening from sun exposure, but the new stair runner will cover those edges by an inch on either side. My future self might be mad at present self, but for the next 20 years I will have a nice set of stairs and a carpet that covers up my lack of ambition.
 
 
 ## Winter 2025
