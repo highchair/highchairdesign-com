@@ -12,13 +12,13 @@ html {
 
   // Newer browsers want this on the html element
   scroll-behavior: smooth;
-  scroll-padding-top: rem(48);
+  scroll-padding-top: px2rem(48);
 }
 
 body {
   // Slightly older want it on the body element
   scroll-behavior: smooth;
-  scroll-padding-top: rem(48);
+  scroll-padding-top: px2rem(48);
 
   background-color: var(--fc-body-bg);
   color: var(--fc-body-fg);

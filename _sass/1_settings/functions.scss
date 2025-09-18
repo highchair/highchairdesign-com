@@ -19,15 +19,15 @@
 ///   width: px(48);
 /// @example css - Output
 ///   width: 48px;
-@function px($value) {
-  @if not unitless($value) {
+@function num2px($value) {
+  @if not math.is-unitless($value) {
     $value: strip-unit($value);
   }
   @return ($value * 1px);
 }
 
 
-/// em()
+/// px2em()
 /// Change a (assumed) pixel value to an em
 /// @author Bourbon / Thoughbot
 /// @require strip-unit()
@@ -39,18 +39,18 @@
 /// @example css - Output
 ///   font-size: 1.5em;
 ///   width: 2em;
-@function em($value, $base: 16px) {
-  @if not unitless($value) {
+@function px3em($value, $base: 16px) {
+  @if not math.is-unitless($value) {
     $value: strip-unit($value);
   }
-  @if not unitless($base) {
+  @if not math.is-unitless($base) {
     $base: strip-unit($base);
   }
   @return math.div($value, $base) * 1em;
 }
 
 
-/// rem()
+/// px2rem()
 /// Change a (assumed) pixel value to an rem
 /// @author Bourbon / Thoughbot
 /// @require strip-unit()
@@ -60,11 +60,11 @@
 ///   width: rem(48);
 /// @example css - Output
 ///   width: 3rem;
-@function rem($value, $base: 16px) {
-  @if not unitless($value) {
+@function px2rem($value, $base: 16px) {
+  @if not math.is-unitless($value) {
     $value: strip-unit($value);
   }
-  @if not unitless($base) {
+  @if not math.is-unitless($base) {
     $base: strip-unit($base);
   }
   @return math.div($value, $base) * 1rem;
