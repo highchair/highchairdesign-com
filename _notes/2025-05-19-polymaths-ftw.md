@@ -15,7 +15,7 @@ That all said, this talk from Mr. Bechtel hit home in a few ways. It supported m
 What AI does not have is the ability to see broadly across disciplines for new ideas that are a mash-up of existing concepts. Many examples from history bear this out — the invention of GPS was a combination of several unrelated technologies; the first person to conduct vascular surgery was inspired by embroidery; the printing press was a combination of wine grape pressing and coin stamping.
 
 <figure>
-  <blockquote>
+  <blockquote class="quote">
     <p>The future favors <i>dot connectors</i> over <i>dot perfecters</i>. […] Specialization has been a reliable path to reaching par with best practices. Cross pollination is the key to creating next practices.</p>
   </blockquote>
   <figcaption>— <cite>“<a href="https://youtu.be/3r1__jrmVgo?si=Pbip61L_5pnYA32E&t=1978">Why the Future Favors Learn-it-alls Over Know-it-alls (33 minute mark)</a>” Pattison Professional Counseling and Mediation Center</cite></figcaption>

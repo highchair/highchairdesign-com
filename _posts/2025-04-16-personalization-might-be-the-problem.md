@@ -9,7 +9,7 @@ listening: 'Artist: <a href="https://melvinsofficial.bandcamp.com/">Melvins</a>;
 A recent article in my feed communicated something that I have been thinking pretty well, so I reproduce it here:
 
 <figure>
-  <blockquote>
+  <blockquote class="quote small">
     <p>…modern maps put everyone at the centre of the world. […] countries put themselves at the centre of world maps. The artefact and its perspective becomes defined by who commissioned or owned it. […] With being the centre of our own worlds, the products we buy are increasingly more personal or tailored to us. We also live in our own increasingly joined-up service ecosystems. AI now promises us super-assistants to make us more productive, enhancing our personal experience. It’s all a promise of productivity–with us at the very centre. […] **this feels increasingly like a world of hyper-individualism where personal interests, empowerment and abilities, are prioritised over community and collective well-being.** (emphasis mine)</p>
   </blockquote>
   <figcaption>— <cite>“<a href="https://benholliday.com/2025/03/07/you-are-here-or-they-are-here/">You are here… or they are here?</a>” Ben Holliday, Chief Design Officer, TPXimpact</cite></figcaption>

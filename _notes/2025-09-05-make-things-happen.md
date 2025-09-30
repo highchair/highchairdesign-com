@@ -13,6 +13,7 @@ This article made me think about some of the designers I have worked with in the
 They have all made impressions. As the article says, some of the ability to take something that is not initially glamorous and turn it into a jewel.
 
 > What made those projects glamorous and desirable was her and how she approached the work. There’s that old nugget about making your own luck and that is something she excelled at. She had a unique ability to take really hard or nebulous problems (both design and team-related) and morph them into something amazing that got people excited. Instead of getting discouraged, she’d respond to friction with more energy, more enthusiasm.
+{: .quote .small}
 
 It is very difficult to be this person. Let me rephrase that. It is difficult for me to will myself into being this kind of person. I am not always this kind of person. But I wonder how much of it is attitude and genes and biology and how much of it is learned? Can it become innate if you do it long enough?
 
@@ -21,3 +22,4 @@ Truly, it is an attitude, to make lemonade from lemons. Very different from putt
 The call to action here makes me wonder why I don’t have this attitude more often.
 
 > I guess this is all to say, that if you’re a designer and you’re in a spot where you’re sitting and waiting to get picked for the shiny cool new project, stop waiting. Make your current team, your current work, the shiny cool new thing. Be loud about the thing you’re making and why it’s awesome and how it could be even more awesome if-only-we-pushed-a-little-more. Get your team excited. Get the people around you excited. Make the work and the career you want. Make things happen.
+{: .quote .small}

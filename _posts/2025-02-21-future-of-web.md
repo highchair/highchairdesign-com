@@ -23,7 +23,7 @@ If we take this to an extreme, websites that rely on advertising revenue to pay 
 The so-called “[Death of Search](https://www.theatlantic.com/technology/archive/2024/11/ai-search-engines-curiosity/680594/?utm_source=apple_news)” also plays into political divisions and information bubbles. More on that topic below. A great quote from the linked article in the Atlantic puts it nicely:
 
 > Much of what’s beautiful about searching the internet is jumping into ridiculous Reddit debates and developing unforeseen obsessions on the way to mastering a topic you’d first heard of six hours ago, via a different search; falling into clutter and treasure, all the time, without ever intending to. AI search may close off these avenues to not only discovery but its impetus, curiosity.
-{:.quote}
+{: .small .quote}
 
 **The flipside:** It is possible that the opposite might become true. We now rely on the above-mentioned serendipitous search to enlighten our knowledge. If the future of A.I.-powered search takes that away from us, would we revert back to actual conversation with other humans for these interesting rabbit holes? Or will we continue to get lazier and more insulated from the human world?
 
@@ -44,7 +44,7 @@ In our recent political climate, access to information is no longer a guarantee.
 Facebook and Meta last month announced they would reduce fact-checking on the platform. There already exists social media platforms that encourage “free speech” which includes out-right lies, mis-information, and hate speech. Now Facebook will expose its billions of users to the same. When lies are everywhere, it gets increasing difficult to understand what is true.
 
 > [We have a reality problem. Many of the technologies and platforms that we have embraced as improvements have also undermined key parts of civil society, and nowhere more clearly than in politics.](https://nypost.com/2024/09/07/opinion/algorithms-and-ai-are-making-it-harder-to-know-whats-real/)
-{:.quote}
+{: .small .quote}
 
 Will the lack of reality and civil discourse drive people away from the internet, or suck them in further? 
 

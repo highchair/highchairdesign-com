@@ -13,7 +13,7 @@ These two articles go great together, but not like peanut butter and chocolate. 
 Lemme explain. The first article opens like this: 
 
 <figure>
-  <blockquote>
+  <blockquote class="quote small">
     <p>Every moment, behind the scenes, the products you use are getting better at anticipating your needs and desires. Your Netflix homepage updates in real time, your food delivery app predicts what you’re craving, and your fitness app fine-tunes recommendations based on your recent activity. This is hyper-personalization — an advanced approach to personalization that leverages real-time data, artificial intelligence (AI), and behavioral analytics to deliver highly individualized experiences for every user.</p>
   </blockquote>
   <figcaption>— <cite>“<a href="https://uxdesign.cc/hyper-personalization-a-practical-guide-8e5f7b89e26e">Hyper-personalization: a practical UX guide</a>” Taras Bakusevych</cite></figcaption>
@@ -26,7 +26,7 @@ But think about it for more than two seconds and it becomes a capitalist’s wet
 The other article explores the dystopian side of personalization and how it has been playing out across Apps:
 
 <figure>
-  <blockquote>
+  <blockquote class="quote small">
     <p>If you watch a reel for longer than three seconds you can expect more like it. If you linger on a photo, pause mid-scroll, replay a TikTok – that’s the new like. Platforms today care far less about your explicit choices, and more about your passive ones. […] This behavioural model promised a more authentic insight into our preferences. After all, what we do is often far more telling than what we say. […] But as we’ve come to understand how these systems work, we’ve also begun to perform for them, whether consciously or not.</p>
   </blockquote>
   <figcaption>— <cite>“<a href="https://uxdesign.cc/the-observer-effect-7ffb8d079ca4">When users change their behavior to game the algorithm</a>” Simon Mauro Guido</cite></figcaption>
@@ -45,7 +45,7 @@ Making the invisible visible is the motto I’d prefer to design by. I am explor
 Agency is the key word here. We all need a little more agency, especially in these fraught political and social times.
 
 <figure>
-  <blockquote>
+  <blockquote class="quote small">
     <p>Agency is the sense of control that you feel in your life, your capacity to influence your own thoughts and behavior, and have faith in your ability to handle a wide range of tasks and situations. Your sense of agency helps you to be psychologically stable, yet flexible in the face of conflict or change. Agency is your very own power, your ability, to affect the future.</p>
   </blockquote>
   <figcaption>— <cite>“<a href="https://www.ppccfl.com/blog/take-control-of-your-life-the-concept-of-agency-and-its-four-helpers/">Take Control of Your Life: The Concept of Agency and Its Four Helpers</a>” Pattison Professional Counseling and Mediation Center</cite></figcaption>

@@ -33,7 +33,7 @@ Why? The labor force became machine-literate. They learned by doing, teaching th
 ## What Programming IS will change
 
 <figure>
-  <blockquote>
+  <blockquote class="quote small">
     <p>We’re in the middle of inventing a new programming paradigm around AI systems. When we went from the desktop into the internet era, everything in the stack changed, even though all the levels of the stack were the same. We still have languages, but they went from compiled to interpreted. We still have teams, but they went from waterfall to Agile to CI/CD. We still have databases, but they went from ACID to NoSQL. We went from one user, one app, one thread, to multi distributed, whatever. We’re doing the same thing with AI right now.</p>
   </blockquote>
   <figcaption>— <cite>Sam Schillace, Deputy CTO, Microsoft</cite></figcaption>
