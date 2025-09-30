@@ -150,6 +150,13 @@ blockquote {
     }
   }
 
+  &.large p {
+    font-size: var(--fts-header-4);
+  }
+  &.small p {
+    font-size: var(--fts-header-6);
+  }
+
   figure & {
     margin-block-end: calc(var(--lh-base) * 1em);
   }
