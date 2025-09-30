@@ -13,7 +13,7 @@ Oomph, Inc. — Providence, RI
 : Creative Director, 2010 – 2012
 
 Project Evolution — Providence, RI
-: Design Director, 2012 – 2015
+: Design Director, 2012 – 2014
 
 Highchair designhaus — Providence, RI
 : Freelancer, 2010 – present
@@ -45,8 +45,9 @@ Puente — Providence, RI
 
 ### Presentations / Panels
 
++ **Anthem Awards**: Juror and [IADAS member](https://www.iadas.net/membership/bio/j--hogue/11403) from 2022–2025
 + **Presenter**: [<cite>Finding Fire from Smoke — Advocating for UX in Post-Launch Activities</cite> (YouTube)](https://www.youtube.com/watch?v=2cB9173fwQ8&list=PLgfWMnl57dv6mKs6-9Iq7SniSSTk1TLUt&index=19). New England Drupal Camp, Rhode Island College, Providence RI, November 2024
-+ **Anthem Awards**: Juror and [IADAS member](https://www.iadas.net/membership/bio/j--hogue/11403) from 2022–2024
++ **Co-Presenter**: [<cite>Behind the Scenes: Balancing Patient Care & Company Culture with the Lifespan Intranet</cite> (YouTube)](https://www.youtube.com/watch?v=_cuyZg2PC6Q). DesignWeek RI, Providence RI, September 2023
 + **Contributor/Interviewee**: [<cite>Design xRI 10th Anniversary Celebration</cite> (YouTube)](https://www.youtube.com/watch?v=VoISdtjnQsI). September 2023
 + **Co-Presenter**: [<cite>Introducing Quahog: a brand new design system and web platform for the State of Rhode Island</cite> (YouTube)](https://www.youtube.com/watch?v=ft6R6NnmU9s). [Design4Drupal](https://design4drupal.org/webinar-series), virtual, April 2021
 + **Presenter**: [<cite>Be an Accessibility Ally</cite> (YouTube)](https://www.youtube.com/watch?v=DobGJFuCG6Q). Association of Marketing Professionals RI Chapter (AMP-RI), Providence, RI, February 2020
@@ -79,6 +80,7 @@ Puente — Providence, RI
 
 ### Publications
 
++ **Author**: [<cite>Building Triple Deckers in Providence — A Tale of Dimensions, Parking Minimums, and Zoning Variances</cite>](https://pvdeye.org/how-is-providences-historic-aesthetic-maintained/ "Go to the Providence Eye for the full article"), Providence Eye, August 2025
 + **Author** [“<cite>History on Repeat: Atlantic Mills is the new Fort Thunder</cite>”](https://ppsri.org/history-on-repeat-atlantic-mills-is-the-new-fort-thunder/), Providence Preservation Society guest author, April 2025
 + **Interviewee** [“<cite>Arts Inc: In Providence, Brutalist Buildings Remain… For Now</cite>”](https://www.ripbs.org/arts-entertainment/in-providence-brutalist-buildings-remain-for-now), Rhode Island PBS special, March 2025
 + **Author**: [<cite>How is Providence’s Historic Aesthetic Maintained?</cite>](https://pvdeye.org/how-is-providences-historic-aesthetic-maintained/ "Go to the Providence Eye for the full article"), Providence Eye, January 2025
