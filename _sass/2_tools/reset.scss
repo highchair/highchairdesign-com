@@ -54,7 +54,26 @@ textarea:not([rows]) {
   min-height: 8em;
 }
 
-/* Anything that has been anchored to should have extra scroll margin */
-:target {
-  scroll-margin-block: 5ex;
+// When an element has an ID, give it space so that it is not at the very top of the viewport
+// The rlh unit is "relative line-height"
+// Credit to https://cssence.com/2025/scroll-margin-scroll-padding/
+[id]:target {
+  scroll-margin-block: 2rlh;
+}
+
+// Opt in to upcoming browser-based view transitions
+@media (prefers-reduced-motion: no-preference) {
+  @view-transition {
+    navigation: auto;
+  }
+}
+
+// Remove all animations and transitions for people that prefer not to see them
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

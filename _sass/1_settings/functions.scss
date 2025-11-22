@@ -1,3 +1,5 @@
+@use "sass:math";
+
 /// Remove (strip) Units
 /// @author Bourbon / Thoughbot
 /// @parameter {Value} $value -Value, assumed number with unit
@@ -39,7 +41,7 @@
 /// @example css - Output
 ///   font-size: 1.5em;
 ///   width: 2em;
-@function px3em($value, $base: 16px) {
+@function px2em($value, $base: 16px) {
   @if not math.is-unitless($value) {
     $value: strip-unit($value);
   }
