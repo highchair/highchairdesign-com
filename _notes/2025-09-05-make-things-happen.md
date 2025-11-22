@@ -2,7 +2,7 @@
 layout: note
 title: "Make Things Happen"
 date: 2025-09-14 09:30:00 -0500
-source: '<a href="https://capwatkins.com/blog/make-things-happen/">The Arialpocalypse: Default thinking ate the world.</a>, Cap Watkins'
+source: '<a href="https://capwatkins.com/blog/make-things-happen/">Make Things Happen.</a>, Cap Watkins'
 media: "Article"
 categories: [ Creativity, Process ]
 listening: 'Artist: Euphone; Album: <a href="https://euphone.bandcamp.com/album/the-calendar-of-unlucky-days">The Calendar of Unlucky Days</a>'
