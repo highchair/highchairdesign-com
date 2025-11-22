@@ -8,6 +8,15 @@ title: Now
 What’s a “Now” page? This is what I am currently up to, what is occupying my brain and life. This is not a blog, because this is specifically about me. This is what I would tell a friend I hadn’t seen in awhile if they asked me what was up.[^1]
 {:.archive__statement}
 
+## Hunkering during Fall
+
+This fall, the cold came quickly. The past few years have had summer ooze into fall with mild temperatures all the way into Halloween. Not so much this year. August was mild and September felt cooler than usual.
+
+My youngest and I have gone on a few bike rides along the path that follows the Blackstone River — known as the hardest working river in America, having powered the nexus of the Industrial Revolution. The leaves have been bright and colorful this year, and some generous rains have made the falls along the path almost dramatic.
+
+My oldest is a freshman in high school now. They also were accepted into the [<span class="abbr">RISD</span> Project Open Door](https://www.risdprojectopendoor.com/) program, known as P.O.D. They get a bus pass, <span class="abbr">RISD</span> I.D., studio space, and weekend classes with open studio time during the week. Last week, they visited the Nature Lab for the first time. What a cool program. I wish I had something like that when I was younger. My high school art classes didn’t advance as far as I needed. A few of us hit the limit pretty quickly and needed to find additional tutoring in order to prepare for college.
+
+
 ## Summer Skate Ramp
 
 I’ll be 50 years old this fall. My mid-life-crisis has developed into a drive to finally build myself — and my kids — a little skate ramp. Only 30 inches tall and 3 feet wide, I won’t (probably) hurt myself on it. And the kids can learn how to drop in. Summer is here.
@@ -15,7 +24,7 @@ I’ll be 50 years old this fall. My mid-life-crisis has developed into a drive 
 Career-wise, I am feeling untethered still. After a week off I am not looking forward to going back to work. Or I am not sure why it is important. I am privileged to have ever felt that my work was important, I know. The discourse around digital anything these days just feels so toxic and is something I want to avoid.
 
 
-## Winter 2025 House Project
+## Winter House Project
 
 New stair runner carpet, which means stripping the wood stair tops, staining, and urethaneing them along with new white paint on the stair backs and sides. They are looking good. I didn’t sand them deep enough to get beyond the lightening from sun exposure, but the new stair runner will cover those edges by an inch on either side. My future self might be mad at present self, but for the next 20 years I will have a nice set of stairs and a carpet that covers up my lack of ambition.
 

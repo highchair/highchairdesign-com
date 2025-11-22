@@ -46,7 +46,8 @@ Puente — Providence, RI
 ### Presentations / Panels
 
 + **Anthem Awards**: Juror and [IADAS member](https://www.iadas.net/membership/bio/j--hogue/11403) from 2022–2025
-+ **Presenter**: [<cite>Finding Fire from Smoke — Advocating for UX in Post-Launch Activities</cite> (YouTube)](https://www.youtube.com/watch?v=2cB9173fwQ8&list=PLgfWMnl57dv6mKs6-9Iq7SniSSTk1TLUt&index=19). New England Drupal Camp, Rhode Island College, Providence RI, November 2024
++ **Co-Presenter**: [<cite>Cracking the Code: SEO, A11y, GEO, and AI Agents — Whats they mean for your web strategies</cite> (YouTube)](https://www.youtube.com/watch?v=ga5iTrh8GyU). New England Drupal Camp, Rhode Island College, Providence RI, November 2025
++ **Presenter**: [<cite>Finding Fire from Smoke: Advocating for UX in Post-Launch Activities</cite> (YouTube)](https://www.youtube.com/watch?v=2cB9173fwQ8&list=PLgfWMnl57dv6mKs6-9Iq7SniSSTk1TLUt&index=19). New England Drupal Camp, Rhode Island College, Providence RI, November 2024
 + **Co-Presenter**: [<cite>Behind the Scenes: Balancing Patient Care & Company Culture with the Lifespan Intranet</cite> (YouTube)](https://www.youtube.com/watch?v=_cuyZg2PC6Q). DesignWeek RI, Providence RI, September 2023
 + **Contributor/Interviewee**: [<cite>Design xRI 10th Anniversary Celebration</cite> (YouTube)](https://www.youtube.com/watch?v=VoISdtjnQsI). September 2023
 + **Co-Presenter**: [<cite>Introducing Quahog: a brand new design system and web platform for the State of Rhode Island</cite> (YouTube)](https://www.youtube.com/watch?v=ft6R6NnmU9s). [Design4Drupal](https://design4drupal.org/webinar-series), virtual, April 2021
@@ -63,6 +64,7 @@ Puente — Providence, RI
 
 ### Publications
 
++ **Interview**: [<cite>Contact Form Initiative</cite>](https://www.talkingdrupal.com/499 "Go to the Talking Drupal site to listen"), Talking Drupal Podcast, April 2025
 + **Interview**: [<cite>Oomph Paragraphs</cite>](https://www.talkingdrupal.com/178 "Go to the Talking Drupal site to listen"), Talking Drupal Podcast, October 2018
 + **Interview**: [<cite>Pushing the Design Limits with Paragraphs</cite>](https://www.talkingdrupal.com/142 "Go to the Talking Drupal site to listen"), Talking Drupal Podcast, April 2017
 + **Article**: <cite>Designers Come Together in Renovated mini-Arcade</cite>, Natalie Myers, Providence Business News, January 2007
