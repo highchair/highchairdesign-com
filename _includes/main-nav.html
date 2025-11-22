@@ -1,7 +1,7 @@
 <ul class="l__footer__nav" role="list">
   <li><a href="{% link now.md %}"{% if page.permalink contains 'now' %} aria-current="true"{% endif %}>Now</a></li>
   <li><a href="{% link writing.html %}"{% if page.permalink contains 'writing' %} aria-current="true"{% endif %}>Writing</a></li>
-  <!-- <li><a href="$">Designs</a></li> -->
+  <li><a href="{% link design.md %}"{% if page.permalink contains 'design' %} aria-current="true"{% endif %}>Design</a></li>
   <li><a href="{% link about.md %}"{% if page.permalink contains 'about' %} aria-current="true"{% endif %}>About</a></li>
   <li><a href="{% link connect.md %}"{% if page.permalink contains 'connect' %} aria-current="true"{% endif %}>Connect</a></li>
 </ul>

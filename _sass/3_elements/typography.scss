@@ -48,6 +48,10 @@ h6, .h6 {
   font-size: var(--fts-header-6);
 }
 
+.underlined {
+  border-bottom: 1px solid var(--fc-border);
+}
+
 small {
   font-size: var(--fts-small);
 }
