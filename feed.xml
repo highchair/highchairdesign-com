@@ -1,0 +1,37 @@
+---
+---
+{%- assign posts = site.posts -%}
+{%- assign notes = site.notes -%}
+{%- assign items = posts | concat: notes | sort: 'date' | reverse -%}
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:atom="https://www.w3.org/2005/Atom"
+  xmlns:dc="https://purl.org/dc/elements/1.1/"
+  xmlns:sy="https://purl.org/rss/1.0/modules/syndication/"
+>
+  <channel>
+    <title>{{ site.title | xml_escape }}</title>
+    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
+    <sy:updatePeriod>{{ site.feed_update_period | default: "monthly" | xml_escape }}</sy:updatePeriod>
+    <sy:updateFrequency>{{ site.feed_update_frequency | default: 1 | xml_escape }}</sy:updateFrequency>
+    <link>https://www.highchairdesign.com</link>
+    <atom:link href="https://www.highchairdesign.com/{{ page.path }}" rel="self" type="application/rss+xml" />
+    {% for item in items limit: 24 %}
+      {%- if forloop.first -%}
+    <lastBuildDate>{{ item.date | date_to_rfc822 }}</lastBuildDate>
+      {%- endif -%}
+      <item>
+        <title>{% if item.collection == 'notes' %}Note: {% endif %}{{ item.title | xml_escape }}</title>
+        <dc:creator>HighchairDesign.com</dc:creator>
+        <description>
+          <![CDATA[
+            <p>{{ item.content | strip_html | truncatewords: 80 }}</p>
+          ]]>
+        </description>
+        <pubDate>{{ item.date | date_to_rfc822 }}</pubDate>
+        <link>https://www.highchairdesign.com{{ item.url }}</link>
+        <guid isPermaLink="true">https://www.highchairdesign.com{{ item.url }}</guid>
+      </item>
+    {% endfor %}
+  </channel>
+</rss>
