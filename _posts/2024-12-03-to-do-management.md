@@ -47,3 +47,10 @@ I abandoned Akiflow eventually. It wanted me to work the way it was designed to 
 ## Notion
 
 I'm digging the way Markdown syntax _just works_ when typing. Starting a new bulleted list is as easy as typing `+ ` and a new To Do (checkbox) list is `[ ] `. Headlines use hashes, link the `[text](url)` syntax, bold uses asterisks and italics use underscores. All of this built in makes typing with styles in place quick — no need to fiddle with the mouse to select the right style from a contextual menu.
+
+The A.I. tools Notion is trying to force on you, though, is a bummer. I don’t need new features, I just need the simple features you have. The fanciest thing I want is a To-Do-style list with checkboxes. I don’t need you to listen to my calls and take notes for me. Stop it.
+
+
+## Kanban
+
+I recently created an intentionally simple Kanban board using [Kan.bn](https://kan.bn), a free open source Trello replacement. Simplicity is a feature here, not a bug. I don’t need all the fancy stuff that Trello clutters its tool with. I need to see my lanes and to move my work from one lane to another. Maybe some labels, fine. But no teams, no collaboration, no comments, no card aging. Just a clear view of what I need to work on and prioritize.
