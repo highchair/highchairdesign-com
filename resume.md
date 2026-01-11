@@ -82,6 +82,7 @@ Puente — Providence, RI
 
 ### Publications
 
++ **Author**: [<cite>Building ADUs in Providence: The What, the How, and the Why Not?</cite>](https://pvdeye.org/building-adus-in-providence/ "Go to the Providence Eye for the full article"), Providence Eye, December 2025
 + **Author**: [<cite>Building Triple Deckers in Providence — A Tale of Dimensions, Parking Minimums, and Zoning Variances</cite>](https://pvdeye.org/how-is-providences-historic-aesthetic-maintained/ "Go to the Providence Eye for the full article"), Providence Eye, August 2025
 + **Author** [“<cite>History on Repeat: Atlantic Mills is the new Fort Thunder</cite>”](https://ppsri.org/history-on-repeat-atlantic-mills-is-the-new-fort-thunder/), Providence Preservation Society guest author, April 2025
 + **Interviewee** [“<cite>Arts Inc: In Providence, Brutalist Buildings Remain… For Now</cite>”](https://www.ripbs.org/arts-entertainment/in-providence-brutalist-buildings-remain-for-now), Rhode Island PBS special, March 2025
