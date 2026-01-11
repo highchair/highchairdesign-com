@@ -25,6 +25,7 @@ Not on Twitter.
 + [Connect on LinkedIn](https://linkedin.com/in/jhogue/)
 + [Follow on Github](https://github.com/jhogue/)
 + [Drupal dot Org profile](https://drupal.org/u/artinruins)
++ [RSS Feed of this blog](https://highchairdesign.com/feed.xml)
 
 ### As a person in the world
 
