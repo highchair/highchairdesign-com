@@ -1,0 +1,15 @@
+// An occasional <aside> element
+.notice {
+
+  &__info {
+    border-radius: var(--brad-small);
+    background-color: var(--fc-body-fg__tint);
+    padding: var(--space-s) var(--space-s);
+  }
+
+  &__notice {
+    border-radius: var(--brad-small);
+    background-color: var(--fc-accent-trans-20);
+    padding: var(--space-s) var(--space-s);
+  }
+}

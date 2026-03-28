@@ -6,11 +6,12 @@
   --bc-white: 0, 0%, 100%;
   --bc-light: 0, 0%, 94.1%;
   --bc-black: 0, 0%, 12.2%;
-  --bc-red-w-dark: 337, 100%, 50%; // #ff0061
-  --bc-red-w-dark-ok: oklch(65.88% 0.296 12);
+  --bc-red-w-dark: 337.5, 100%, 58.2%; // HSLA version of #ff2a7a
+  --bc-red-w-dark-ok: oklch(65.6% 0.244 6);
   --bc-red-w-light: 334, 100%, 45.1%; //#e60063
   --bc-red-w-light-ok: oklch(59.41% 0.2664 7.8908);
-  --bc-green-w-dark: 67, 100%, 50%; // #E1FF00 yellow green
+  --bc-green-w-dark: 90.1, 100.0%, 40.2%;
+  --bc-green-w-light: 90.1, 90.0%, 28.2%;
   //--bc-green-w-dark: 157, 100%, 50%; // #00FF9E
   // #1E00FF blue
 
@@ -92,14 +93,20 @@
   // - - - Functional Colors - - -
   --fc-body-bg: hsl(var(--bc-white));
   --fc-body-fg: hsl(var(--bc-black));
+  --fc-body-fg__tint: hsla(0, 0%, 0%, 0.06);
   --fc-border: hsla(var(--bc-black), 0.2);
   --fc-gradient-noise: linear-gradient(to bottom, hsla(var(--bc-black), 0.1) 5%, hsla(var(--bc-black), 0) 95%);
 
-  --fc-accent: var(--bc-red-w-light-ok);
-  --fc-accent-trans-20: hsla(var(--bc-red-w-light-ok), 0.25);
+  --fc-accent: hsla(var(--bc-red-w-light));
+  --fc-accent-trans-20: hsla(var(--bc-red-w-light), 0.25);
 
-  --fc-link-fg: var(--bc-red-w-light-ok);
+  --fc-link-fg: hsla(var(--bc-red-w-light));
   --fc-link-fg-hover: hsl(var(--bc-black));
+
+  @supports (color: oklch(65.88% 0.296 12)) {
+    --fc-accent: var(--bc-red-w-light-ok);
+    --fc-link-fg: var(--bc-red-w-light-ok);
+  }
 
   --fc-header-accent: hsla(var(--bc-black), 0.5); 
 
@@ -107,12 +114,13 @@
   --color-bars-2: hsl(var(--bc-black));
   --color-bars-3: var(--bc-red-w-light-ok);
 
-  --fc-code-border: hsla(var(--bc-green-w-dark), 0.75);
-  --fc-code-bg: hsla(var(--bc-green-w-dark), 0.5);
+  --fc-code-fg: hsl(var(--bc-green-w-light));
+  --fc-code-border: hsla(var(--bc-green-w-dark), 0.88);
+  --fc-code-bg: hsla(var(--bc-green-w-dark), 0.2);
 
   // Default button same color as links
-  --fc-button-border: var(--bc-red-w-light-ok);
-  --fc-button-fg: var(--bc-red-w-light-ok);
+  --fc-button-border: var(--fc-link-fg);
+  --fc-button-fg: var(--fc-link-fg);
 }
 
 
@@ -128,14 +136,20 @@
     // - - - Functional Colors - - -
     --fc-body-bg: hsl(var(--bc-black));
     --fc-body-fg: hsl(var(--bc-light));
+    --fc-body-fg__tint: hsla(0, 0%, 0%, 0.3);
     --fc-border: hsla(var(--bc-white), 0.2);
     --fc-gradient-noise: linear-gradient(to bottom, rgba(0,0,0, 0.80) 5%, var(--fc-body-bg) 95%);
 
-    --fc-accent: var(--bc-red-w-dark-ok);
+    --fc-accent: hsla(var(--bc-red-w-dark));
     --fc-accent-trans-20: hsla(var(--bc-red-w-dark), 0.18);
-
-    --fc-link-fg: var(--bc-red-w-dark-ok);
+    
+    --fc-link-fg: hsla(var(--bc-red-w-dark));
     --fc-link-fg-hover: hsl(var(--bc-light));
+
+    @supports (color: oklch(65.88% 0.296 12)) {
+      --fc-accent: var(--bc-red-w-dark-ok);
+      --fc-link-fg: var(--bc-red-w-dark-ok);
+    }
 
     --fc-header-accent: hsla(var(--bc-light), 0.625); 
 
@@ -143,11 +157,12 @@
     --color-bars-2: hsl(var(--bc-light));
     --color-bars-3: hsl(var(--bc-red-w-dark));
 
-    --fc-code-border: hsla(var(--bc-green-w-dark), 0.5);
-    --fc-code-bg: hsla(var(--bc-green-w-dark), 0.15);
+    --fc-code-fg: hsl(var(--bc-green-w-dark));
+    --fc-code-border: hsla(var(--bc-green-w-dark), 0.66);
+    --fc-code-bg: hsla(var(--bc-green-w-dark), 0.1);
 
     // Default button same color as links
-    --fc-button-border: var(--bc-red-w-dark-ok);
-    --fc-button-fg: var(--bc-red-w-dark-ok);
+    --fc-button-border: var(--fc-link-fg);
+    --fc-button-fg: var(--fc-link-fg);
   }
 }

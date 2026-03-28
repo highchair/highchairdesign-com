@@ -10,25 +10,31 @@
 
 @import '1_settings/root';
 @import '2_tools/reset';
+
 @import '3_elements/html-body';
 @import '3_elements/anchors';
 @import '3_elements/definition-list';
 @import '3_elements/details';
 @import '3_elements/forms';
 @import '3_elements/typography';
+
 @import '4_objects/buttons';
 @import '4_objects/flank';
 @import '4_objects/image';
 @import '4_objects/footnotes';
+
 @import '5_components/page';
 @import '5_components/posts';
 @import '5_components/archive';
 @import '5_components/categories';
+
 @import '6_layout/template';
 @import '6_layout/container';
 @import '6_layout/layout';
 @import '6_layout/grid';
+
 @import '7_utilities/a11y';
 @import '7_utilities/helpers';
 @import '7_utilities/icons';
+@import '7_utilities/notices';
 @import '7_utilities/rouge-theme';

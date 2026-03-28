@@ -25,9 +25,21 @@ ol[role='list'] {
 
 // Make images easier to work with
 img,
+iframe,
+audio,
+video,
 picture {
+  block-size: auto;
   display: block;
-  max-width: 100%;
+  max-inline-size: 100%;
+}
+
+svg {
+  max-inline-size: 100%;
+}
+
+svg:not([fill]) {
+  fill: currentColor;
 }
 
 // Inherit fonts for inputs and buttons
@@ -52,6 +64,11 @@ button[class] {
 // Make sure textareas without a rows attribute are not tiny
 textarea:not([rows]) {
   min-height: 8em;
+  resize: vertical;
+}
+
+:disabled {
+  cursor: not-allowed;
 }
 
 // When an element has an ID, give it space so that it is not at the very top of the viewport

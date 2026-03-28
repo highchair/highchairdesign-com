@@ -31,4 +31,14 @@
       padding: 0 var(--space-s);
     }
   }
+
+  &__text-robot {
+    color: hsl(from var(--fc-code-fg) h s calc(l - 4));
+    font-family: var(--ff-mono);
+    letter-spacing: -0.03125em;
+
+    @media (prefers-color-scheme: dark) {
+      color: hsl(from var(--fc-code-fg) h calc(s - 60) calc(l + 30));
+    }
+  }
 }

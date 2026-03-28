@@ -68,8 +68,8 @@ code {
   border-radius: var(--brad-small);
   display: inline-block;
   font-family: var(--ff-mono);
-  font-size: 92.5%;
-  font-weight: var(--fw-light);
+  font-size: 87.5%;
+  font-weight: var(--fw-normal);
   letter-spacing: var(--ls-tight);
   margin: 0 0.125em;
   padding: 0.0625em 0.375em 0.03125em;
@@ -82,6 +82,7 @@ code {
 
 pre {
   border: 0.5px solid var(--fc-code-border);
+  border-radius: var(--brad-small);
   white-space: pre-wrap;
 
   code {
