@@ -22,15 +22,22 @@ Can’t easily talk about the following:
 ### [Seàn Griffin](https://seangriffin.rocks)<span class="external">⤴</span>
 {:.h4}
 
-**Independent Role: Strategist, designer, & consultant.** Sean and I go way back to work with his band, the Ruffians, starting in 1999. For his solo work, I have been designing all of his CD packaging for singles, promotionals, and a full length.
+**Independent Role: Strategist, designer, & consultant.** Sean and I go way back to work with his band, the Ruffians, starting in 1999. For his solo work, I have been designing all of his CD packaging for singles, promotional items, and a full length.
 
 **Tags:** Freelance, Artist Portfolio, Packaging
+
+
+### [David H. Wells](https://www.davidhwells.com)<span class="external">⤴</span>
+
+**Independent Role: Strategist, designer, & WordPress developer.** David is a commercial photographer, travel journalist, and teacher. I first designed David’s website in 2017. In 2025, he wanted an upgrade and refresh and so we designed a new WordPress theme that primarily leveraged the newer block system. Development help from [Brian Hogue](https://www.linkedin.com/in/brianjhogue/)<span class="external">⤴</span>.
+
+**Tags:** Freelance, Designer/Developer, Artist Portfolio
 
 
 ### [Providence Preservation Society](https://ppsri.org/)<span class="external">⤴</span>
 {:.h4}
 
-**Independent Role: Strategist, designer, & WordPress developer.** I have worked with PPS since 2004 and this is the fourth iteration of their advocacy and reporting property that I have overseen.
+**Independent Role: Strategist, designer, & WordPress developer.** I have worked with PPS since 2004 and this is the fourth iteration of their advocacy and reporting property that I have overseen. I also manage their yearly event mini-site for the [Festival of Historic Houses](https://providencehousetour.com/)<span class="external">⤴</span>. Previously, I designed print material for their festivals in 2006, 2007, 2008, and 2010.
 
 **Tags:** Freelance, Designer/Developer, Non-profit, Architecture & Real Estate
 
@@ -110,13 +117,20 @@ Can’t easily talk about the following:
 **Tags:** Oomph, Government, Design System, UX/UI consulting
 
 
+### [Specialty Vehicles, New England](https://www.svine.com/)<span class="external">⤴</span>
+
+**Independent Role: Strategist, consultant.** Speciality Vehicles was one of those only-in-Rhode Island connections through mutual business relationships. I took over their WordPress website and redesigned the sales journey for their audience. I brought along design by [Jarrett McPhee](https://www.linkedin.com/in/jrtmcp/)<span class="external">⤴</span> and theme development by [Kay Belardinelli](https://kangabell.com/)<span class="external">⤴</span>.
+
+**Tags:** Freelance, UX/UI consulting, B2B
+
+
 ## 2014
 {:.h6.underlined}
 
 ### [Python.org](https://www.python.org/)<span class="external">⤴</span>
 {:.h4}
 
-**Role at Project Evolution: Creative Director, UX architect, front-end developer.** Hard to believe, but more than 10 years later, the interface of Python looks the same as it did when we launched its brand refresh. It looked dated now, but the leap from where it came from was massive and still remains an upgrade I am proud of.
+**Role at Project Evolution: Creative Director, UX architect, front-end developer.** Hard to believe, but more than 10 years later, the interface of Python looks the same as it did when we launched its brand refresh in 2014. It looks dated now, but the leap from where it came from was massive and still remains an upgrade I am proud of.
 
 **Tags:** Project Evolution, Designer/Developer, UX/UI consulting
 
@@ -147,8 +161,6 @@ For to add:
 
 Marsella.us
 Pawtucket Central Falls
-Specialty Vehicles
-
 The Steel Yard
 
 Logos:

@@ -6,7 +6,17 @@ title: Now
 ---
 
 What’s a “Now” page? This is what I am currently up to, what is occupying my brain and life. This is not a blog, because this is specifically about me. This is what I would tell a friend I hadn’t seen in awhile if they asked me what was up.[^1]
-{:.archive__statement}
+{:.notice__notice}
+
+
+## Spring 2026
+
+January and February were the coldest months I can remember, with below freezing days and nights in the teens or single digits (Fahrenheit). And then in February we had a blizzard that dumped just over three feet of snow. The kids didn’t have school all week. I work from home, so nothing changed for me :(
+
+I have been trying to keep up with AI in the news and in my industry but the pace is unrelenting. Never have I experiences a technological shift where the boosters (AI-positive people) are gleeful about the destruction and job displacement it will cause. Capitalism FTW.
+
+I’ve been tired. And I think everyone is saying that now, but really, I feel it. Emotionally tired. Physiologically tired. Physically tired. All the tireds. Life right now is exhausting. And I barely have brainspace to think about the external shittiness that is happening — wars in Ukraine, Iran, and Gaza. Job losses. A dictator at the helm. Those externals could have been the main thing that occupied my thinking, but there is no room anyway. Flooding the zone works. Making us all fear for our jobs and the economy and any kind of political stability works. It makes the populace tired and therefore, easy to steamroll. I can see it, but fear there is little I can do to combat it. I really don’t have the energy.
+
 
 ## Hunkering during Fall
 
