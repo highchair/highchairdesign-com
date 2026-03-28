@@ -16,6 +16,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   J. Hogue has over 20 years of experience in design and user experience. He is currently Director, Experience Design at Oomph, leading a team of digital platform experts with strategic thinking, cutting-edge UX practices, and visual design. I have worked with all sizes of business, from national brands to local non-profits, in the health, higher education, cultural institution, and new technology sectors.
 
 url: "https://www.highchairdesign.com" # the base hostname & protocol for your site, e.g. http://example.com
+prod_url: "https://www.highchairdesign.com" # Used for the canonical, which locally gets set to localhost, which we want to avoid
 baseurl: "/" # the subpath of your site, e.g. /blog
 port: 4010
 

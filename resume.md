@@ -29,7 +29,10 @@ Hartford Art School — West Hartford, CT
 : BFA 1997: Graphic Design major, printmaking minor
 
 
-## Board Tenure
+## Boards and Jurys
+
+IADAS (International Academy of Digital Arts & Sciences)
+: Juror, 2022–Present
 
 Pawtucket Business Development Corporation — Pawtucket, RI
 : Board member, 2007 – 2017

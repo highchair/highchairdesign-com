@@ -1,7 +1,7 @@
 {% if page.canonical %}
-  {% assign canon_url = page.canonical %}
+  {% assign canon_url = page.url | prepend: site.prod_url %}
 {% else %}
-  {% assign canon_url = page.url | replace:'/index','' | prepend: site.url %}
+  {% assign canon_url = page.url | replace:'/index','' | prepend: site.prod_url %}
 {% endif %}
 
     <meta charset="utf-8">
