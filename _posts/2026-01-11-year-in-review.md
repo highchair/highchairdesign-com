@@ -3,7 +3,7 @@ layout: post
 title: "2025 Year in Review"
 date: 2026-01-11 17:00:00 -0500
 categories: [ Health, Personal ]
-listening: 'Artist: <a href="https://primusband.bandcamp.com">Primus</; Album: The Brown Album'
+listening: 'Artist: <a href="https://primusband.bandcamp.com">Primus</a>; Album: The Brown Album'
 ---
 
 A year is both a long time and a short time. Here’s a quick recap of things that happened in 2025.
