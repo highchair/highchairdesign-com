@@ -1,0 +1,5 @@
+# This file is now REQUIRED by Google!
+
+User-agent: *
+Allow: /
+# Disallow: /classic/
