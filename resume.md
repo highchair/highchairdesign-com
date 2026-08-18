@@ -32,7 +32,7 @@ Hartford Art School — West Hartford, CT
 ## Boards and Jurys
 
 IADAS (International Academy of Digital Arts & Sciences)
-: Juror, 2022–Present
+: Juror, 2022–2025
 
 Pawtucket Business Development Corporation — Pawtucket, RI
 : Board member, 2007 – 2017
@@ -48,6 +48,7 @@ Puente — Providence, RI
 
 ### Presentations / Panels
 
++ **Co-Presenter**: [<cite>Humanizing AEO/GEO: How Accessibility Influences the Agent Experience</cite> Drupal Gov Con, University of Maryland, August 2026
 + **Anthem Awards**: Juror and [IADAS member](https://www.iadas.net/membership/bio/j--hogue/11403) from 2022–2025
 + **Co-Presenter**: [<cite>Cracking the Code: SEO, A11y, GEO, and AI Agents — Whats they mean for your web strategies</cite> (YouTube)](https://www.youtube.com/watch?v=ga5iTrh8GyU). New England Drupal Camp, Rhode Island College, Providence RI, November 2025
 + **Presenter**: [<cite>Finding Fire from Smoke: Advocating for UX in Post-Launch Activities</cite> (YouTube)](https://www.youtube.com/watch?v=2cB9173fwQ8&list=PLgfWMnl57dv6mKs6-9Iq7SniSSTk1TLUt&index=19). New England Drupal Camp, Rhode Island College, Providence RI, November 2024
@@ -64,6 +65,7 @@ Puente — Providence, RI
 + **Presenter**: [<cite>BCBS.com: Flexible Content with Drupal 8 & Paragraphs</cite> (YouTube)](https://www.youtube.com/watch?v=KKrI6oBxrk8 "Watch the presentation on YouTube"). [Design 4 Drupal](https://2017.design4drupal.org/sessions/case-study/bcbscom-flexible-content-drupal-8-paragraphs "Presentation archive page at Design4Drupal.org"). Boston MA, June 2017
 + **Co-presenter**: [<cite>BCBS.com: Pushing the Design Limits with Paragraphs</cite> (YouTube)](https://www.youtube.com/watch?v=3e1EWT4BZKA "Watch the presentation on YouTube"). [Drupalcon](https://events.drupal.org/baltimore2017/sessions/bcbscom-pushing-design-limits-paragraphs "Presentation archive page at Drupal.org"). Baltimore MD, April 2017
 + **Presenter**: [<cite>Prototyping Design to Jumpstart Development</cite> (YouTube)](https://www.youtube.com/watch?v=pKizikIBqUg&t=4s "Watch the presentation on YouTube"). Design Week RI, Providence RI, September 2016
+
 
 ### Publications
 

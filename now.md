@@ -8,6 +8,18 @@ title: Now
 What’s a “Now” page? This is what I am currently up to, what is occupying my brain and life. This is not a blog, because this is specifically about me. This is what I would tell a friend I hadn’t seen in awhile if they asked me what was up.[^1]
 {:.notice__notice}
 
+## Summer 2026
+
+Holy cow how it is almost August already?
+
+Time is flying. So much to do, so much I _could_ do and don’t. The kids are home and going to the beach while I stay at home and I wish I could stop doing everything.
+
+I have been to the beach twice, but that is not nearly enough. I have had two clam shack experiences but want more. I have some upcoming travel which will make it difficult to squeeze in beach time. Maybe September will be the new August and more beach time can happen? What am I saying… the fall with back to school and such will be even busier than now, somehow.
+
+My news consumption is way down. Its more emotional than informational, so it encourages avoidance. I want to put my emotional investment into what matters more: family, relationships, people I actually know and care about.
+
+This is a bit of a bummer update, but I think it honestly reflects where I am right now.
+
 
 ## Spring 2026
 
