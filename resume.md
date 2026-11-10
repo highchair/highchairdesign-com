@@ -48,7 +48,7 @@ Puente — Providence, RI
 
 ### Presentations / Panels
 
-+ **Co-Presenter**: [<cite>Humanizing AEO/GEO: How Accessibility Influences the Agent Experience</cite> Drupal Gov Con, University of Maryland, August 2026
++ **Co-Presenter**: [<cite>Humanizing AEO/GEO: How Accessibility Influences the Agent Experience</cite> (YouTube)](https://www.youtube.com/watch?v=BBw2lJsRmgY&list=PLEqFVb6k78VM) Drupal Gov Con, University of Maryland, August 2026
 + **Anthem Awards**: Juror and [IADAS member](https://www.iadas.net/membership/bio/j--hogue/11403) from 2022–2025
 + **Co-Presenter**: [<cite>Cracking the Code: SEO, A11y, GEO, and AI Agents — Whats they mean for your web strategies</cite> (YouTube)](https://www.youtube.com/watch?v=ga5iTrh8GyU). New England Drupal Camp, Rhode Island College, Providence RI, November 2025
 + **Presenter**: [<cite>Finding Fire from Smoke: Advocating for UX in Post-Launch Activities</cite> (YouTube)](https://www.youtube.com/watch?v=2cB9173fwQ8&list=PLgfWMnl57dv6mKs6-9Iq7SniSSTk1TLUt&index=19). New England Drupal Camp, Rhode Island College, Providence RI, November 2024
