@@ -1,4 +1,5 @@
 @use "sass:map";
+@use 'functions' as *;
 
 $breakpoints: (
   // List as unitless pixels

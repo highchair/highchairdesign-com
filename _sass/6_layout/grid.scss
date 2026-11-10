@@ -1,3 +1,5 @@
+@use '../1_settings' as *;
+
 .g {
   display: grid;
   grid-template-columns: var(--space-s-xl) minmax(auto, 40em)  var(--space-s-xl) minmax(0, auto);

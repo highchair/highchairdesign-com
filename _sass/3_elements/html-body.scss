@@ -1,3 +1,5 @@
+@use '../1_settings' as *;
+
 html {
   // Sets the color of the overscroll area in some browsers
   background-color: var(--fc-accent);
