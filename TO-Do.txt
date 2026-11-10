@@ -1,0 +1,19 @@
+Add images to main blog posts (not Notes)
+
+Favicons and meta data like that
+
+Font sizes are too small for mobile
+
+Font weights for dark mode
+
+Invest time in a pagination plug in for Jekyll?
+
+Large screens could use a larger and more detailed monogram SVG
+
+Portfolio page content. Just links for now.
+
+Copy over the articles I have written for Oomph?
+
+Review much of my blog posts, looking for elements I have not styled yet: blockquotes, q tags, code, etc…
+
+Add failures to Resume. Things that did not work, but which I learned from.

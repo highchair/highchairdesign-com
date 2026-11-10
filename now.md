@@ -8,6 +8,19 @@ title: Now
 What’s a “Now” page? This is what I am currently up to, what is occupying my brain and life. This is not a blog, because this is specifically about me. This is what I would tell a friend I hadn’t seen in awhile if they asked me what was up.[^1]
 {:.notice__notice}
 
+## Fall 2026
+
+I updated this Now page in August and that already feels like a year ago, not only two months. I seem to be amazed by how quickly time seems to be flying by all the time.
+
+I have not been sleeping well. I wake around 3am, fairly alert, but too comfortable to get out of bed and reset. So I lay there and try to focus on my breath to return to sleep. I started taking [ashwagandha](https://health.clevelandclinic.org/what-is-ashwagandha) to see if that helps. I still wake at 3am, but I feel more relaxed throughout the day. Almost too much.
+
+The career is a challenge. AI continues to make everyday feel new in a negative way — too much change, too much velocity, without a pause or break. My brain can no longer handle it. Hence I feel tired, but stressed, and so my cortisol continues to be high (I am guessing). I am not a fan of AI writing, but the velocity at which we are all expected to produce makes it difficult to ignore.
+
+And September flies by every year. The kids are back in school, so we have all their school-year activities starting back up. My birthday and Beth’s birthday come and go. Pretty soon it is October.
+
+On the bright side, while the fall chill has made me lament being cold, a few really wonderful slightly warm in the sun but crisp air days with the bright colors of autumn have been invigorating. I think that is the admission that I do not get outside into the air often enough. So there, let's change that.
+
+
 ## Summer 2026
 
 Holy cow how it is almost August already?
