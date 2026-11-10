@@ -1,0 +1,3 @@
+// Settings and tools available to any partial via: @use '../1_settings' as *;
+@forward 'functions';
+@forward 'breakpoints';
